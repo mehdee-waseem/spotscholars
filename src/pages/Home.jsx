@@ -59,7 +59,7 @@ const FAQ = [
 function Hero() {
   const [q, setQ] = useState('');
   const navigate = useNavigate();
-  const go = e => { e.preventDefault(); navigate(`/programs${q ? `?q=${encodeURIComponent(q)}` : ''}`); };
+  const go = e => { e.preventDefault(); navigate(`/programs${q ? `?cq=${encodeURIComponent(q)}` : ""}`); };
 
   return (
     <section className="relative overflow-hidden bg-white">

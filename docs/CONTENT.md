@@ -103,3 +103,12 @@ The orange banner shows a countdown on the home page and disappears automaticall
 ## Institution directory — `src/data/forum-members.json`
 
 The full Campus France Forum list (369 institutions, October 2026), shown at the bottom of the Universities page. Each entry: `name`, `city`, `category`. Replace the file when Campus France publishes a new list.
+
+## Full programme catalogue — automatic
+
+The "All programmes" tab on `/programs` shows the complete Campus France catalogue of programmes taught in English (~1,300, every field).
+
+- `scripts/fetch-catalogue.mjs` downloads it and saves `public/catalogue.json`. It runs automatically before every build (`prebuild`), so **every Netlify deploy refreshes it** — nothing to edit by hand.
+- To refresh without code changes: Netlify → Deploys → **Trigger deploy**.
+- If Campus France is unreachable during a build, the old file is kept, and the page falls back to the live list via `/api/catalogue`.
+- The "SpotScholars picks" tab is your hand-curated `src/data/programs.json`, with notes and tips.

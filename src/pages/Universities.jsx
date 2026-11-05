@@ -44,7 +44,7 @@ export default function Universities() {
                 <div className="mt-auto flex flex-wrap gap-2 pt-5">
                   <a href={u.website} target="_blank" rel="noreferrer" className="btn-navy px-4 py-2">Website <External width={15} height={15} /></a>
                   {countFor(u.id) > 0 && (
-                    <Link to={`/programs?q=${encodeURIComponent(u.name)}`} className="btn-ghost px-4 py-2">{countFor(u.id)} program{countFor(u.id) > 1 ? 's' : ''}</Link>
+                    <Link to={`/programs?view=picks&q=${encodeURIComponent(u.name)}`} className="btn-ghost px-4 py-2">{countFor(u.id)} program{countFor(u.id) > 1 ? 's' : ''}</Link>
                   )}
                 </div>
               </article>

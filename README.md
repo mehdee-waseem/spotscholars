@@ -12,7 +12,7 @@ Built with React + Vite + Tailwind CSS, served by Netlify, with a small serverle
 | --- | --- | --- |
 | Home | `/` | Hero search, the "two roads" admissions explainer, journey steps, top scholarships, FAQ |
 | Scholarships | `/scholarships` | Searchable list, filter by type and level |
-| Programs | `/programs` | English-taught programmes, filter by level and field, links to official search engines |
+| Programs | `/programs` | The full Campus France catalogue of ~1,300 English-taught programmes in every field (auto-synced at each deploy), plus hand-picked programmes with tips |
 | Universities | `/universities` | Curated directory + searchable list of all 369 Campus France Forum institutions |
 | Guides | `/guide/pakistan`, `/guide/admissions`, `/guide/costs`, `/guide/visa`, `/guide/housing`, `/guide/arrival` | Step-by-step guides, including the full Campus France Pakistan procedure |
 | Resources | `/resources` | 100+ official links in 11 groups, the featured YouTube session and video guides |
@@ -31,6 +31,7 @@ spotscholars/
 │   ├── universities.js     # GET /api/universities?q=&type=&region=
 │   └── health.js           # GET /api/health
 ├── public/                 # logo-full.png, logo-mark.png, favicon.png, og-image.jpg
+├── scripts/fetch-catalogue.mjs  # Downloads the Campus France catalogue before each build
 ├── scripts/seed-supabase.mjs
 ├── src/
 │   ├── components/         # Navbar, Footer, FilterBar, PageHeader, Icons…

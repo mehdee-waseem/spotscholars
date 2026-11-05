@@ -958,5 +958,195 @@
   ],
   "english": "Fully in English",
   "website": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en"
+ },
+ {
+  "id": "caen",
+  "name": "Université de Caen Normandie",
+  "city": "Caen",
+  "region": "Normandy",
+  "type": "Public university",
+  "strengths": [
+   "Education",
+   "Humanities",
+   "Sciences"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.unicaen.fr/"
+ },
+ {
+  "id": "ehesp",
+  "name": "EHESP – School of Public Health",
+  "city": "Rennes",
+  "region": "Brittany",
+  "type": "Grande école",
+  "strengths": [
+   "Public health",
+   "Health policy"
+  ],
+  "english": "Master of Public Health in English",
+  "website": "https://mph.ehesp.fr/"
+ },
+ {
+  "id": "skema",
+  "name": "SKEMA Business School",
+  "city": "Sophia Antipolis / Lille / Paris",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "type": "Business school",
+  "strengths": [
+   "Luxury",
+   "Supply chain",
+   "Finance"
+  ],
+  "english": "Most programmes",
+  "website": "https://www.skema.edu/"
+ },
+ {
+  "id": "em-normandie",
+  "name": "EM Normandie Business School",
+  "city": "Le Havre / Caen / Paris",
+  "region": "Normandy",
+  "type": "Business school",
+  "strengths": [
+   "Supply chain",
+   "Marketing",
+   "Management"
+  ],
+  "english": "MSc programmes in English",
+  "website": "https://en.em-normandie.com/"
+ },
+ {
+  "id": "tbs",
+  "name": "TBS Education (Toulouse Business School)",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "type": "Business school",
+  "strengths": [
+   "Management",
+   "Aerospace management",
+   "Marketing"
+  ],
+  "english": "Bachelor & MSc in English",
+  "website": "https://www.tbs-education.com/"
+ },
+ {
+  "id": "audencia",
+  "name": "Audencia Business School",
+  "city": "Nantes",
+  "region": "Pays de la Loire",
+  "type": "Business school",
+  "strengths": [
+   "Finance",
+   "Sustainability",
+   "Management"
+  ],
+  "english": "MSc programmes in English",
+  "website": "https://www.audencia.com/en/"
+ },
+ {
+  "id": "iscom",
+  "name": "ISCOM",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Business school",
+  "strengths": [
+   "Communication",
+   "Public relations",
+   "Media"
+  ],
+  "english": "MBA in English",
+  "website": "https://www.iscom.fr/en"
+ },
+ {
+  "id": "cordon-bleu",
+  "name": "Le Cordon Bleu Paris",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Hospitality & culinary school",
+  "strengths": [
+   "Culinary arts",
+   "Wine",
+   "Hospitality"
+  ],
+  "english": "Programmes in English",
+  "website": "https://www.cordonbleu.edu/paris/en"
+ },
+ {
+  "id": "ducasse",
+  "name": "École Ducasse",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Hospitality & culinary school",
+  "strengths": [
+   "Culinary arts",
+   "Pastry"
+  ],
+  "english": "Programmes in English",
+  "website": "https://www.ecoleducasse.com/en"
+ },
+ {
+  "id": "strate",
+  "name": "Strate School of Design",
+  "city": "Sèvres (Paris area)",
+  "region": "Île-de-France",
+  "type": "Art & design school",
+  "strengths": [
+   "Transportation design",
+   "Product design"
+  ],
+  "english": "English programmes",
+  "website": "https://www.strate.education/"
+ },
+ {
+  "id": "artfx",
+  "name": "ARTFX",
+  "city": "Montpellier",
+  "region": "Occitanie",
+  "type": "Art & design school",
+  "strengths": [
+   "3D animation",
+   "Visual effects",
+   "Games"
+  ],
+  "english": "Programmes in English",
+  "website": "https://artfx.school/en/"
+ },
+ {
+  "id": "icl-lille",
+  "name": "Institut Catholique de Lille",
+  "city": "Lille",
+  "region": "Hauts-de-France",
+  "type": "Private university",
+  "strengths": [
+   "Social sciences",
+   "Law",
+   "Management"
+  ],
+  "english": "Summer programmes in English",
+  "website": "https://www.univ-catholille.fr/en"
+ },
+ {
+  "id": "ceipi",
+  "name": "CEIPI (Université de Strasbourg)",
+  "city": "Strasbourg",
+  "region": "Grand Est",
+  "type": "Public university",
+  "strengths": [
+   "Intellectual property law"
+  ],
+  "english": "Master in English",
+  "website": "https://www.ceipi.edu/"
+ },
+ {
+  "id": "esdes",
+  "name": "ESDES Business School (UCLy)",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Business school",
+  "strengths": [
+   "Management",
+   "Sustainability"
+  ],
+  "english": "Master in English",
+  "website": "https://www.esdes.fr/en/"
  }
 ]

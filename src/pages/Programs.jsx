@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
+import Catalogue, { useCatalogue, groupCounts } from '../components/Catalogue';
+import { FIELD_GROUPS } from '../lib/catalogueMeta';
 import PageHeader from '../components/PageHeader';
 import FilterBar from '../components/FilterBar';
 import EmptyState from '../components/EmptyState';
@@ -16,7 +18,32 @@ const SEARCH_TOOLS = [
   { name: 'Campus France Pakistan', text: 'Études en France platform, procedures and events for Pakistani students.', url: 'https://www.pakistan.campusfrance.org/find-your-program' }
 ];
 
-export default function Programs() {
+function FieldTiles() {
+  const { data } = useCatalogue();
+  const [params, setParams] = useSearchParams();
+  const counts = data ? groupCounts(data.rows) : {};
+  const active = params.get('group');
+  const pick = id => {
+    const next = new URLSearchParams();
+    if (id !== active) next.set('group', id);
+    setParams(next, { replace: true });
+    setTimeout(() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }), 50);
+  };
+  return (
+    <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+      {FIELD_GROUPS.map(g => (
+        <button key={g.id} onClick={() => pick(g.id)}
+          className={`card flex flex-col items-start p-4 text-left transition hover:-translate-y-0.5 hover:border-orange ${active === g.id ? '!border-orange ring-2 ring-orange/30' : ''}`}>
+          <span className="text-2xl" aria-hidden>{g.emoji}</span>
+          <span className="mt-2 text-sm font-semibold leading-snug text-navy-900">{g.label}</span>
+          <span className="mt-1 text-xs text-slate-500">{counts[g.id] ?? '…'} programmes</span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function Picks() {
   const { data: programs, loading } = useData('programs');
   const { data: unis } = useData('universities');
   const f = useFilters(['level', 'field']);
@@ -31,13 +58,10 @@ export default function Programs() {
 
   return (
     <>
-      <PageHeader eyebrow="Programs" title="English-taught programs in France">
-        You don't need French to study in France. These programmes are taught in English — and many of them are not on the Études en France catalogue.
-      </PageHeader>
-      <div className="container-x">
-        <FilterBar {...f} placeholder="Search by subject, university or city…" count={list.length}
+      <div>
+        <FilterBar {...f} placeholder="Search our picks by subject, university or city…" count={list.length}
           filters={[
-            { key: 'level', label: 'Level', options: ['Bachelor', 'Master', 'PhD'] },
+            { key: 'level', label: 'Level', options: ['Bachelor', 'Master', 'PhD', 'Short course'] },
             { key: 'field', label: 'Field', options: unique(all.map(p => p.field)) }
           ]} />
 
@@ -65,9 +89,37 @@ export default function Programs() {
           </div>
         )}
 
+      </div>
+    </>
+  );
+}
+
+export default function Programs() {
+  const { data } = useCatalogue();
+  const [params, setParams] = useSearchParams();
+  const view = params.get('view') === 'picks' ? 'picks' : 'all';
+  const setView = v => setParams(v === 'picks' ? { view: 'picks' } : {}, { replace: true });
+  const total = data?.complete ? data.rows.length.toLocaleString() : '1,300+';
+
+  return (
+    <>
+      <PageHeader eyebrow="Programs" title={`${total} programmes taught in English in France`}>
+        Every field — business, law, social sciences, arts, health, humanities, engineering and more — from the official Campus France catalogue, plus our hand-picked list with application tips.
+      </PageHeader>
+      <div className="container-x">
+        <FieldTiles />
+
+        <div id="catalogue" className="mt-10 scroll-mt-20 flex flex-wrap gap-2 border-b border-slate-200" role="tablist">
+          {[['all', `All programmes (${total})`], ['picks', 'SpotScholars picks (with tips)']].map(([id, label]) => (
+            <button key={id} role="tab" aria-selected={view === id} onClick={() => setView(id)}
+              className={`-mb-px border-b-2 px-4 py-2.5 text-sm font-semibold transition ${view === id ? 'border-orange text-navy-900' : 'border-transparent text-slate-500 hover:text-navy'}`}>{label}</button>
+          ))}
+        </div>
+        <div className={view === "all" ? "mt-6" : "mt-14"}>{view === "all" ? <Catalogue /> : <Picks />}</div>
+
         <section className="mt-14">
-          <h2 className="text-2xl font-bold">Search every English-taught programme</h2>
-          <p className="mt-2 max-w-2xl">Our list is a starting point. Use these official search engines to see everything available, then come back to check scholarships. More tools on the <Link to="/resources" className="font-medium text-navy underline decoration-orange">Resources page</Link>.</p>
+          <h2 className="text-2xl font-bold">More official search engines</h2>
+          <p className="mt-2 max-w-2xl">For French-taught programmes, engineering networks and Erasmus Mundus, use these, then come back to check scholarships. More tools on the <Link to="/resources" className="font-medium text-navy underline decoration-orange">Resources page</Link>.</p>
           <div className="mt-6 grid gap-5 md:grid-cols-3">
             {SEARCH_TOOLS.map(t => (
               <a key={t.url} href={t.url} target="_blank" rel="noreferrer" className="card group p-6 transition hover:-translate-y-0.5 hover:border-orange">
