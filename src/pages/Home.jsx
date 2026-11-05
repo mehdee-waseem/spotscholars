@@ -3,16 +3,40 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useData } from '../lib/api';
 import { ScholarshipCard } from './Scholarships';
 import CommunityCTA from '../components/CommunityCTA';
-import { Search, Arrow, Cap, Book, Building, Passport, Home as HomeIcon, Coins, Plane, Check } from '../components/Icons';
+import { VideoEmbed } from '../components/Video';
+import { FEATURED_VIDEO } from '../data/resources';
+import { ALERTS, LINKS } from '../lib/links';
+import { Search, Arrow, Cap, Book, Building, Passport, Home as HomeIcon, Coins, Check, Flag, Briefcase, YouTube, Clock } from '../components/Icons';
 
 const TILES = [
+  { to: '/guide/pakistan', title: 'Applying from Pakistan', text: 'Études en France, PKR 30,000 fee, interview, AEG visa', Icon: Flag },
   { to: '/scholarships', title: 'Scholarships', text: 'Eiffel, Erasmus Mundus, university grants', Icon: Cap },
   { to: '/programs', title: 'English programs', text: 'Study in France without French', Icon: Book },
   { to: '/universities', title: 'Universities', text: 'Public, engineering & business schools', Icon: Building },
   { to: '/guide/costs', title: 'Costs & fees', text: 'Tuition, rent and a real monthly budget', Icon: Coins },
   { to: '/guide/visa', title: 'Student visa', text: 'VLS-TS from application to validation', Icon: Passport },
-  { to: '/guide/housing', title: 'Housing', text: 'CROUS, Visale, CAF — and avoiding scams', Icon: HomeIcon }
+  { to: '/guide/housing', title: 'Housing', text: 'CROUS, Visale, CAF — and avoiding scams', Icon: HomeIcon },
+  { to: '/resources', title: 'Resources & videos', text: '100+ official links and video walkthroughs', Icon: YouTube },
+  { to: '/universities#all-institutions', title: 'All 369 institutions', text: 'The full Campus France Forum directory', Icon: Search }
 ];
+
+function Alerts() {
+  const today = new Date().toISOString().slice(0, 10);
+  const active = ALERTS.filter(a => a.until >= today);
+  if (!active.length) return null;
+  return active.map(a => {
+    const days = Math.ceil((new Date(a.until) - new Date(today)) / 86400000);
+    return (
+      <div key={a.text} className="bg-orange text-white">
+        <div className="container-x flex flex-wrap items-center justify-center gap-x-4 gap-y-1 py-2.5 text-center text-sm">
+          <span className="inline-flex items-center gap-1.5 font-semibold"><Clock width={16} height={16} />{days === 0 ? 'Closes today' : `${days} day${days > 1 ? 's' : ''} left`}</span>
+          <span>{a.text}</span>
+          <Link to={a.to} className="font-semibold underline underline-offset-2">{a.cta} →</Link>
+        </div>
+      </div>
+    );
+  });
+}
 
 const JOURNEY = [
   { n: 1, title: 'Choose', text: 'Find English-taught programmes and matching scholarships.', to: '/programs' },
@@ -26,7 +50,10 @@ const FAQ = [
   { q: 'Do I need French to study in France?', a: 'No. Hundreds of Master\'s programmes and many Bachelor\'s are taught fully in English. French helps a lot in daily life, so start learning the basics early.' },
   { q: 'Why can\'t I find my programme on Études en France?', a: 'Because many programmes — especially engineering schools, business schools, Erasmus Mundus and English-taught Master\'s — recruit directly. You apply on their website, then do the Campus France "pre-consular" step after admission.' },
   { q: 'How much money do I need?', a: 'Plan for tuition (about €2,900–€3,950 a year at public universities for non-EU students), plus living costs of roughly €700–€1,100 a month outside Paris. The visa requires proof of funds.' },
-  { q: 'Can I work while studying?', a: 'Yes, up to 964 hours a year (about 20 hours a week) on a student visa.' }
+  { q: 'Can I work while studying?', a: 'Yes, up to 964 hours a year (about 20 hours a week) on a student visa.' },
+  { q: 'How many programmes can I apply to on Études en France?', a: 'Up to 7 Master\'s programmes or 3 Bachelor\'s programmes in one application. Your choices lock at the deadline (18 November for 2026–27 in Pakistan).' },
+  { q: 'How much does Campus France cost in Pakistan?', a: 'PKR 30,000, non-refundable, paid only after you receive the payment request. French Government scholarship and Erasmus Mundus holders are exempt.' },
+  { q: 'How much money do I need to show for the visa?', a: 'The French Consulate in Pakistan asks for at least €877.50 per month, shown with 6 months of bank statements, a sponsor\'s affidavit or a scholarship letter.' }
 ];
 
 function Hero() {
@@ -78,6 +105,7 @@ export default function Home() {
 
   return (
     <>
+      <Alerts />
       <Hero />
 
       <section className="container-x mt-6">
@@ -141,6 +169,21 @@ export default function Home() {
       </section>
 
       <section className="container-x mt-20">
+        <div className="grid items-center gap-8 lg:grid-cols-[1fr_1.3fr]">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-widest text-orange">The full session</p>
+            <h2 className="mt-2 text-3xl font-extrabold">Watch: study in France 2026, start to finish</h2>
+            <p className="mt-3">{FEATURED_VIDEO.text}</p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <Link to="/resources#videos" className="btn-navy">More video guides <Arrow width={18} height={18} /></Link>
+              <a href={LINKS.youtube} target="_blank" rel="noreferrer" className="btn-ghost"><YouTube className="text-[#ff3d3d]" /> YouTube channel</a>
+            </div>
+          </div>
+          <VideoEmbed id={FEATURED_VIDEO.id} title={FEATURED_VIDEO.title} />
+        </div>
+      </section>
+
+      <section className="container-x mt-20">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-orange">Start here</p>
@@ -163,6 +206,18 @@ export default function Home() {
             </details>
           ))}
         </div>
+      </section>
+
+      <section className="container-x mt-16">
+        <a href={LINKS.kaamdhoondo} target="_blank" rel="noreferrer"
+           className="card group flex flex-col items-start gap-4 border-2 border-navy-100 p-6 transition hover:border-orange sm:flex-row sm:items-center">
+          <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-navy text-white group-hover:bg-orange"><Briefcase /></span>
+          <span className="flex-1">
+            <span className="block font-display text-lg font-bold text-navy-900">Already in Europe? Find an internship on KaamDhoondo</span>
+            <span className="text-sm text-slate-500">Our sister platform for European internships in software engineering, IoT security and smart mobility.</span>
+          </span>
+          <span className="btn-primary">Open KaamDhoondo <Arrow width={18} height={18} /></span>
+        </a>
       </section>
 
       <CommunityCTA />

@@ -34,3 +34,10 @@ export const Instagram = props => (
     <rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
   </svg>
 );
+export const Facebook = props => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden {...props}>
+    <path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21z" />
+  </svg>
+);
+export const Briefcase = make(<><rect x="3" y="7" width="18" height="13" rx="2" /><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" /><path d="M3 13h18" /></>);
+export const Flag = make(<><path d="M5 21V4" /><path d="M5 4h11l-2 4 2 4H5" /></>);

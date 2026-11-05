@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import { NAV, GUIDE_NAV, LINKS } from '../lib/links';
-import { WhatsApp, YouTube, Instagram, Mail } from './Icons';
+import { WhatsApp, YouTube, Instagram, Mail, Facebook } from './Icons';
 
 export const socials = [
   { href: LINKS.whatsapp, label: 'WhatsApp', Icon: WhatsApp },
   { href: LINKS.youtube, label: 'YouTube', Icon: YouTube },
   { href: LINKS.instagram, label: 'Instagram', Icon: Instagram },
+  { href: LINKS.facebookGroup, label: 'Facebook group', Icon: Facebook },
   { href: `mailto:${LINKS.email}`, label: 'Email', Icon: Mail }
 ];
 
@@ -35,7 +36,9 @@ export default function Footer() {
           <h4 className="font-display text-sm font-bold uppercase tracking-wider text-white">Explore</h4>
           <ul className="mt-3 space-y-2 text-sm">
             {NAV.slice(0, 3).map(n => <li key={n.to}><Link to={n.to} className="hover:text-orange">{n.label}</Link></li>)}
+            <li><Link to="/resources" className="hover:text-orange">Resources & videos</Link></li>
             <li><Link to="/contact" className="hover:text-orange">Contact</Link></li>
+            <li><a href={LINKS.kaamdhoondo} target="_blank" rel="noreferrer" className="hover:text-orange">KaamDhoondo — internships ↗</a></li>
           </ul>
         </div>
         <div>

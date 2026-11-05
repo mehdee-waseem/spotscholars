@@ -8,9 +8,9 @@ export default function Navbar() {
   const { pathname } = useLocation();
   useEffect(() => setOpen(false), [pathname]);
 
-  const linkClass = ({ isActive }) =>
+  const linkClass = (n) => ({ isActive }) =>
     `rounded-full px-3.5 py-2 text-sm font-medium transition ${
-      isActive ? 'bg-navy text-white' : 'text-navy-800 hover:bg-navy-50'
+      isActive || (n.match && pathname.startsWith(n.match)) ? 'bg-navy text-white' : 'text-navy-800 hover:bg-navy-50'
     }`;
 
   return (
@@ -25,7 +25,7 @@ export default function Navbar() {
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">
           {NAV.map(n => (
-            <NavLink key={n.to} to={n.to} className={linkClass}>{n.label}</NavLink>
+            <NavLink key={n.to} to={n.to} className={linkClass(n)}>{n.label}</NavLink>
           ))}
         </nav>
 
@@ -41,8 +41,8 @@ export default function Navbar() {
       {open && (
         <nav className="border-t border-slate-200 bg-white px-4 pb-5 pt-2 lg:hidden" aria-label="Mobile">
           <div className="flex flex-col gap-1">
-            <NavLink to="/" end className={linkClass}>Home</NavLink>
-            {NAV.map(n => <NavLink key={n.to} to={n.to} className={linkClass}>{n.label}</NavLink>)}
+            <NavLink to="/" end className={linkClass({})}>Home</NavLink>
+            {NAV.map(n => <NavLink key={n.to} to={n.to} className={linkClass(n)}>{n.label}</NavLink>)}
           </div>
           <a href={LINKS.whatsapp} target="_blank" rel="noreferrer" className="btn mt-4 w-full bg-[#25D366] text-white">
             <WhatsApp width={18} height={18} /> Join WhatsApp community

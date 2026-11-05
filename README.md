@@ -13,8 +13,9 @@ Built with React + Vite + Tailwind CSS, served by Netlify, with a small serverle
 | Home | `/` | Hero search, the "two roads" admissions explainer, journey steps, top scholarships, FAQ |
 | Scholarships | `/scholarships` | Searchable list, filter by type and level |
 | Programs | `/programs` | English-taught programmes, filter by level and field, links to official search engines |
-| Universities | `/universities` | Directory, filter by type and region, links to each school's programmes |
-| Guides | `/guide/admissions`, `/guide/costs`, `/guide/visa`, `/guide/housing`, `/guide/arrival` | Step-by-step guides with a sidebar to move between them |
+| Universities | `/universities` | Curated directory + searchable list of all 369 Campus France Forum institutions |
+| Guides | `/guide/pakistan`, `/guide/admissions`, `/guide/costs`, `/guide/visa`, `/guide/housing`, `/guide/arrival` | Step-by-step guides, including the full Campus France Pakistan procedure |
+| Resources | `/resources` | 100+ official links in 11 groups, the featured YouTube session and video guides |
 | Contact | `/contact` | Contact form (Netlify Forms) and all social links |
 
 Filters are stored in the URL, so a filtered list can be shared as a link (e.g. `/programs?field=Cybersecurity`).

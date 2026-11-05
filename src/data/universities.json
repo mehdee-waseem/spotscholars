@@ -1,30 +1,713 @@
 [
-  { "id": "sorbonne", "name": "Sorbonne Université", "city": "Paris", "region": "Île-de-France", "type": "Public university", "strengths": ["Sciences", "Medicine", "Humanities"], "english": "Some Master's", "website": "https://www.sorbonne-universite.fr/en" },
-  { "id": "psl", "name": "Université PSL", "city": "Paris", "region": "Île-de-France", "type": "Public university", "strengths": ["Sciences", "Economics", "Arts"], "english": "Several Master's", "website": "https://psl.eu/en" },
-  { "id": "paris-saclay", "name": "Université Paris-Saclay", "city": "Saclay (Paris area)", "region": "Île-de-France", "type": "Public university", "strengths": ["Physics", "Computer science", "Engineering", "Life sciences"], "english": "Many Master's", "website": "https://www.universite-paris-saclay.fr/en" },
-  { "id": "u-paris", "name": "Université Paris Cité", "city": "Paris", "region": "Île-de-France", "type": "Public university", "strengths": ["Medicine", "Sciences", "Social sciences"], "english": "Some Master's", "website": "https://u-paris.fr/en/" },
-  { "id": "ip-paris", "name": "Institut Polytechnique de Paris", "city": "Palaiseau (Paris area)", "region": "Île-de-France", "type": "Engineering school", "strengths": ["Engineering", "Data science", "Economics"], "english": "Most Master's", "website": "https://www.ip-paris.fr/en" },
-  { "id": "sciences-po", "name": "Sciences Po", "city": "Paris", "region": "Île-de-France", "type": "Grande école", "strengths": ["Political science", "International affairs", "Law"], "english": "Many programmes", "website": "https://www.sciencespo.fr/en/" },
-  { "id": "uga", "name": "Université Grenoble Alpes", "city": "Grenoble", "region": "Auvergne-Rhône-Alpes", "type": "Public university", "strengths": ["Computer science", "Physics", "Engineering"], "english": "Many Master's", "website": "https://www.univ-grenoble-alpes.fr/" },
-  { "id": "lyon1", "name": "Université Claude Bernard Lyon 1", "city": "Lyon", "region": "Auvergne-Rhône-Alpes", "type": "Public university", "strengths": ["Sciences", "Health", "Computer science"], "english": "Some Master's", "website": "https://www.univ-lyon1.fr/en" },
-  { "id": "ens-lyon", "name": "ENS de Lyon", "city": "Lyon", "region": "Auvergne-Rhône-Alpes", "type": "Grande école", "strengths": ["Sciences", "Humanities", "Research"], "english": "Some Master's", "website": "https://www.ens-lyon.fr/en" },
-  { "id": "insa-lyon", "name": "INSA Lyon", "city": "Lyon", "region": "Auvergne-Rhône-Alpes", "type": "Engineering school", "strengths": ["Engineering", "Computer science"], "english": "Some Master's", "website": "https://www.insa-lyon.fr/en/" },
-  { "id": "uca-clermont", "name": "Université Clermont Auvergne", "city": "Clermont-Ferrand", "region": "Auvergne-Rhône-Alpes", "type": "Public university", "strengths": ["Sciences", "Agriculture", "Health"], "english": "Some Master's", "website": "https://www.uca.fr/en" },
-  { "id": "unistra", "name": "Université de Strasbourg", "city": "Strasbourg", "region": "Grand Est", "type": "Public university", "strengths": ["Chemistry", "Life sciences", "Law"], "english": "Some Master's", "website": "https://en.unistra.fr/" },
-  { "id": "lorraine", "name": "Université de Lorraine", "city": "Nancy / Metz", "region": "Grand Est", "type": "Public university", "strengths": ["Engineering", "Materials", "Computer science"], "english": "Some Master's", "website": "https://www.univ-lorraine.fr/en/" },
-  { "id": "bordeaux", "name": "Université de Bordeaux", "city": "Bordeaux", "region": "Nouvelle-Aquitaine", "type": "Public university", "strengths": ["Life sciences", "Physics", "Public health"], "english": "Several Master's", "website": "https://www.u-bordeaux.com/" },
-  { "id": "amu", "name": "Aix-Marseille Université", "city": "Marseille / Aix-en-Provence", "region": "Provence-Alpes-Côte d'Azur", "type": "Public university", "strengths": ["Sciences", "Economics", "Humanities"], "english": "Some Master's", "website": "https://www.univ-amu.fr/en" },
-  { "id": "uca-nice", "name": "Université Côte d'Azur", "city": "Nice", "region": "Provence-Alpes-Côte d'Azur", "type": "Public university", "strengths": ["Data science", "AI", "Life sciences"], "english": "Several Master's", "website": "https://univ-cotedazur.eu/" },
-  { "id": "eurecom", "name": "EURECOM", "city": "Sophia Antipolis (Nice)", "region": "Provence-Alpes-Côte d'Azur", "type": "Engineering school", "strengths": ["Digital security", "Data science", "Communications"], "english": "Master's fully in English", "website": "https://www.eurecom.fr/en" },
-  { "id": "montpellier", "name": "Université de Montpellier", "city": "Montpellier", "region": "Occitanie", "type": "Public university", "strengths": ["Ecology", "Health", "Chemistry"], "english": "Some Master's", "website": "https://www.umontpellier.fr/en/" },
-  { "id": "toulouse3", "name": "Université Toulouse III – Paul Sabatier", "city": "Toulouse", "region": "Occitanie", "type": "Public university", "strengths": ["Aerospace", "Sciences", "Health"], "english": "Some Master's", "website": "https://www.univ-tlse3.fr/" },
-  { "id": "tse", "name": "Toulouse School of Economics", "city": "Toulouse", "region": "Occitanie", "type": "Public university", "strengths": ["Economics", "Data science"], "english": "Master's in English", "website": "https://www.tse-fr.eu/" },
-  { "id": "lille", "name": "Université de Lille", "city": "Lille", "region": "Hauts-de-France", "type": "Public university", "strengths": ["Sciences", "Health", "Law"], "english": "Some Master's", "website": "https://www.univ-lille.fr/en" },
-  { "id": "uphf", "name": "Université Polytechnique Hauts-de-France", "city": "Valenciennes", "region": "Hauts-de-France", "type": "Public university", "strengths": ["Transport & mobility", "Computer science", "Engineering"], "english": "Some Master's", "website": "https://www.uphf.fr/en" },
-  { "id": "nantes", "name": "Nantes Université", "city": "Nantes", "region": "Pays de la Loire", "type": "Public university", "strengths": ["Sciences", "Health", "Engineering"], "english": "Some Master's", "website": "https://english.univ-nantes.fr/" },
-  { "id": "centrale-nantes", "name": "Centrale Nantes", "city": "Nantes", "region": "Pays de la Loire", "type": "Engineering school", "strengths": ["Robotics", "Mechanical engineering", "Marine engineering"], "english": "Several Master's", "website": "https://www.ec-nantes.fr/english-version" },
-  { "id": "rennes", "name": "Université de Rennes", "city": "Rennes", "region": "Brittany", "type": "Public university", "strengths": ["Computer science", "Cybersecurity", "Life sciences"], "english": "Some Master's", "website": "https://www.univ-rennes.fr/en" },
-  { "id": "imt-atlantique", "name": "IMT Atlantique", "city": "Brest / Nantes / Rennes", "region": "Brittany", "type": "Engineering school", "strengths": ["Telecoms", "Data science", "Energy"], "english": "MSc programmes in English", "website": "https://www.imt-atlantique.fr/en" },
-  { "id": "hec", "name": "HEC Paris", "city": "Jouy-en-Josas (Paris area)", "region": "Île-de-France", "type": "Business school", "strengths": ["Management", "Finance"], "english": "Most programmes", "website": "https://www.hec.edu/en" },
-  { "id": "essec", "name": "ESSEC Business School", "city": "Cergy (Paris area)", "region": "Île-de-France", "type": "Business school", "strengths": ["Management", "Finance", "Data & business"], "english": "Most programmes", "website": "https://www.essec.edu/en/" }
+ {
+  "id": "sorbonne",
+  "name": "Sorbonne Université",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Medicine",
+   "Humanities"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.sorbonne-universite.fr/en"
+ },
+ {
+  "id": "psl",
+  "name": "Université PSL",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Economics",
+   "Arts"
+  ],
+  "english": "Several Master's",
+  "website": "https://psl.eu/en"
+ },
+ {
+  "id": "paris-saclay",
+  "name": "Université Paris-Saclay",
+  "city": "Saclay (Paris area)",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Physics",
+   "Computer science",
+   "Engineering",
+   "Life sciences"
+  ],
+  "english": "Many Master's",
+  "website": "https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english"
+ },
+ {
+  "id": "u-paris",
+  "name": "Université Paris Cité",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Medicine",
+   "Sciences",
+   "Social sciences"
+  ],
+  "english": "Some Master's",
+  "website": "https://u-paris.fr/en/"
+ },
+ {
+  "id": "ip-paris",
+  "name": "Institut Polytechnique de Paris",
+  "city": "Palaiseau (Paris area)",
+  "region": "Île-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "Engineering",
+   "Data science",
+   "Economics"
+  ],
+  "english": "Most Master's",
+  "website": "https://www.ip-paris.fr/en"
+ },
+ {
+  "id": "sciences-po",
+  "name": "Sciences Po",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Grande école",
+  "strengths": [
+   "Political science",
+   "International affairs",
+   "Law"
+  ],
+  "english": "Many programmes",
+  "website": "https://www.sciencespo.fr/en/"
+ },
+ {
+  "id": "uga",
+  "name": "Université Grenoble Alpes",
+  "city": "Grenoble",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Public university",
+  "strengths": [
+   "Computer science",
+   "Physics",
+   "Engineering"
+  ],
+  "english": "Many Master's",
+  "website": "https://www.univ-grenoble-alpes.fr/education/programs/programs-in-english/"
+ },
+ {
+  "id": "lyon1",
+  "name": "Université Claude Bernard Lyon 1",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Health",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://offre-de-formations.univ-lyon1.fr/front_liste_mention_diplome.php?diplome=M"
+ },
+ {
+  "id": "ens-lyon",
+  "name": "ENS de Lyon",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Grande école",
+  "strengths": [
+   "Sciences",
+   "Humanities",
+   "Research"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.ens-lyon.fr/en"
+ },
+ {
+  "id": "insa-lyon",
+  "name": "INSA Lyon",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Engineering school",
+  "strengths": [
+   "Engineering",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.groupe-insa.fr/en/education/courses-taught-english"
+ },
+ {
+  "id": "uca-clermont",
+  "name": "Université Clermont Auvergne",
+  "city": "Clermont-Ferrand",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Agriculture",
+   "Health"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.uca.fr/en"
+ },
+ {
+  "id": "unistra",
+  "name": "Université de Strasbourg",
+  "city": "Strasbourg",
+  "region": "Grand Est",
+  "type": "Public university",
+  "strengths": [
+   "Chemistry",
+   "Life sciences",
+   "Law"
+  ],
+  "english": "Some Master's",
+  "website": "https://en.unistra.fr/"
+ },
+ {
+  "id": "lorraine",
+  "name": "Université de Lorraine",
+  "city": "Nancy / Metz",
+  "region": "Grand Est",
+  "type": "Public university",
+  "strengths": [
+   "Engineering",
+   "Materials",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-lorraine.fr/en/"
+ },
+ {
+  "id": "bordeaux",
+  "name": "Université de Bordeaux",
+  "city": "Bordeaux",
+  "region": "Nouvelle-Aquitaine",
+  "type": "Public university",
+  "strengths": [
+   "Life sciences",
+   "Physics",
+   "Public health"
+  ],
+  "english": "Several Master's",
+  "website": "https://www.u-bordeaux.com/"
+ },
+ {
+  "id": "amu",
+  "name": "Aix-Marseille Université",
+  "city": "Marseille / Aix-en-Provence",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Economics",
+   "Humanities"
+  ],
+  "english": "Some Master's",
+  "website": "https://formations.univ-amu.fr/rechercher?domaine%5B0%5D=ST"
+ },
+ {
+  "id": "uca-nice",
+  "name": "Université Côte d'Azur",
+  "city": "Nice",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "type": "Public university",
+  "strengths": [
+   "Data science",
+   "AI",
+   "Life sciences"
+  ],
+  "english": "Several Master's",
+  "website": "https://univ-cotedazur.eu/"
+ },
+ {
+  "id": "eurecom",
+  "name": "EURECOM",
+  "city": "Sophia Antipolis (Nice)",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "type": "Engineering school",
+  "strengths": [
+   "Digital security",
+   "Data science",
+   "Communications"
+  ],
+  "english": "Master's fully in English",
+  "website": "https://www.eurecom.fr/en"
+ },
+ {
+  "id": "montpellier",
+  "name": "Université de Montpellier",
+  "city": "Montpellier",
+  "region": "Occitanie",
+  "type": "Public university",
+  "strengths": [
+   "Ecology",
+   "Health",
+   "Chemistry"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.umontpellier.fr/en/"
+ },
+ {
+  "id": "toulouse3",
+  "name": "Université Toulouse III – Paul Sabatier",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "type": "Public university",
+  "strengths": [
+   "Aerospace",
+   "Sciences",
+   "Health"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-tlse3.fr/"
+ },
+ {
+  "id": "tse",
+  "name": "Toulouse School of Economics",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "type": "Public university",
+  "strengths": [
+   "Economics",
+   "Data science"
+  ],
+  "english": "Master's in English",
+  "website": "https://www.tse-fr.eu/"
+ },
+ {
+  "id": "lille",
+  "name": "Université de Lille",
+  "city": "Lille",
+  "region": "Hauts-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Health",
+   "Law"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-lille.fr/en"
+ },
+ {
+  "id": "uphf",
+  "name": "Université Polytechnique Hauts-de-France",
+  "city": "Valenciennes",
+  "region": "Hauts-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Transport & mobility",
+   "Computer science",
+   "Engineering"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.uphf.fr/en"
+ },
+ {
+  "id": "nantes",
+  "name": "Nantes Université",
+  "city": "Nantes",
+  "region": "Pays de la Loire",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Health",
+   "Engineering"
+  ],
+  "english": "Some Master's",
+  "website": "https://english.univ-nantes.fr/"
+ },
+ {
+  "id": "centrale-nantes",
+  "name": "Centrale Nantes",
+  "city": "Nantes",
+  "region": "Pays de la Loire",
+  "type": "Engineering school",
+  "strengths": [
+   "Robotics",
+   "Mechanical engineering",
+   "Marine engineering"
+  ],
+  "english": "Several Master's",
+  "website": "https://www.ec-nantes.fr/english-version"
+ },
+ {
+  "id": "rennes",
+  "name": "Université de Rennes",
+  "city": "Rennes",
+  "region": "Brittany",
+  "type": "Public university",
+  "strengths": [
+   "Computer science",
+   "Cybersecurity",
+   "Life sciences"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-rennes.fr/en"
+ },
+ {
+  "id": "imt-atlantique",
+  "name": "IMT Atlantique",
+  "city": "Brest / Nantes / Rennes",
+  "region": "Brittany",
+  "type": "Engineering school",
+  "strengths": [
+   "Telecoms",
+   "Data science",
+   "Energy"
+  ],
+  "english": "MSc programmes in English",
+  "website": "https://www.imt-atlantique.fr/en/study/msc"
+ },
+ {
+  "id": "hec",
+  "name": "HEC Paris",
+  "city": "Jouy-en-Josas (Paris area)",
+  "region": "Île-de-France",
+  "type": "Business school",
+  "strengths": [
+   "Management",
+   "Finance"
+  ],
+  "english": "Most programmes",
+  "website": "https://www.hec.edu/en"
+ },
+ {
+  "id": "essec",
+  "name": "ESSEC Business School",
+  "city": "Cergy (Paris area)",
+  "region": "Île-de-France",
+  "type": "Business school",
+  "strengths": [
+   "Management",
+   "Finance",
+   "Data & business"
+  ],
+  "english": "Most programmes",
+  "website": "https://www.essec.edu/en/"
+ },
+ {
+  "id": "polytechnique",
+  "name": "École Polytechnique (l'X)",
+  "city": "Palaiseau (Paris area)",
+  "region": "Île-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "Engineering",
+   "Computer science",
+   "Mathematics"
+  ],
+  "english": "Bachelor & MSc&T programmes",
+  "website": "https://programmes.polytechnique.edu/en"
+ },
+ {
+  "id": "centralesupelec",
+  "name": "CentraleSupélec",
+  "city": "Gif-sur-Yvette (Paris area)",
+  "region": "Île-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "AI",
+   "Energy",
+   "Engineering"
+  ],
+  "english": "Several Master's",
+  "website": "https://www.centralesupelec.fr/en"
+ },
+ {
+  "id": "dauphine",
+  "name": "Université Paris Dauphine – PSL",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "AI & data science",
+   "Finance",
+   "Management"
+  ],
+  "english": "Several Master's",
+  "website": "https://dauphine.psl.eu/en"
+ },
+ {
+  "id": "cnam",
+  "name": "CNAM – Conservatoire national des arts et métiers",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Grande école",
+  "strengths": [
+   "Networks",
+   "Telecoms",
+   "IoT"
+  ],
+  "english": "Some Master's",
+  "website": "https://eeap.cnam.fr/telecommunications-and-networks-program"
+ },
+ {
+  "id": "gustave-eiffel",
+  "name": "Université Gustave Eiffel",
+  "city": "Marne-la-Vallée (Paris area)",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Transport",
+   "Urban engineering",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-gustave-eiffel.fr/la-formation/candidatures-et-inscriptions/candidatures"
+ },
+ {
+  "id": "grenoble-inp",
+  "name": "Grenoble INP – UGA (Ensimag, Pagora…)",
+  "city": "Grenoble",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Engineering school",
+  "strengths": [
+   "Cybersecurity",
+   "Computer science",
+   "Materials"
+  ],
+  "english": "Several Master's",
+  "website": "https://www.grenoble-inp.fr/en"
+ },
+ {
+  "id": "sciencespo-grenoble",
+  "name": "Sciences Po Grenoble",
+  "city": "Grenoble",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Grande école",
+  "strengths": [
+   "Politics",
+   "International studies"
+  ],
+  "english": "International programme in English",
+  "website": "https://en.sciencespo-grenoble.fr/programme-international"
+ },
+ {
+  "id": "lyon2",
+  "name": "Université Lumière Lyon 2",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Public university",
+  "strengths": [
+   "Social sciences",
+   "Economics",
+   "Data"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-lyon2.fr/formation/calendrier-des-campagnes-de-candidatures-2025-2026"
+ },
+ {
+  "id": "lyon3",
+  "name": "Université Jean Moulin Lyon 3",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Public university",
+  "strengths": [
+   "International law",
+   "Management",
+   "Languages"
+  ],
+  "english": "Courses in English",
+  "website": "https://www.univ-lyon3.fr/courses-in-english"
+ },
+ {
+  "id": "ucly",
+  "name": "UCLy – Catholic University of Lyon",
+  "city": "Lyon",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Private university",
+  "strengths": [
+   "Human rights",
+   "Business",
+   "Psychology"
+  ],
+  "english": "English catalogue",
+  "website": "https://www.ucly.fr/en/academics/courses-in-english/"
+ },
+ {
+  "id": "st-etienne",
+  "name": "Université Jean Monnet Saint-Étienne",
+  "city": "Saint-Étienne",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Public university",
+  "strengths": [
+   "Optics & photonics",
+   "Computer science",
+   "Materials"
+  ],
+  "english": "International science Master's",
+  "website": "https://international-sciencemasters.univ-st-etienne.fr/login"
+ },
+ {
+  "id": "ens-rennes",
+  "name": "ENS Rennes",
+  "city": "Rennes",
+  "region": "Brittany",
+  "type": "Grande école",
+  "strengths": [
+   "Computer science",
+   "Mathematics",
+   "Mechatronics"
+  ],
+  "english": "Some Master's",
+  "website": "https://informatique.ens-rennes.fr/admission"
+ },
+ {
+  "id": "enib",
+  "name": "ENIB – École nationale d'ingénieurs de Brest",
+  "city": "Brest",
+  "region": "Brittany",
+  "type": "Engineering school",
+  "strengths": [
+   "Electronics",
+   "Computer science",
+   "Mechatronics"
+  ],
+  "english": "Master in English",
+  "website": "https://www.enib.fr/en_enib/"
+ },
+ {
+  "id": "limoges",
+  "name": "Université de Limoges",
+  "city": "Limoges",
+  "region": "Nouvelle-Aquitaine",
+  "type": "Public university",
+  "strengths": [
+   "IoT",
+   "Ceramics",
+   "Telecoms"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.unilim.fr/gradschool-ceramics-ict/formation/smart-iot/"
+ },
+ {
+  "id": "angers",
+  "name": "Université d'Angers",
+  "city": "Angers",
+  "region": "Pays de la Loire",
+  "type": "Public university",
+  "strengths": [
+   "Plant sciences",
+   "Health",
+   "Tourism"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-angers.fr/en/you-are/non-exchange-student/admissions.html"
+ },
+ {
+  "id": "oniris",
+  "name": "ONIRIS – Nantes veterinary, food & agri school",
+  "city": "Nantes",
+  "region": "Pays de la Loire",
+  "type": "Agriculture & veterinary school",
+  "strengths": [
+   "One Health",
+   "Food science",
+   "Veterinary"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.oniris-nantes.fr/"
+ },
+ {
+  "id": "centrale-lille",
+  "name": "Centrale Lille",
+  "city": "Villeneuve-d'Ascq (Lille)",
+  "region": "Hauts-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "Engineering",
+   "Data",
+   "Energy"
+  ],
+  "english": "Some Master's",
+  "website": "https://centralelille.fr/candidater-master/"
+ },
+ {
+  "id": "ulco",
+  "name": "Université du Littoral Côte d'Opale",
+  "city": "Dunkerque",
+  "region": "Hauts-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Environment",
+   "Logistics",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://9bgm.univ-littoral.fr/"
+ },
+ {
+  "id": "umlp",
+  "name": "Université Marie & Louis Pasteur (Franche-Comté)",
+  "city": "Besançon",
+  "region": "Bourgogne-Franche-Comté",
+  "type": "Public university",
+  "strengths": [
+   "Physics",
+   "Engineering",
+   "Optics"
+  ],
+  "english": "Some Master's (EIPHI)",
+  "website": "https://admission.univ-fcomte.fr/procedure.php"
+ },
+ {
+  "id": "utoulouse",
+  "name": "Université de Toulouse",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "type": "Public university",
+  "strengths": [
+   "Aerospace",
+   "Sciences",
+   "Economics"
+  ],
+  "english": "Master's in English list",
+  "website": "https://formations.univ-toulouse.fr/fr/formations-master-en-anglais.html"
+ },
+ {
+  "id": "isae-supaero",
+  "name": "ISAE-SUPAERO",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "type": "Engineering school",
+  "strengths": [
+   "Aerospace",
+   "Space",
+   "Aeronautics"
+  ],
+  "english": "MSc in English",
+  "website": "https://www.isae-supaero.fr/en/"
+ },
+ {
+  "id": "avignon",
+  "name": "Avignon Université",
+  "city": "Avignon",
+  "region": "Provence-Alpes-Côte d'Azur",
+  "type": "Public university",
+  "strengths": [
+   "Agriculture & food",
+   "Culture",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://implanteus.univ-avignon.fr/en/masters-degree-applications/"
+ },
+ {
+  "id": "agroparistech",
+  "name": "AgroParisTech",
+  "city": "Palaiseau (Paris area)",
+  "region": "Île-de-France",
+  "type": "Agriculture & veterinary school",
+  "strengths": [
+   "Food",
+   "Forestry",
+   "Bioeconomy"
+  ],
+  "english": "Erasmus Mundus Master's",
+  "website": "https://www.agroparistech.fr/en"
+ }
 ]

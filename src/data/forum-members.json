@@ -1,0 +1,1847 @@
+[
+{
+"name": "Aix-Marseille Université",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Avignon Université",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Communauté d’universités et établissements de Toulouse",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "CY Cergy Paris Université - Cergy-Pontoise",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Institut National Universitaire Champollion",
+"city": "Albi",
+"category": "Public university"
+},
+{
+"name": "La Rochelle Université",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Le Mans Université",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Nantes Université",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Nîmes Université",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Sorbonne Université",
+"city": "Paris",
+"category": "Public university"
+},
+{
+"name": "Université Angers",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Bordeaux Montaigne",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Bourgogne Europe",
+"city": "Dijon",
+"category": "Public university"
+},
+{
+"name": "Université Bretagne Sud",
+"city": "Lorient",
+"category": "Public university"
+},
+{
+"name": "Université Claude Bernard Lyon 1",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Clermont Auvergne - Clermont-Ferrand",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Côte d’Azur",
+"city": "Nice",
+"category": "Public university"
+},
+{
+"name": "Université d’Artois",
+"city": "Arras",
+"category": "Public university"
+},
+{
+"name": "Université d’Orléans",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Bordeaux",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Bretagne Occidentale",
+"city": "Brest",
+"category": "Public university"
+},
+{
+"name": "Université de Caen Normandie",
+"city": "Caen",
+"category": "Public university"
+},
+{
+"name": "Université de Corse Pascal Paoli",
+"city": "Corte",
+"category": "Public university"
+},
+{
+"name": "Université de la Polynésie française",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Guyane",
+"city": "Cayenne",
+"category": "Public university"
+},
+{
+"name": "Université de La Réunion - Saint-Denis",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Lille",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Limoges",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Lorraine",
+"city": "Nancy",
+"category": "Public university"
+},
+{
+"name": "Université de Lyon",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Mayotte",
+"city": "Dembeni",
+"category": "Public university"
+},
+{
+"name": "Université de Montpellier",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Montpellier Paul-Valéry",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Pau et des Pays de l’Adour",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Picardie Jules Verne",
+"city": "Amiens",
+"category": "Public university"
+},
+{
+"name": "Université de Poitiers",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Reims Champagne-Ardenne",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Rennes",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Rouen Normandie",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Strasbourg",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Technologie de Belfort-Montbéliard",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Technologie de Compiègne",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Technologie de Troyes",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Technologie Tarbes Occitanie Pyrénées",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Toulon",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Toulouse",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Tours",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université de Versailles Saint-Quentin-en-Yvelines",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université des Antilles - Pointe-à-Pitre",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université du Littoral Côte d’Opale",
+"city": "Dunkerque",
+"category": "Public university"
+},
+{
+"name": "Université Évry Paris-Saclay",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Grenoble Alpes - Saint-Martin-d’Hères",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Gustave Eiffel -",
+"city": "Marne-la-Vallée",
+"category": "Public university"
+},
+{
+"name": "Université Haute-Alsace",
+"city": "Mulhouse",
+"category": "Public university"
+},
+{
+"name": "Université Jean Monnet - Saint-Étienne",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Jean Moulin Lyon 3",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Le Havre Normandie",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Lumière-Lyon 2",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Marie & Louis Pasteur",
+"city": "Besançon",
+"category": "Public university"
+},
+{
+"name": "Université Paris 1 Panthéon Sorbonne",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Paris 8 Vincennes Saint-Denis",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Paris Cité",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Paris Dauphine",
+"city": "PSL",
+"category": "Public university"
+},
+{
+"name": "Université Paris Nanterre",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Paris sciences et lettres",
+"city": "PSL",
+"category": "Public university"
+},
+{
+"name": "Université Paris-Est Créteil",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Paris-Panthéon-Assas",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Paris-Saclay - Gif-sur-Yvette",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Perpignan Via Domitia",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Polytechnique Hauts-de-France",
+"city": "Valenciennes",
+"category": "Public university"
+},
+{
+"name": "Université Rennes 2",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Savoie Mont Blanc",
+"city": "Chambéry",
+"category": "Public university"
+},
+{
+"name": "Université Sorbonne Nouvelle",
+"city": "Paris",
+"category": "Public university"
+},
+{
+"name": "Université Sorbonne Paris Nord",
+"city": "Villetaneuse",
+"category": "Public university"
+},
+{
+"name": "Université Toulouse Capitole",
+"city": "",
+"category": "Public university"
+},
+{
+"name": "Université Toulouse",
+"city": "Jean Jaurès",
+"category": "Public university"
+},
+{
+"name": "CIHEAM - Institut agronomique méditerranéen de Montpellier",
+"city": "",
+"category": "Grande école / institute"
+},
+{
+"name": "CNAM - Conservatoire national des arts et métiers",
+"city": "Paris",
+"category": "Grande école / institute"
+},
+{
+"name": "École nationale des chartes",
+"city": "PSL",
+"category": "Grande école / institute"
+},
+{
+"name": "École normale supérieure",
+"city": "PSL",
+"category": "Grande école / institute"
+},
+{
+"name": "École normale supérieure de Lyon",
+"city": "ENS de Lyon",
+"category": "Grande école / institute"
+},
+{
+"name": "École normale supérieure de Rennes",
+"city": "ENS Rennes",
+"category": "Grande école / institute"
+},
+{
+"name": "École normale supérieure Paris-Saclay - ENS Paris-Saclay",
+"city": "",
+"category": "Grande école / institute"
+},
+{
+"name": "École pratique des hautes études",
+"city": "PSL",
+"category": "Grande école / institute"
+},
+{
+"name": "EHESP - École des hautes études en santé publique",
+"city": "Rennes",
+"category": "Grande école / institute"
+},
+{
+"name": "EHESS - École des hautes études en sciences sociales",
+"city": "Paris",
+"category": "Grande école / institute"
+},
+{
+"name": "INALCO - Institut national des langues et civilisations orientales",
+"city": "Paris",
+"category": "Grande école / institute"
+},
+{
+"name": "INSP - Institut national du service public",
+"city": "Strasbourg",
+"category": "Grande école / institute"
+},
+{
+"name": "Muséum national d’histoire naturelle",
+"city": "Paris",
+"category": "Grande école / institute"
+},
+{
+"name": "Sciences Po - Fondation nationale des sciences politiques de",
+"city": "Paris",
+"category": "Political science (IEP)"
+},
+{
+"name": "Sciences Po Bordeaux",
+"city": "",
+"category": "Political science (IEP)"
+},
+{
+"name": "Sciences Po Lille",
+"city": "",
+"category": "Political science (IEP)"
+},
+{
+"name": "Sciences Po Rennes",
+"city": "",
+"category": "Political science (IEP)"
+},
+{
+"name": "Sciences Po Toulouse",
+"city": "",
+"category": "Political science (IEP)"
+},
+{
+"name": "CIRAD - Centre de coopération internationale en recherche agronomique pour le développement",
+"city": "Paris",
+"category": "Research organisation"
+},
+{
+"name": "CNRS - Centre national de la recherche scientifique",
+"city": "Paris",
+"category": "Research organisation"
+},
+{
+"name": "INRAe - Institut national de recherche pour l’agriculture, l’alimentation et l’environnement",
+"city": "Paris",
+"category": "Research organisation"
+},
+{
+"name": "INRIA - Institut national de recherche en informatique et en automatique",
+"city": "Paris",
+"category": "Research organisation"
+},
+{
+"name": "INSERM - Institut national de la santé et de la recherche médicale",
+"city": "Paris",
+"category": "Research organisation"
+},
+{
+"name": "Institut Pasteur",
+"city": "Paris",
+"category": "Research organisation"
+},
+{
+"name": "IRD - Institut de recherche pour le développement Marseille",
+"city": "",
+"category": "Research organisation"
+},
+{
+"name": "Observatoire de Paris",
+"city": "PSL",
+"category": "Research organisation"
+},
+{
+"name": "ADCUEFE - Association des directeurs de centres universitaires d’études françaises pour étrangers",
+"city": "",
+"category": "Network / association"
+},
+{
+"name": "IAE France - Écoles universitaires de management",
+"city": "Paris",
+"category": "Network / association"
+},
+{
+"name": "ANdÉA - Association nationale des écoles supérieures d’art",
+"city": "Paris",
+"category": "Network / association"
+},
+{
+"name": "Université franco-allemande",
+"city": "Sarrebruck",
+"category": "Network / association"
+},
+{
+"name": "Réseau « n+i »",
+"city": "Paris",
+"category": "Network / association"
+},
+{
+"name": "Association SESAME banque d’épreuves",
+"city": "Bordeaux",
+"category": "Network / association"
+},
+{
+"name": "Chambre de Commerce et d’Industrie Paris Ile-de-France",
+"city": "",
+"category": "Network / association"
+},
+{
+"name": "Fédération Gay-Lussac (20 écoles de chimie)",
+"city": "Paris",
+"category": "Network / association"
+},
+{
+"name": "Fondation partenariale Polytech",
+"city": "Marseille",
+"category": "Network / association"
+},
+{
+"name": "FSMP",
+"city": "Fondation sciences mathématiques de Paris",
+"category": "Network / association"
+},
+{
+"name": "3iL Ingénieurs - Institut d’ingénierie informatique de Limoges",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "Arts et Métiers",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "Builders École d’ingénieurs",
+"city": "Caen",
+"category": "Engineering school"
+},
+{
+"name": "Centrale Lille - Villeneuve-d’Ascq",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "Centrale Lyon",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "Centrale Méditerranée",
+"city": "Marseille",
+"category": "Engineering school"
+},
+{
+"name": "Centrale Nantes",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "CentraleSupélec - Gif-sur-Yvette",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "CESI École d’ingénieurs",
+"city": "Paris La Défense",
+"category": "Engineering school"
+},
+{
+"name": "Chimie ParisTech",
+"city": "PSL",
+"category": "Engineering school"
+},
+{
+"name": "CPE Lyon - École d’ingénieurs en chimie et sciences du numérique",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "EBI - Ecole de Biologie Industrielle - Cery-Pontoise",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ECAM LaSalle",
+"city": "Lyon",
+"category": "Engineering school"
+},
+{
+"name": "ECAM Rennes Louis de Broglie",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ECAM-EPMI - École d’électricité de production et méthodes industrielles - Cergy-Pontoise",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ECE - École d’ingénieurs",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "École d’ingénieurs de Purpan",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "École nationale des ponts et chaussées",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "École navale",
+"city": "Brest",
+"category": "Engineering school"
+},
+{
+"name": "École polytechnique",
+"city": "Palaiseau",
+"category": "Engineering school"
+},
+{
+"name": "EFREI Paris - École française d’électronique et d’informatique",
+"city": "Villejuif",
+"category": "Engineering school"
+},
+{
+"name": "EIGSI - École d’ingénieurs en génie des systèmes industriels",
+"city": "La Rochelle",
+"category": "Engineering school"
+},
+{
+"name": "EIVP",
+"city": "École des ingénieurs de la ville de Paris",
+"category": "Engineering school"
+},
+{
+"name": "ENAC - École nationale de l’aviation civile",
+"city": "Toulouse",
+"category": "Engineering school"
+},
+{
+"name": "ENIM",
+"city": "École nationale d’ingénieurs de Metz",
+"category": "Engineering school"
+},
+{
+"name": "ESCOM Chimie - École supérieure de chimie organique et minérale",
+"city": "Compiègne",
+"category": "Engineering school"
+},
+{
+"name": "ESEO grande école d’ingénieurs",
+"city": "Angers",
+"category": "Engineering school"
+},
+{
+"name": "ESIEA - École supérieure d’informatique, électronique, automatique",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "ESIGELEC - École supérieure d’ingénieurs en génie électrique - Saint-Étienne-du-Rouvray",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ESILV - École supérieure d’ingénieurs Léonard de Vinci",
+"city": "Paris La Défense",
+"category": "Engineering school"
+},
+{
+"name": "ESME",
+"city": "Ivry",
+"category": "Engineering school"
+},
+{
+"name": "ESPCI Paris",
+"city": "PSL",
+"category": "Engineering school"
+},
+{
+"name": "ESTACA - École supérieure des techniques aéronautiques et de construction automobile - Saint-Quentin-en-Yvelines",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ESTIA - École supérieure des technologies industrielles avancées",
+"city": "Bidart",
+"category": "Engineering school"
+},
+{
+"name": "ESTP – Grande école d’ingénieurs de la construction Cachan",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "EURECOM",
+"city": "Sophia Antipolis",
+"category": "Engineering school"
+},
+{
+"name": "Géodata Paris - Marne-la-vallée",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "I2EN - Institut international de l’énergie nucléaire",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "ICAM",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "IFP School - Rueil-Malmaison",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "IMT- Institut Mines-Télécom",
+"city": "Palaiseau",
+"category": "Engineering school"
+},
+{
+"name": "IMT Atlantique Bretagne-Pays-de-Loire",
+"city": "Brest, Nantes, Rennes",
+"category": "Engineering school"
+},
+{
+"name": "IMT Mines Albi",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "IMT Mines Alès",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "IMT Nord Europe - Villeneuve-d’Ascq",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "INSA Centre-Val de Loire",
+"city": "Bourges",
+"category": "Engineering school"
+},
+{
+"name": "ENSAE Paris - École nationale de la statistique et de l’administration économique",
+"city": "Palaiseau",
+"category": "Engineering school"
+},
+{
+"name": "INSA Hauts-de-France",
+"city": "Valencienne",
+"category": "Engineering school"
+},
+{
+"name": "ENSAI - École nationale de la statistique et de l’analyse de l’information",
+"city": "Rennes",
+"category": "Engineering school"
+},
+{
+"name": "INSA Rennes",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ENSAIT - École nationale supérieure des arts et industries textiles",
+"city": "Roubaix",
+"category": "Engineering school"
+},
+{
+"name": "INSA Lyon",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "INSA Rouen Normandie - Saint-Étienne-du-Rouvray",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "INSA Strasbourg",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ENSCM - École nationale supérieure de chimie de Montpellier",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "INSA Toulouse",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ENSEA - École nationale supérieure de l’électronique et de ses applications - Cergy-Pontoise",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "Institut Polytechnique de Paris",
+"city": "Palaiseau",
+"category": "Engineering school"
+},
+{
+"name": "ENSICAEN - École nationale supérieure d’ingénieurs de Caen",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ENSM",
+"city": "École nationale supérieure maritime",
+"category": "Engineering school"
+},
+{
+"name": "ENSTA - École nationale supérieure de techniques avancées",
+"city": "Palaiseau",
+"category": "Engineering school"
+},
+{
+"name": "ENTPE – École nationale des travaux publics de l’État",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "EPF - École d’ingénieurs",
+"city": "Sceaux",
+"category": "Engineering school"
+},
+{
+"name": "EPITA - École pour l’informatique et les techniques avancées - Le Kremlin-Bicêtre",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ESAIP - École supérieure angevine en informatique et productique",
+"city": "Angers",
+"category": "Engineering school"
+},
+{
+"name": "IPSA - École d’ingénieurs de l’air et de l’espace Ivry-sur-Seine",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "ISAE-ENSMA - École nationale supérieure de mécanique et d’aérotechnique -",
+"city": "Chasseneuil-du-Poitou/Futuroscope",
+"category": "Engineering school"
+},
+{
+"name": "ISAE-SUPAERO - Institut supérieur de l’aéronautique et de l’espace",
+"city": "Toulouse",
+"category": "Engineering school"
+},
+{
+"name": "ISAE-Supméca",
+"city": "Institut supérieur de mécanique de Paris",
+"category": "Engineering school"
+},
+{
+"name": "ISBA TP - Institut supérieur du bâtiment et des travaux publics",
+"city": "Marseille",
+"category": "Engineering school"
+},
+{
+"name": "ISEN Ouest",
+"city": "Brest, Caen, Nantes, Rennes",
+"category": "Engineering school"
+},
+{
+"name": "ISEP",
+"city": "Institut supérieur d’électronique de Paris",
+"category": "Engineering school"
+},
+{
+"name": "ITECH Lyon - Institut textile et chimique de Lyon",
+"city": "Écully",
+"category": "Engineering school"
+},
+{
+"name": "JUNIA",
+"city": "Lille",
+"category": "Engineering school"
+},
+{
+"name": "Mines Paris",
+"city": "PSL",
+"category": "Engineering school"
+},
+{
+"name": "Sup’Biotech",
+"city": "Paris",
+"category": "Engineering school"
+},
+{
+"name": "SUPMICROTECH - École nationale supérieure de mécanique et des microtechniques",
+"city": "Besançon",
+"category": "Engineering school"
+},
+{
+"name": "AgroParisTech",
+"city": "",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "ENGEES - École nationale du génie de l’eau et de l’environnement de Strasbourg",
+"city": "",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "ESA - École supérieure des agricultures",
+"city": "Angers",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "Télécom Paris",
+"city": "Palaiseau",
+"category": "Engineering school"
+},
+{
+"name": "Télécom SudParis",
+"city": "Évry",
+"category": "Engineering school"
+},
+{
+"name": "ESB - École supérieure du bois",
+"city": "Nantes",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "Bordeaux INP",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "Bretagne INP",
+"city": "Brest",
+"category": "Engineering school"
+},
+{
+"name": "Clermont Auvergne INP",
+"city": "Aubières",
+"category": "Engineering school"
+},
+{
+"name": "Grenoble INP",
+"city": "UGA",
+"category": "Engineering school"
+},
+{
+"name": "ISTOM - École supérieure d’agro-développement international",
+"city": "Angers",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "Groupe Isara-Isema",
+"city": "Lyon",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "Toulouse INP",
+"city": "",
+"category": "Engineering school"
+},
+{
+"name": "L’Institut Agro (Institut Agro Dijon, Institut Agro Montpellier,",
+"city": "",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "ONIRIS - École nationale vétérinaire, agroalimentaire et de l’alimentation",
+"city": "Nantes",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "UniLaSalle",
+"city": "Beauvais",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "VetAgro Sup - Lempdes, Marcy-l’Étoile",
+"city": "",
+"category": "Agriculture & veterinary school"
+},
+{
+"name": "Audencia",
+"city": "Nantes",
+"category": "Business school"
+},
+{
+"name": "BBS",
+"city": "Brest Business School",
+"category": "Business school"
+},
+{
+"name": "BSB - Burgundy School of Business",
+"city": "Dijon",
+"category": "Business school"
+},
+{
+"name": "Clermont School of Business - Clermont-Ferrand",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "EBS - European Business School",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "EDC Paris Business School",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "EDHEC Business School",
+"city": "Villeneuve d’Ascq",
+"category": "Business school"
+},
+{
+"name": "éklore-ed School of Management",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "EM Lyon Business School",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "EM Normandie Business School",
+"city": "Le Havre",
+"category": "Business school"
+},
+{
+"name": "EMLV - École de management Léonard de Vinci",
+"city": "Paris La Défense",
+"category": "Business school"
+},
+{
+"name": "ESC Amiens",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "ESCE - École supérieure du commerce extérieur",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ESCP Business School",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ESSCA School of Management",
+"city": "Angers",
+"category": "Business school"
+},
+{
+"name": "ESSEC Business School - Cergy-Pontoise",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "Excelia Group",
+"city": "La Rochelle",
+"category": "Business school"
+},
+{
+"name": "Grenoble École de management",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "HEC Paris - Jouy-en-Josas",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "HEIP - Hautes études internationales et politiques",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ICN Business School ARTEM",
+"city": "Nancy",
+"category": "Business school"
+},
+{
+"name": "IDRAC Business School",
+"city": "Lyon",
+"category": "Business school"
+},
+{
+"name": "IÉSEG - School of Management",
+"city": "Lille",
+"category": "Business school"
+},
+{
+"name": "INSEAD - Institut européen d’administration des affaires",
+"city": "Fontainebleau",
+"category": "Business school"
+},
+{
+"name": "INSEEC",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "Institut Mines-Télécom Business School",
+"city": "Évry",
+"category": "Business school"
+},
+{
+"name": "IPAC Bachelor Factory - Levallois-Perret",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "IPAG Business School",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "IRIS Sup’ - Institut de relations internationales et stratégiques",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ISC Paris",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "ISCOM - Institut supérieur de communication et publicité",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ISUGA - Ecole supérieure internationale",
+"city": "Quimper",
+"category": "Business school"
+},
+{
+"name": "ISG - Institut supérieur de gestion",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ISIT - Institut de management et de communication interculturels",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "ISTEC - École supérieure de commerce et de marketing",
+"city": "Paris",
+"category": "Business school"
+},
+{
+"name": "KEDGE Business School",
+"city": "Talence",
+"category": "Business school"
+},
+{
+"name": "Montpellier Business School",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "NEOMA Business School - Mont-Saint-Aignan",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "PSB",
+"city": "Paris School of Business",
+"category": "Business school"
+},
+{
+"name": "Rennes School of Business",
+"city": "",
+"category": "Business school"
+},
+{
+"name": "SKEMA Business School",
+"city": "Euralille",
+"category": "Business school"
+},
+{
+"name": "South Champagne Business School",
+"city": "Troyes",
+"category": "Business school"
+},
+{
+"name": "TBS",
+"city": "Toulouse Business School",
+"category": "Business school"
+},
+{
+"name": "3iS - Institut international de l’image et du son",
+"city": "Élancourt",
+"category": "Art, design & fashion"
+},
+{
+"name": "Académie Charpentier-Architecture intérieure",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Académie internationale de coupe de",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ACTE Académie - École de maquillage professionnel",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ARTFX",
+"city": "Montpellier",
+"category": "Art, design & fashion"
+},
+{
+"name": "Atelier Chardon Savard - École de mode et de stylisme",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Autograf - L’école des créateurs d’avenir",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "BESIGN The Sustainable Design School - Cagnes-sur-Mer",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "CEFEDEM de Normandie - Mont-Saint-Aignan",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "Com’Art - École de design",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Conservatoire libre du cinéma français",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Conservatoire national supérieur d’art dramatique",
+"city": "PSL",
+"category": "Art, design & fashion"
+},
+{
+"name": "Conservatoire national supérieur de musique et de danse de Lyon",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "Cours Florent",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "CREAPOLE - École de design",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "EAC - École des métiers de la culture, du luxe et du marché de l’art",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "École Brassart - Illustration, animation, jeu vidéo",
+"city": "Tours",
+"category": "Art, design & fashion"
+},
+{
+"name": "École Camondo - Architecture intérieure et design",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "École de Condé - École de design",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "École de design Nantes Atlantique",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "École du Louvre",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "École Émile Cohl - Illustration, dessin animé, jeu vidéo",
+"city": "Lyon",
+"category": "Art, design & fashion"
+},
+{
+"name": "École Intuit.Lab - École de design",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "École nationale supérieure des arts décoratifs",
+"city": "PSL",
+"category": "Art, design & fashion"
+},
+{
+"name": "École supérieure d’art | Dunkerque-Tourcoing",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "ÉSEC - École supérieure d’études cinématographiques",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "École supérieure d’art mural de Versailles",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "École supérieure des Beaux-Arts de Nantes Saint-Nazaire",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "ECV - École de communication visuelle",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "EFET Photo",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "EFET Créa",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "EICAR - The International Film & Television School",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ESAM design (École supérieure des arts modernes)",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ESDAC - École de design",
+"city": "Montpellier",
+"category": "Art, design & fashion"
+},
+{
+"name": "ESMOD France",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ETPA - Écoles créatives, photographie, jeu vidéo",
+"city": "Montpellier",
+"category": "Art, design & fashion"
+},
+{
+"name": "Gobelins Paris",
+"city": "",
+"category": "Art, design & fashion"
+},
+{
+"name": "Groupe ESRA - Écoles supérieures pour les métiers du cinéma, de l’audiovisuel, du son et du film d’animation",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "IBSM Mode & Marketing",
+"city": "Bordeaux",
+"category": "Art, design & fashion"
+},
+{
+"name": "ICART",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "IESA - Institut d’études supérieures des arts",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "IIM Digital School",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Institut français de la mode",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Institut national du patrimoine",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ISART Digital - École du jeu vidéo et de l’animation 3D-FX",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "ISIPCA / LA FABRIQUE",
+"city": "École Supérieure de la",
+"category": "Art, design & fashion"
+},
+{
+"name": "Istituto Marangoni - École de mode",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Itecom art design - École des métiers de la création et du digital",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "L’École multimédia - Tous les métiers du numérique",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "L’Institut supérieur des arts appliqués",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "La Fémis - École nationale supérieure des métiers de l’image et du son",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Mod’Art International - École de mode",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "MOD’SPE Paris",
+"city": "Institut supérieur spécial de la mode",
+"category": "Art, design & fashion"
+},
+{
+"name": "Penninghen - École de direction artistique et d’architecture intérieure",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "RUBIKA - Animation, jeu vidéo, design",
+"city": "Valenciennes",
+"category": "Art, design & fashion"
+},
+{
+"name": "SAE Institute - École d’audiovisuel et jeu vidéo",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Spéos",
+"city": "Paris Photographic Institute",
+"category": "Art, design & fashion"
+},
+{
+"name": "Strate école de design",
+"city": "Paris",
+"category": "Art, design & fashion"
+},
+{
+"name": "Supdemod - École de la mode et du luxe",
+"city": "Lyon",
+"category": "Art, design & fashion"
+},
+{
+"name": "École d’architecture de la ville & des territoires Paris-Est",
+"city": "Marne-la-Vallée",
+"category": "Architecture school"
+},
+{
+"name": "École nationale supérieure d’architecture de Marseille",
+"city": "",
+"category": "Architecture school"
+},
+{
+"name": "École nationale supérieure d’architecture de Normandie Rouen",
+"city": "",
+"category": "Architecture school"
+},
+{
+"name": "École nationale supérieure d’architecture de Strasbourg",
+"city": "",
+"category": "Architecture school"
+},
+{
+"name": "École nationale supérieure d’architecture de Versailles",
+"city": "",
+"category": "Architecture school"
+},
+{
+"name": "École nationale supérieure d’architecture et de paysage de Lille",
+"city": "",
+"category": "Architecture school"
+},
+{
+"name": "École nationale supérieure d’architecture Paris-Malaquais",
+"city": "PSL",
+"category": "Architecture school"
+},
+{
+"name": "École spéciale d’architecture",
+"city": "Paris",
+"category": "Architecture school"
+},
+{
+"name": "Accent français",
+"city": "Montpellier",
+"category": "Language school"
+},
+{
+"name": "Accord - École de langues",
+"city": "Paris",
+"category": "Language school"
+},
+{
+"name": "Alliance française Aix-Marseille Provence",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française Bordeaux Nouvelle-Aquitaine",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française d’Annecy",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française de Lyon",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française de Nice",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française de Normandie",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française de Paris Île-de-France",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alliance française Strasbourg Europe",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Alpha. B",
+"city": "Nice",
+"category": "Language school"
+},
+{
+"name": "Azurlingua",
+"city": "Nice",
+"category": "Language school"
+},
+{
+"name": "CAVILAM Alliance française - Centre d’approches vivantes des langues et des médias",
+"city": "Vichy",
+"category": "Language school"
+},
+{
+"name": "Centre international de langue française d’Annecy",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "CIEL Bretagne",
+"city": "Le Relecq-Kerhuon",
+"category": "Language school"
+},
+{
+"name": "Cours de civilisation française de la Sorbonne",
+"city": "Paris",
+"category": "Language school"
+},
+{
+"name": "French in Normandy",
+"city": "Rouen",
+"category": "Language school"
+},
+{
+"name": "Inflexyon",
+"city": "Lyon",
+"category": "Language school"
+},
+{
+"name": "Institut de Touraine",
+"city": "Tours",
+"category": "Language school"
+},
+{
+"name": "Institut européen de français",
+"city": "Montpellier",
+"category": "Language school"
+},
+{
+"name": "Institut français des Alpes",
+"city": "Annecy",
+"category": "Language school"
+},
+{
+"name": "Institut Stralang",
+"city": "Strasbourg",
+"category": "Language school"
+},
+{
+"name": "Institut supérieur de propédeutique d’Amiens",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Langue onze Toulouse",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "LSF Montpellier",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Lyon bleu international",
+"city": "",
+"category": "Language school"
+},
+{
+"name": "Millefeuille Provence",
+"city": "Saint-Geniès-de-Comolas",
+"category": "Language school"
+},
+{
+"name": "Facultés libres de l’Ouest",
+"city": "Angers",
+"category": "Catholic institute"
+},
+{
+"name": "ICES - Institut catholique de Vendée - La Roche-sur-Yon",
+"city": "",
+"category": "Catholic institute"
+},
+{
+"name": "Institut catholique de Lille",
+"city": "",
+"category": "Catholic institute"
+},
+{
+"name": "Institut catholique de Lyon",
+"city": "",
+"category": "Catholic institute"
+},
+{
+"name": "Institut catholique de",
+"city": "Paris",
+"category": "Catholic institute"
+},
+{
+"name": "Institut catholique de Toulouse",
+"city": "",
+"category": "Catholic institute"
+},
+{
+"name": "École Ducasse",
+"city": "Meudon",
+"category": "Hospitality & culinary"
+},
+{
+"name": "École Ferrières",
+"city": "Ferrières-en-Brie",
+"category": "Hospitality & culinary"
+},
+{
+"name": "École Lenôtre",
+"city": "Rungis",
+"category": "Hospitality & culinary"
+},
+{
+"name": "École Ritz Escoffier",
+"city": "Paris",
+"category": "Hospitality & culinary"
+},
+{
+"name": "École supérieure internationale de Savignac",
+"city": "",
+"category": "Hospitality & culinary"
+},
+{
+"name": "FERRANDI - École française de gastronomie et de management hôtelier",
+"city": "Paris",
+"category": "Hospitality & culinary"
+},
+{
+"name": "INBP - Institut national de la boulangerie pâtisserie",
+"city": "Rouen",
+"category": "Hospitality & culinary"
+},
+{
+"name": "Institut Lyfe",
+"city": "Écully",
+"category": "Hospitality & culinary"
+},
+{
+"name": "Le cordon bleu",
+"city": "Paris",
+"category": "Hospitality & culinary"
+},
+{
+"name": "Vatel - École internationale du management, de l’hôtellerie et du tourisme",
+"city": "Lyon",
+"category": "Hospitality & culinary"
+},
+{
+"name": "Aivancity",
+"city": "Cachan",
+"category": "Other specialised school"
+},
+{
+"name": "CCI Campus Alsace",
+"city": "Strasbourg",
+"category": "Other specialised school"
+},
+{
+"name": "CFJ - Centre de formation des journalistes",
+"city": "Paris",
+"category": "Other specialised school"
+},
+{
+"name": "École supérieure du parfum et de la cosmétique",
+"city": "Paris",
+"category": "Other specialised school"
+},
+{
+"name": "EPITECH",
+"city": "Paris",
+"category": "Other specialised school"
+},
+{
+"name": "France éducation international",
+"city": "Sèvres",
+"category": "Other specialised school"
+},
+{
+"name": "Groupe ESPI - École supérieure des professions immobilières",
+"city": "Paris",
+"category": "Other specialised school"
+},
+{
+"name": "Institut d’ostéopathie de Bordeaux",
+"city": "",
+"category": "Other specialised school"
+},
+{
+"name": "Institut supérieur de rééducation psychomotrice",
+"city": "Paris",
+"category": "Other specialised school"
+},
+{
+"name": "CNED - Centre national d’enseignement à distance",
+"city": "Chasseneuil-du-Poitou/Futuroscope",
+"category": "Distance learning"
+}
+]

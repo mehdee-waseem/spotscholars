@@ -79,7 +79,7 @@ export default function Contact() {
                   <a href={href} target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded-xl p-2 transition hover:bg-navy-50">
                     <span className="grid h-10 w-10 place-items-center rounded-full bg-navy text-white"><Icon width={18} height={18} /></span>
                     <span><span className="block font-semibold text-navy-900">{label}</span>
-                      <span className="text-sm text-slate-500">{label === 'Email' ? LINKS.email : label === 'WhatsApp' ? 'Join the community' : '@spotscholars'}</span></span>
+                      <span className="text-sm text-slate-500">{label === 'Email' ? LINKS.email : label === 'WhatsApp' ? 'Join the community' : label === 'Facebook group' ? 'Study in France community' : label === 'YouTube' ? '@balteeWaseem' : '@spotscholars'}</span></span>
                   </a>
                 </li>
               ))}

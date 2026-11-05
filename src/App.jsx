@@ -10,6 +10,7 @@ const Programs = lazy(() => import('./pages/Programs'));
 const Universities = lazy(() => import('./pages/Universities'));
 const Guide = lazy(() => import('./pages/Guide'));
 const Contact = lazy(() => import('./pages/Contact'));
+const Resources = lazy(() => import('./pages/Resources'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const TITLES = {
@@ -17,6 +18,7 @@ const TITLES = {
   '/scholarships': 'Scholarships – SpotScholars',
   '/programs': 'English-taught programs – SpotScholars',
   '/universities': 'Universities in France – SpotScholars',
+  '/resources': 'Resources & videos – SpotScholars',
   '/contact': 'Contact – SpotScholars'
 };
 
@@ -44,6 +46,7 @@ export default function App() {
               <Route path="/programs" element={<Programs />} />
               <Route path="/universities" element={<Universities />} />
               <Route path="/guide/:slug" element={<Guide />} />
+              <Route path="/resources" element={<Resources />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

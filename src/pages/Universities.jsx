@@ -6,6 +6,7 @@ import Loader from '../components/Loader';
 import { useData } from '../lib/api';
 import { useFilters, matches, unique } from '../lib/useFilters';
 import { External, Pin } from '../components/Icons';
+import ForumDirectory from '../components/ForumDirectory';
 
 export default function Universities() {
   const { data, loading } = useData('universities');
@@ -23,7 +24,7 @@ export default function Universities() {
   return (
     <>
       <PageHeader eyebrow="Universities" title="Universities & schools in France">
-        Public universities, engineering schools, grandes écoles and business schools that welcome international students.
+        Public universities, engineering schools, grandes écoles and business schools that welcome international students — plus the full list of all 369 Campus France Forum institutions.
       </PageHeader>
       <div className="container-x">
         <FilterBar {...f} placeholder="Search by name, city or subject…" count={list.length}
@@ -50,6 +51,7 @@ export default function Universities() {
             ))}
           </div>
         )}
+        <ForumDirectory />
       </div>
     </>
   );

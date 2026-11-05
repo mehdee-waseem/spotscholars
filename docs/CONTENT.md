@@ -85,3 +85,21 @@ To add a new guide, add an entry to `GUIDES` in `guides.js` and to `GUIDE_NAV` i
 - [ ] Tuition fees for non-EU students
 - [ ] Visa validation and residence permit fees
 - [ ] Remove programmes that have closed
+
+## Links & videos — `src/data/resources.js`
+
+- `RESOURCE_GROUPS`: each group has `title`, optional `intro` and `items` (`name`, `text`, `url`, optional `highlight: true`). Add a link by copying one item.
+- `FEATURED_VIDEO`: the big video on the home and Resources pages. Change `id` to the part after `watch?v=` in the YouTube link.
+- `VIDEOS`: smaller video cards. `topic` creates the filter buttons.
+
+## Deadline banner — `src/lib/links.js` → `ALERTS`
+
+```js
+{ until: '2027-01-08', text: 'Eiffel nominations close soon — talk to your university now.', to: '/scholarships?q=eiffel', cta: 'Read more' }
+```
+
+The orange banner shows a countdown on the home page and disappears automatically after the `until` date.
+
+## Institution directory — `src/data/forum-members.json`
+
+The full Campus France Forum list (369 institutions, October 2026), shown at the bottom of the Universities page. Each entry: `name`, `city`, `category`. Replace the file when Campus France publishes a new list.

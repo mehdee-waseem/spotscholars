@@ -8,9 +8,12 @@ import { useFilters, matches, unique } from '../lib/useFilters';
 import { External, Pin, Info } from '../components/Icons';
 
 const SEARCH_TOOLS = [
-  { name: 'Campus France – programmes taught in English', text: 'The official catalogue of programmes taught fully in English. Start here.', url: 'https://taughtie.campusfrance.org/' },
+  { name: 'Campus France – programmes taught in English', text: 'About 1,600 programmes fully in English. Start here.', url: 'https://taughtie.campusfrance.org/tiesearch/#/catalog' },
+  { name: 'Mon Master', text: 'Every national Master\'s degree in France — some not visible in other catalogues.', url: 'https://www.monmaster.gouv.fr/' },
+  { name: 'Network n+i', text: 'Apply once to 50+ engineering schools.', url: 'https://www.nplusi.com/' },
   { name: 'Erasmus Mundus catalogue', text: 'Fully funded joint Master\'s across Europe — filter by France.', url: 'https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en' },
-  { name: 'Campus France Pakistan', text: 'Études en France platform, procedures and events for Pakistani students.', url: 'https://www.pakistan.campusfrance.org/' }
+  { name: 'Campus France – programmes in French', text: 'The general catalogue, for French-taught programmes.', url: 'https://cataloguelm.campusfrance.org/' },
+  { name: 'Campus France Pakistan', text: 'Études en France platform, procedures and events for Pakistani students.', url: 'https://www.pakistan.campusfrance.org/find-your-program' }
 ];
 
 export default function Programs() {
@@ -54,6 +57,7 @@ export default function Programs() {
                     {p.uni && <span className="inline-flex items-center gap-1"><Pin width={14} height={14} />{p.uni.city}</span>}
                     <span>Apply via: {p.route}</span>
                   </p>
+                  {p.note && <p className="mt-1.5 text-xs font-medium text-orange-600">{p.note}</p>}
                 </div>
                 <a href={p.link} target="_blank" rel="noreferrer" className="btn-ghost justify-self-start">Visit <External width={16} height={16} /></a>
               </article>
@@ -63,7 +67,7 @@ export default function Programs() {
 
         <section className="mt-14">
           <h2 className="text-2xl font-bold">Search every English-taught programme</h2>
-          <p className="mt-2 max-w-2xl">Our list is a starting point. Use these official search engines to see everything available, then come back to check scholarships.</p>
+          <p className="mt-2 max-w-2xl">Our list is a starting point. Use these official search engines to see everything available, then come back to check scholarships. More tools on the <Link to="/resources" className="font-medium text-navy underline decoration-orange">Resources page</Link>.</p>
           <div className="mt-6 grid gap-5 md:grid-cols-3">
             {SEARCH_TOOLS.map(t => (
               <a key={t.url} href={t.url} target="_blank" rel="noreferrer" className="card group p-6 transition hover:-translate-y-0.5 hover:border-orange">

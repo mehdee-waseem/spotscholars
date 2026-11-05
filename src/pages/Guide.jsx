@@ -17,6 +17,22 @@ function Block({ b }) {
       ))}
     </ol>
   );
+  if (b.table) return (
+    <div className="mb-5 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+      <table className="w-full min-w-[420px] text-left text-sm">
+        <thead className="bg-navy-50 text-navy-900">
+          <tr>{b.table.head.map((h, i) => <th key={i} className="px-4 py-2.5 font-semibold">{h}</th>)}</tr>
+        </thead>
+        <tbody>
+          {b.table.rows.map((r, i) => (
+            <tr key={i} className="border-t border-slate-100">
+              {r.map((c, j) => <td key={j} className={`px-4 py-2.5 ${j === 0 ? 'font-medium text-navy-900' : ''}`}>{c}</td>)}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
   if (b.note) return (
     <p className="!mb-4 flex gap-3 rounded-xl border-l-4 border-orange bg-orange-50 p-4 text-sm">
       <Info className="mt-0.5 shrink-0 text-orange-600" width={18} height={18} /><span>{b.note}</span>
@@ -28,7 +44,7 @@ function Block({ b }) {
 export default function Guide() {
   const { slug } = useParams();
   const g = GUIDES[slug];
-  if (!g) return <Navigate to="/guide/admissions" replace />;
+  if (!g) return <Navigate to="/guide/pakistan" replace />;
   const idx = GUIDE_NAV.findIndex(n => n.slug === slug);
   const next = GUIDE_NAV[idx + 1];
 
