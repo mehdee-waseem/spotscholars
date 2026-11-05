@@ -66,7 +66,11 @@ export default function Catalogue() {
       (!field || r.fields.includes(field)) &&
       (!levelGroup || levelGroup.levels.includes(r.level)) &&
       (!region || r.region === region)
-    ).sort((a, b) => a.title.localeCompare(b.title));
+    ).sort((a, b) => {
+      // Programmes whose MAIN (first-listed) subject matches the filter come first.
+      const main = r => (field ? r.fields[0] === field : group ? group.fields.includes(r.fields[0]) : true) ? 0 : 1;
+      return main(a) - main(b) || a.title.localeCompare(b.title);
+    });
   }, [data, params]);
 
   if (loading) return <Loader />;
