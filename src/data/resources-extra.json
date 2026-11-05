@@ -1,0 +1,1014 @@
+[
+ {
+  "id": "portals",
+  "title": "University application portals (eCandidat & co.)",
+  "intro": "Many French universities use their own portal — usually eCandidat — instead of Études en France. Portals open and close each year.",
+  "items": [
+   {
+    "name": "Université de Lille — eCandidat",
+    "text": "Apply to Lille programmes.",
+    "url": "https://ecandidat-2025.univ-lille.fr/#!offreFormationView"
+   },
+   {
+    "name": "Université Paris Cité — eCandidat (sciences)",
+    "text": "Apply to science Master's.",
+    "url": "https://ecandidat.app.u-paris.fr/sciences1/#!offreFormationView"
+   },
+   {
+    "name": "Aix-Marseille — eCandidat",
+    "text": "Apply to AMU programmes.",
+    "url": "https://candidatures.univ-amu.fr/candidatures/#!offreFormationView"
+   },
+   {
+    "name": "Lyon 2 — eCandidat",
+    "text": "Apply to Lyon 2 programmes.",
+    "url": "https://ecandidat.univ-lyon2.fr/"
+   },
+   {
+    "name": "Lyon 2 — application calendar",
+    "text": "Dates for each campaign.",
+    "url": "https://www.univ-lyon2.fr/formation/calendrier-des-campagnes-de-candidatures-2025-2026"
+   },
+   {
+    "name": "Haute-Alsace — eCandidat",
+    "text": "Apply to UHA (Mulhouse).",
+    "url": "https://ecandidat.uha.fr/ecandidat/#!offreFormationView"
+   },
+   {
+    "name": "Gustave Eiffel — eCandidat",
+    "text": "Apply to Gustave Eiffel programmes.",
+    "url": "https://candidatures.univ-eiffel.fr/ecandidat/#!offreFormationView"
+   },
+   {
+    "name": "Franche-Comté — eCandidat",
+    "text": "Apply to Besançon programmes.",
+    "url": "https://scolarite.univ-fcomte.fr/ecandidat/#!offreFormationView"
+   },
+   {
+    "name": "Franche-Comté — admission procedures",
+    "text": "How to apply.",
+    "url": "https://admission.univ-fcomte.fr/procedure.php"
+   },
+   {
+    "name": "Dauphine-PSL — MyCandidature",
+    "text": "Dauphine's application platform.",
+    "url": "https://candidatures.dauphine.fr/mycandidature/front/#!/"
+   },
+   {
+    "name": "Paris-Saclay — Inception",
+    "text": "Paris-Saclay's Master's application platform.",
+    "url": "https://inception.universite-paris-saclay.fr/fr/"
+   },
+   {
+    "name": "Grenoble INP — online application",
+    "text": "Application forms for Grenoble INP Master's.",
+    "url": "https://applicationform.grenoble-inp.fr/FSA/79"
+   },
+   {
+    "name": "EURECOM — admissions",
+    "text": "Apply to EURECOM.",
+    "url": "https://admission.eurecom.fr/"
+   },
+   {
+    "name": "École Polytechnique — online application",
+    "text": "Graduate Degree applications.",
+    "url": "https://candidatures.polytechnique.fr/candidatures/logincandidature/index.php?cursus=MI"
+   },
+   {
+    "name": "Université d'Orléans — apply via Mon Master",
+    "text": "Orléans uses Mon Master.",
+    "url": "https://www.univ-orleans.fr/fr/univ/formation/candidature-et-inscription/candidater-sur-monmaster"
+   },
+   {
+    "name": "Lyon 1 — how international students apply",
+    "text": "Non-exchange international students.",
+    "url": "https://www.univ-lyon1.fr/formation/inscription-et-scolarite/inscription-candidats-internationaux-hors-echange-comment-candidater"
+   },
+   {
+    "name": "INSA Hauts-de-France — application",
+    "text": "Apply to INSA HdF / IT4SSM.",
+    "url": "https://www.insa-hautsdefrance.fr/formation/candidature-inscription/candidature"
+   },
+   {
+    "name": "Études en France — training catalogue",
+    "text": "Browse the programmes inside the EEF catalogue.",
+    "url": "https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/pageCatalogueFormation.html?sctxid=1-83f04d0548&_csrf=792bee30-4b32-4338-be73-7dd00efd7c3a#linkAnnee"
+   },
+   {
+    "name": "Campus France — Études en France procedure",
+    "text": "Official explanation (French).",
+    "url": "https://www.campusfrance.org/fr/candidature-procedure-etudes-en-france"
+   },
+   {
+    "name": "Campus France — University application dates",
+    "text": "Typical application calendar.",
+    "url": "https://www.southafrica.campusfrance.org/university-application-dates"
+   }
+  ],
+  "merge": false
+ },
+ {
+  "id": "research",
+  "title": "PhD & research",
+  "intro": "",
+  "items": [
+   {
+    "name": "Campus France — PhD, Master internship & postdoc offers",
+    "text": "Live offers in French labs.",
+    "url": "https://doctorat.campusfrance.org/phd/offers"
+   },
+   {
+    "name": "Campus France — doctoral schools directory",
+    "text": "Every French doctoral school.",
+    "url": "https://doctorat.campusfrance.org/phd/dschools/main"
+   },
+   {
+    "name": "Campus France — how to enrol in a doctorate",
+    "text": "Step by step.",
+    "url": "https://www.campusfrance.org/en/how-to-enrol-Doctorate-France"
+   },
+   {
+    "name": "Academic Positions — PhD jobs in France",
+    "text": "Funded PhD positions.",
+    "url": "https://academicpositions.fr/jobs/position/phd/country/france"
+   },
+   {
+    "name": "Academic Positions — PhD jobs worldwide",
+    "text": "English-language PhD positions.",
+    "url": "https://academicpositions.com/jobs/position/phd?languages%5B0%5D=en"
+   },
+   {
+    "name": "PhDportal — PhD programmes in France",
+    "text": "Search PhD programmes.",
+    "url": "https://www.phdportal.com/search/phd/france"
+   },
+   {
+    "name": "FindAPhD — PhD study in France guide",
+    "text": "How PhDs work in France.",
+    "url": "https://www.findaphd.com/guides/phd-study-in-france/"
+   },
+   {
+    "name": "FindAPhD — fully funded PhDs for internationals",
+    "text": "Search funded projects.",
+    "url": "https://www.findaphd.com/phds/?Keywords=fully+funded+phd+for+international+students"
+   },
+   {
+    "name": "Inria — PhD offers",
+    "text": "Computer science & applied maths PhDs.",
+    "url": "https://jobs.inria.fr/public/classic/fr/offres?filtre=doctorants"
+   },
+   {
+    "name": "CNRS — job offers",
+    "text": "Research jobs and PhD contracts.",
+    "url": "https://emploi.cnrs.fr/Offres.aspx"
+   },
+   {
+    "name": "INRAE — understanding a PhD in France",
+    "text": "Guide for international PhD students.",
+    "url": "https://guide-for-international-scientists.inrae.fr/working-at-inrae/contractual-phd-students/undertaking-a-phd-in-france/"
+   },
+   {
+    "name": "PRAIRIE Institute (Paris AI)",
+    "text": "AI research institute — PhD and research.",
+    "url": "https://prairie-institute.fr/"
+   },
+   {
+    "name": "ANDès — national association of PhDs",
+    "text": "Promoting the doctorate in France.",
+    "url": "https://andes.asso.fr/"
+   },
+   {
+    "name": "UGA doctoral college — enrolment",
+    "text": "Administrative registration for PhDs.",
+    "url": "https://doctorat.univ-grenoble-alpes.fr/preparing-a-phd/doctorate-enrolment/to-register-administratively-890540.kjsp?RH=1610026339334"
+   },
+   {
+    "name": "European University Institute — doctoral programmes",
+    "text": "Funded PhDs in social sciences (Florence).",
+    "url": "https://www.eui.eu/en/services/academic-service/doctoral-programme"
+   },
+   {
+    "name": "Research opportunities in Europe (EU)",
+    "text": "Overview from the European Education Area.",
+    "url": "https://education.ec.europa.eu/news/research-opportunities-in-europe"
+   },
+   {
+    "name": "French Ministry — research excellence",
+    "text": "Overview of French research.",
+    "url": "https://www.enseignementsup-recherche.gouv.fr/fr/excellence-recherche-francaise"
+   },
+   {
+    "name": "PSL — UROP undergraduate research internships",
+    "text": "Research internships from Bachelor level.",
+    "url": "https://psl.eu/en/education/keys-academic-success/urop-internships-research-experience-undergraduate-level"
+   }
+  ],
+  "merge": true
+ },
+ {
+  "id": "labs",
+  "title": "Research labs (for internships, PhDs and contacting professors)",
+  "intro": "Labs that host Master's interns and PhD students — mainly computer science, networks, IoT and electronics.",
+  "items": [
+   {
+    "name": "LAMIH (Valenciennes)",
+    "text": "Automation, mechanics, computer science.",
+    "url": "https://www.uphf.fr/lamih/presentation/qui-sommes-nous"
+   },
+   {
+    "name": "LS2N (Nantes)",
+    "text": "Digital sciences lab.",
+    "url": "https://www.ls2n.fr/?lang=en"
+   },
+   {
+    "name": "ETIS (Cergy)",
+    "text": "Information & signal processing.",
+    "url": "https://www.etis-lab.fr/"
+   },
+   {
+    "name": "IETR (Rennes)",
+    "text": "Electronics & digital technologies.",
+    "url": "https://www.ietr.fr/en"
+   },
+   {
+    "name": "LAAS-CNRS (Toulouse)",
+    "text": "Systems analysis & architecture.",
+    "url": "https://www.laas.fr/en/"
+   },
+   {
+    "name": "LIRMM (Montpellier)",
+    "text": "Computer science, robotics, microelectronics.",
+    "url": "https://www.lirmm.fr/"
+   },
+   {
+    "name": "IES (Montpellier)",
+    "text": "Electronics & systems.",
+    "url": "https://www.ies.umontpellier.fr/"
+   },
+   {
+    "name": "i3S (Nice)",
+    "text": "Communications, networks, embedded systems.",
+    "url": "https://www.i3s.univ-cotedazur.fr/en/research-areas/comred"
+   },
+   {
+    "name": "IRIF (Paris)",
+    "text": "Foundations of computer science — Master internships.",
+    "url": "https://www.irif.fr/postes/stage#specific_openings"
+   },
+   {
+    "name": "DIENS — ENS computer science",
+    "text": "ENS Paris CS department.",
+    "url": "https://www.di.ens.fr/laboratory"
+   },
+   {
+    "name": "ENS Data Science Centre",
+    "text": "PSL data science.",
+    "url": "https://csd.ens.psl.eu/?Presentation-du-CDD"
+   },
+   {
+    "name": "Master IASD internship proposals",
+    "text": "Internship list (AI & data).",
+    "url": "https://www.masteriasd.eu/en/stages-propositions/"
+   },
+   {
+    "name": "LIP — ENS Lyon",
+    "text": "Parallel computing & algorithms research.",
+    "url": "https://www.ens-lyon.fr/LIP/index.php/research"
+   },
+   {
+    "name": "Gipsa-lab (Grenoble)",
+    "text": "Signal, image, automation.",
+    "url": "https://www.gipsa-lab.grenoble-inp.fr/"
+   },
+   {
+    "name": "Grenoble INP — LabEx & research labs",
+    "text": "All Grenoble INP labs.",
+    "url": "https://www.grenoble-inp.fr/en/research/laboratories-of-excellence-labex"
+   },
+   {
+    "name": "LCIS (Valence)",
+    "text": "Embedded systems & security.",
+    "url": "https://lcis.fr/"
+   },
+   {
+    "name": "LIS (Marseille)",
+    "text": "Computer science & systems.",
+    "url": "https://www.lis-lab.fr/"
+   },
+   {
+    "name": "Lab-STICC (Brest)",
+    "text": "Information & communication sciences.",
+    "url": "https://labsticc.fr/fr"
+   },
+   {
+    "name": "IRISA (Rennes)",
+    "text": "Computer science research departments.",
+    "url": "https://www.irisa.fr/departements-scientifiques-de-lirisa"
+   },
+   {
+    "name": "b<>com labs (Rennes)",
+    "text": "Applied research in digital tech.",
+    "url": "https://b-com.com/nous-connaitre/nos-labos"
+   },
+   {
+    "name": "Labex CominLabs",
+    "text": "Digital research projects in Brittany.",
+    "url": "https://cominlabs.inria.fr/filieres-projets-2/"
+   },
+   {
+    "name": "IBISC (Évry)",
+    "text": "Informatics, bio-informatics, complex systems.",
+    "url": "https://www.ibisc.univ-evry.fr/membre/"
+   },
+   {
+    "name": "Centrale Lyon — laboratories",
+    "text": "Research labs at Centrale Lyon.",
+    "url": "https://www.ec-lyon.fr/recherche-et-innovation/les-laboratoires"
+   },
+   {
+    "name": "Paris-Saclay — LISN",
+    "text": "Computer science lab at Paris-Saclay.",
+    "url": "https://www.universite-paris-saclay.fr/laboratoires/laboratoire-dinformatique-parallelisme-reseaux-algorithmes-distribues-li-parad"
+   },
+   {
+    "name": "Institut Néel (Grenoble)",
+    "text": "Condensed matter physics.",
+    "url": "https://neel.cnrs.fr/"
+   },
+   {
+    "name": "LEGOS (Toulouse)",
+    "text": "Space geophysics & oceanography.",
+    "url": "https://www.legos.omp.eu/en/homepage/"
+   },
+   {
+    "name": "Railenium",
+    "text": "Railway research institute.",
+    "url": "https://railenium.eu/"
+   },
+   {
+    "name": "Carnot ARTS",
+    "text": "Arts et Métiers research institute.",
+    "url": "https://www.ic-arts.eu/"
+   },
+   {
+    "name": "Collège de France — research",
+    "text": "Research at Collège de France.",
+    "url": "https://www.college-de-france.fr/fr/recherche"
+   },
+   {
+    "name": "UDICE — France's research universities",
+    "text": "Members of the research-intensive university alliance.",
+    "url": "https://www.udice.org/about-us/?lang=en/#our-members"
+   }
+  ],
+  "merge": false
+ },
+ {
+  "id": "careers",
+  "title": "Internships & careers",
+  "intro": "",
+  "items": [
+   {
+    "name": "France Alumni",
+    "text": "Network and job board for graduates of French institutions.",
+    "url": "https://www.francealumni.fr/en/"
+   },
+   {
+    "name": "France Alumni — partner companies",
+    "text": "Companies recruiting alumni.",
+    "url": "https://www.francealumni.fr/en/partners/companies"
+   },
+   {
+    "name": "France Alumni — French or English CV?",
+    "text": "How to write a French-style CV.",
+    "url": "https://www.francealumni.fr/fr/statique/cv-a-la-francaise-ou-a-l-anglaise-1984"
+   },
+   {
+    "name": "Campus France — how to find work in France",
+    "text": "After your studies.",
+    "url": "https://www.campusfrance.org/en/how-to-find-work-France"
+   },
+   {
+    "name": "Campus France — APS temporary residence permit",
+    "text": "Stay after graduating to find a job.",
+    "url": "https://www.campusfrance.org/en/temporary-resident-permit-aps"
+   },
+   {
+    "name": "Service-Public — can a non-EU student work?",
+    "text": "Your personal situation.",
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F2713/personnalisation/resultat?lang=&quest0=1&quest1=1&quest="
+   },
+   {
+    "name": "Jobaviz (CROUS student jobs)",
+    "text": "Official student job board.",
+    "url": "https://www.jobaviz.fr/rechercher-un-job-etudiant?sort=date_diffusion&limit=20&page=1"
+   },
+   {
+    "name": "étudiant.gouv — finding a student job",
+    "text": "Official guide.",
+    "url": "https://www.etudiant.gouv.fr/en/finding-student-job-904"
+   },
+   {
+    "name": "France Travail",
+    "text": "National employment service.",
+    "url": "https://www.francetravail.fr/accueil/"
+   },
+   {
+    "name": "Apec",
+    "text": "Jobs for graduates and executives.",
+    "url": "https://www.apec.fr/"
+   },
+   {
+    "name": "L'Etudiant — jobs, internships, alternance",
+    "text": "Student job board.",
+    "url": "https://jobs-stages.letudiant.fr/"
+   },
+   {
+    "name": "Welcome to the Jungle",
+    "text": "Startup and tech jobs and internships.",
+    "url": "https://www.welcometothejungle.com/fr"
+   },
+   {
+    "name": "CIDJ",
+    "text": "Studies, careers, jobs and internships.",
+    "url": "https://www.cidj.com/"
+   },
+   {
+    "name": "Onisep — towards employment",
+    "text": "Official careers guidance.",
+    "url": "https://www.onisep.fr/vers-l-emploi#stages-en-entreprises"
+   },
+   {
+    "name": "VIE / VIA — international volunteering",
+    "text": "Paid international assignments with French companies.",
+    "url": "https://mon-vie-via.businessfrance.fr/en"
+   },
+   {
+    "name": "Première Expérience Défense",
+    "text": "Internships in the French defence sector.",
+    "url": "https://stages.defense.gouv.fr/"
+   },
+   {
+    "name": "Piktalent — internships in France",
+    "text": "Eligibility and rules.",
+    "url": "https://piktalent.com/countries/france/eligibility-and-guidelines/"
+   },
+   {
+    "name": "Alternance (work-study) — étudiant.gouv",
+    "text": "Study while employed.",
+    "url": "https://www.etudiant.gouv.fr/fr/alternance"
+   },
+   {
+    "name": "Apprenticeship contract — Service-Public",
+    "text": "Rules for apprenticeships.",
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F2918"
+   },
+   {
+    "name": "Apprenticeship in France explained",
+    "text": "How the alternance system works.",
+    "url": "https://www.tironem.com/apprenticeship-in-france/"
+   },
+   {
+    "name": "UGA — work-study training",
+    "text": "Alternance at Université Grenoble Alpes.",
+    "url": "https://www.univ-grenoble-alpes.fr/formation/modalites-de-formation/formation-en-alternance/formation-en-alternance-576529.kjsp"
+   },
+   {
+    "name": "1jeune1solution",
+    "text": "Government portal for young people's jobs and aid.",
+    "url": "https://www.1jeune1solution.gouv.fr/mes-aides"
+   },
+   {
+    "name": "Pépite France",
+    "text": "Student entrepreneurship support.",
+    "url": "https://www.pepite-france.fr/en/"
+   },
+   {
+    "name": "Junior-Entreprises",
+    "text": "Student consulting companies.",
+    "url": "https://junior-entreprises.com/etudiants/"
+   },
+   {
+    "name": "La French Tech",
+    "text": "France's startup ecosystem.",
+    "url": "https://lafrenchtech.gouv.fr/"
+   },
+   {
+    "name": "Duo for a Job",
+    "text": "Mentoring for young job seekers.",
+    "url": "https://www.duoforajob.fr/fr/sengager/postuler-jobs-stages"
+   },
+   {
+    "name": "Minalogic — digital tech cluster",
+    "text": "Companies in IoT and digital tech (Auvergne-Rhône-Alpes).",
+    "url": "https://www.minalogic.com/en/"
+   },
+   {
+    "name": "Digital League — events",
+    "text": "Tech events in Auvergne-Rhône-Alpes.",
+    "url": "https://www.digital-league.org/events"
+   },
+   {
+    "name": "EDUC Alliance — research internships in Europe",
+    "text": "Research internships across EDUC universities.",
+    "url": "https://actu.univ-rennes.fr/en/highlights/research-internship-opportunities-europe-educ"
+   },
+   {
+    "name": "FlowCV — free CV builder",
+    "text": "Make a clean CV.",
+    "url": "https://flowcv.com/"
+   },
+   {
+    "name": "LeetCode",
+    "text": "Coding interview practice.",
+    "url": "https://leetcode.com/accounts/signup/"
+   },
+   {
+    "name": "Major League Hacking",
+    "text": "Student hackathons.",
+    "url": "https://mlh.io/"
+   },
+   {
+    "name": "Devpost",
+    "text": "Find hackathons.",
+    "url": "https://devpost.com/"
+   }
+  ],
+  "merge": true
+ },
+ {
+  "id": "life",
+  "title": "Student life, housing & money",
+  "intro": "",
+  "items": [
+   {
+    "name": "étudiant.gouv — financial aid for international students",
+    "text": "Official list of aid.",
+    "url": "https://www.etudiant.gouv.fr/fr/aides-financieres-pour-les-etudiants-internationaux-1663"
+   },
+   {
+    "name": "étudiant.gouv — financial support & grants",
+    "text": "All student grants.",
+    "url": "https://www.etudiant.gouv.fr/en/financial-support-and-grants-1663"
+   },
+   {
+    "name": "étudiant.gouv — regional aid",
+    "text": "Aid from each region.",
+    "url": "https://www.etudiant.gouv.fr/fr/aides-des-regions-et-des-outre-mer-2006"
+   },
+   {
+    "name": "étudiant.gouv — emergency aid",
+    "text": "Urgent financial help.",
+    "url": "https://www.etudiant.gouv.fr/fr/solliciter-une-aide-d-urgence-361"
+   },
+   {
+    "name": "CROUS — one-off emergency aid",
+    "text": "Apply for urgent help.",
+    "url": "https://dae.lescrous.fr/"
+   },
+   {
+    "name": "CROUS — appointments",
+    "text": "Book a CROUS appointment.",
+    "url": "https://mesrdv.lescrous.fr/fr"
+   },
+   {
+    "name": "CROUS network",
+    "text": "All CROUS services.",
+    "url": "https://www.lescrous.fr/"
+   },
+   {
+    "name": "Campus France — new CROUS conditions for internationals",
+    "text": "Read before applying for a CROUS room.",
+    "url": "https://www.campusfrance.org/en/crous-residences-implement-new-conditions-to-apply-for-accommodation-for-international-students"
+   },
+   {
+    "name": "Ministry — student aid",
+    "text": "Official aid overview.",
+    "url": "https://www.enseignementsup-recherche.gouv.fr/fr/aides-aux-etudiants-49892"
+   },
+   {
+    "name": "étudiant.gouv — housing for international students",
+    "text": "Official housing guide.",
+    "url": "https://www.etudiant.gouv.fr/fr/logement-pour-les-etudiants-internationaux-193"
+   },
+   {
+    "name": "Lokaviz",
+    "text": "Student housing listings.",
+    "url": "https://www.lokaviz.fr/"
+   },
+   {
+    "name": "Habitat Jeunes (FJT) residences",
+    "text": "Affordable young workers' & students' homes.",
+    "url": "https://www.habitatjeunes.org/logements/"
+   },
+   {
+    "name": "Adoma",
+    "text": "Social housing residences.",
+    "url": "https://www.adoma.cdc-habitat.fr/offres-residentielles/1924-paris-panorama-rja/"
+   },
+   {
+    "name": "Studélites",
+    "text": "Private student residences.",
+    "url": "https://www.studelites.com/fr/residences/paris-ile-de-france/noisy-le-grand-residence-pascal-2"
+   },
+   {
+    "name": "Chez l'habitant",
+    "text": "Rooms with local hosts.",
+    "url": "https://www.chez-l-habitant.com/"
+   },
+   {
+    "name": "Maison étudiante (Paris)",
+    "text": "Student life in Paris.",
+    "url": "https://maison-etudiante.paris/en/"
+   },
+   {
+    "name": "CAF — my procedures",
+    "text": "Apply for housing aid (APL).",
+    "url": "https://www.caf.fr/allocataires/aides-et-demarches/mes-demarches"
+   },
+   {
+    "name": "Izly",
+    "text": "Pay for CROUS meals on campus.",
+    "url": "https://www.izly.fr/"
+   },
+   {
+    "name": "Ameli — register (international students)",
+    "text": "Free health insurance sign-up.",
+    "url": "https://etudiant-etranger.ameli.fr/register/information"
+   },
+   {
+    "name": "Health on campus — étudiant.gouv",
+    "text": "Student health services.",
+    "url": "https://www.etudiant.gouv.fr/fr/la-sante-sur-les-campus-910"
+   },
+   {
+    "name": "CROUS Lille — complementary health aid",
+    "text": "Help paying for a mutuelle.",
+    "url": "https://www.crous-lille.fr/bourses-et-aides-financieres/ai-je-droit-a-dautres-aides/complementaire-sante-des-aides-pour-faciliter-un-meilleur-remboursement/"
+   },
+   {
+    "name": "CVEC — payment methods",
+    "text": "How to pay the CVEC.",
+    "url": "https://cvec.etudiant.gouv.fr/mode_paiement"
+   },
+   {
+    "name": "étudiant.gouv — student guide",
+    "text": "Everything about CVEC, aid and housing.",
+    "url": "https://www.etudiant.gouv.fr/fr/guide-de-letudiant#bsc"
+   },
+   {
+    "name": "ANEF — foreigners in France",
+    "text": "Visa validation and residence permits.",
+    "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+   },
+   {
+    "name": "France-Visas — my applications",
+    "text": "Track your visa application.",
+    "url": "https://application-form.france-visas.gouv.fr/fv-fo-dde/accueil.xhtml"
+   },
+   {
+    "name": "UGA — cost of living",
+    "text": "A detailed real-life budget.",
+    "url": "https://international.univ-grenoble-alpes.fr/getting-organized/budget/cost-of-living/cost-of-living-783898.kjsp?RH=1610018166719"
+   },
+   {
+    "name": "UGA — tips for finding accommodation",
+    "text": "Practical housing advice.",
+    "url": "https://international.univ-grenoble-alpes.fr/getting-organized/accommodation/looking-for-accommodation/tips-for-finding-accommodation/tips-for-finding-accommodation-783848.kjsp?RH=1610025605865"
+   },
+   {
+    "name": "UGA — housing allowance (CAF)",
+    "text": "How CAF works for internationals.",
+    "url": "https://international.univ-grenoble-alpes.fr/getting-organized/accommodation/housing-allowance-caf/housing-allowance-caf-783863.kjsp?RH=1607588768703"
+   },
+   {
+    "name": "UGA — health insurance for international students",
+    "text": "Step by step.",
+    "url": "https://international.univ-grenoble-alpes.fr/health-insurance-international-students/health-insurance-international-students-784552.kjsp?RH=1610026027352"
+   },
+   {
+    "name": "UGA — sworn translators",
+    "text": "Get official translations.",
+    "url": "https://international.univ-grenoble-alpes.fr/getting-organized/daily-life/sworn-translators/sworn-translators-788547.kjsp"
+   },
+   {
+    "name": "Buddy System",
+    "text": "Get matched with a local student buddy.",
+    "url": "https://buddysystem.eu/en/"
+   },
+   {
+    "name": "Ministry — studying in France",
+    "text": "Official overview.",
+    "url": "https://www.diplomatie.gouv.fr/en/coming-to-france/studying-in-france/finance-your-studies-scholarships/"
+   },
+   {
+    "name": "Campus France India — financial documents FAQ",
+    "text": "Which financial documents you need.",
+    "url": "https://www.inde.campusfrance.org/faq/what-all-financial-documents-will-be-required"
+   },
+   {
+    "name": "Schengen Visa Info — sponsorship letter sample",
+    "text": "Template for a sponsor letter.",
+    "url": "https://www.schengenvisainfo.com/sponsorship-letter/"
+   },
+   {
+    "name": "Campus France Pakistan — types of visas",
+    "text": "Every French visa type.",
+    "url": "https://www.pakistan.campusfrance.org/the-different-types-of-visas"
+   },
+   {
+    "name": "French visa process for Pakistani students (blog)",
+    "text": "A student's step-by-step account.",
+    "url": "https://faizanhayat.com/french-visa-application-and-process-for-pakistani-students/"
+   },
+   {
+    "name": "THE — cost of studying in France",
+    "text": "Overview of costs.",
+    "url": "https://www.timeshighereducation.com/student/advice/cost-studying-university-france"
+   },
+   {
+    "name": "Cheapest universities in France",
+    "text": "List of lower-cost options.",
+    "url": "https://scholarsavenue.com/cheapest-universities-in-france/?utm_source=chatgpt.com"
+   }
+  ],
+  "merge": true
+ },
+ {
+  "id": "french",
+  "title": "Learn French",
+  "intro": "",
+  "items": [
+   {
+    "name": "FrenchClasses — beginner course",
+    "text": "Free beginner listening lessons.",
+    "url": "https://www.frenchclasses.com/category/listen/beginners/"
+   },
+   {
+    "name": "TV5 Monde — A1 vocabulary exercises",
+    "text": "Interactive exercises.",
+    "url": "https://apprendre.tv5monde.com/fr/exercice/18358?id_serie=12319&nom_serie=vocabulaire_l_etat_civil&niveau=a1_debutant&exercice=3"
+   },
+   {
+    "name": "French visual vocabulary",
+    "text": "Learn words with pictures.",
+    "url": "https://www.languageguide.org/french/vocabulary/"
+   },
+   {
+    "name": "50Languages",
+    "text": "Free phrasebook lessons.",
+    "url": "https://www.50languages.com/"
+   },
+   {
+    "name": "LingoHut",
+    "text": "Free French lessons.",
+    "url": "https://www.lingohut.com/en"
+   },
+   {
+    "name": "YouGlish — pronunciation",
+    "text": "Hear real French pronunciation.",
+    "url": "https://youglish.com/pronounce/les_amoureux/french"
+   },
+   {
+    "name": "Français Facile — free lessons by email",
+    "text": "A lesson in your inbox.",
+    "url": "https://www.francaisfacile.com/newlesson.php?id=2"
+   },
+   {
+    "name": "PrepMyFrench — TEF preparation",
+    "text": "Prepare for TEF.",
+    "url": "https://www.prepmyfrench.com/fr"
+   },
+   {
+    "name": "UJM — beginner French online course",
+    "text": "University online course.",
+    "url": "https://cilec.univ-st-etienne.fr/en/our-courses-and-exams/beginner-french-online-course.html"
+   },
+   {
+    "name": "French story for beginners (YouTube)",
+    "text": "Improve listening.",
+    "url": "https://www.youtube.com/watch?v=r3DNuRbQqzQ"
+   },
+   {
+    "name": "DUEF — Savoie Mont Blanc (ACCENTS)",
+    "text": "University Diploma in French Studies.",
+    "url": "https://www.univ-smb.fr/accents/formation/duef/"
+   },
+   {
+    "name": "ACCENTS — French certifications",
+    "text": "DELF, DALF and more.",
+    "url": "https://www.univ-smb.fr/accents/certification/"
+   },
+   {
+    "name": "DUEF — Université de Limoges",
+    "text": "University Diploma in French Studies.",
+    "url": "https://www.unilim.fr/mdl/formation-fle/duef/"
+   },
+   {
+    "name": "Council of Europe — language levels (CEFR)",
+    "text": "What A1–C2 means.",
+    "url": "https://www.coe.int/fr/web/language-policy/home"
+   }
+  ],
+  "merge": true
+ },
+ {
+  "id": "rankings",
+  "title": "Rankings & reviews",
+  "intro": "",
+  "items": [
+   {
+    "name": "L'Etudiant — engineering schools in computer science",
+    "text": "Ranking by speciality.",
+    "url": "https://www.letudiant.fr/classements/classement-des-ecoles-d-ingenieurs/specialites-proposees-informatique-et-systemes.html"
+   },
+   {
+    "name": "Campus France — France in international rankings",
+    "text": "Where French institutions rank.",
+    "url": "https://www.campusfrance.org/fr/la-place-de-la-france-dans-les-classements-internationaux"
+   },
+   {
+    "name": "CDEFI — list of engineering schools",
+    "text": "All accredited engineering schools.",
+    "url": "http://www.cdefi.fr/en/schools-of-engineering"
+   },
+   {
+    "name": "Campus France — finding the programme for you",
+    "text": "How to choose.",
+    "url": "https://www.campusfrance.org/en/finding-a-university-programme-France?utm_source=chatgpt.com"
+   },
+   {
+    "name": "WeMakeScholars — France scholarships",
+    "text": "Scholarship listings.",
+    "url": "https://www.wemakescholars.com/scholarships-to-study-in-france-for-international-students"
+   }
+  ],
+  "merge": true
+ },
+ {
+  "id": "skills",
+  "title": "Skill up (for CS & data students)",
+  "intro": "Free courses and practice sites that help with Master's applications and internships.",
+  "items": [
+   {
+    "name": "MIT — Introduction to Deep Learning",
+    "text": "Full lecture series.",
+    "url": "https://www.youtube.com/watch?v=6FkRvTtUc-o&list=PLUl4u3cNGP63URZnh5iqBzDTDYPUTQT-8&index=1"
+   },
+   {
+    "name": "StatQuest — machine learning playlist",
+    "text": "Clear ML explanations.",
+    "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=1"
+   },
+   {
+    "name": "Machine Learning for Everybody (freeCodeCamp)",
+    "text": "Full beginner course.",
+    "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg"
+   },
+   {
+    "name": "Generative AI full course",
+    "text": "LLMs, LangChain, vector DBs.",
+    "url": "https://www.youtube.com/watch?v=mEsleV16qdo"
+   },
+   {
+    "name": "Stanford CS230 — CNN cheatsheet",
+    "text": "Quick deep learning reference.",
+    "url": "https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks"
+   },
+   {
+    "name": "Stanford CS231n — CNNs for visual recognition",
+    "text": "Course notes.",
+    "url": "https://cs231n.github.io/convolutional-networks/"
+   },
+   {
+    "name": "IBM SkillsBuild",
+    "text": "Free certificates in AI and tech.",
+    "url": "https://skillsbuild.org/events/generative-ai-agent"
+   },
+   {
+    "name": "EU Digital Skills & Jobs platform",
+    "text": "Free digital training.",
+    "url": "https://digital-skills-jobs.europa.eu/en"
+   },
+   {
+    "name": "Coursera — Explainable AI specialisation",
+    "text": "XAI course.",
+    "url": "https://www.coursera.org/specializations/explainable-artificial-intelligence-xai?irclickid=3QSQ0NV3JxycWu2QIswXrwLeUkpTdyQRDW8W2o0&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=5322425&utm_content=b2c&utm_campaignid=SQUARED%20GmbH&utm_term=14726_CR_1164545_"
+   },
+   {
+    "name": "Exercism",
+    "text": "Coding practice with mentors.",
+    "url": "https://exercism.org/"
+   },
+   {
+    "name": "Codewars",
+    "text": "Coding challenges.",
+    "url": "https://www.codewars.com/"
+   },
+   {
+    "name": "Project Euler",
+    "text": "Maths + programming problems.",
+    "url": "https://projecteuler.net/"
+   },
+   {
+    "name": "VisuAlgo",
+    "text": "Visualise data structures & algorithms.",
+    "url": "https://visualgo.net/en"
+   },
+   {
+    "name": "DSA Animator",
+    "text": "Animated algorithms.",
+    "url": "https://www.dsaanimator.com/"
+   },
+   {
+    "name": "Refactoring Guru",
+    "text": "Design patterns explained.",
+    "url": "https://refactoring.guru/"
+   },
+   {
+    "name": "NVD — vulnerability database",
+    "text": "For cybersecurity students.",
+    "url": "https://nvd.nist.gov/"
+   }
+  ],
+  "merge": false
+ },
+ {
+  "id": "europe",
+  "title": "Beyond France",
+  "intro": "",
+  "items": [
+   {
+    "name": "KTH — MSc Embedded Systems (Sweden)",
+    "text": "Embedded systems Master.",
+    "url": "https://www.kth.se/en/studies/master/embedded-systems"
+   },
+   {
+    "name": "University of Messina — international admissions (Italy)",
+    "text": "Apply via MoveIn.",
+    "url": "https://unime.gomovein.com/information/index/6048f07331d07d290335f052/eng"
+   },
+   {
+    "name": "University of Duisburg-Essen — application (Germany)",
+    "text": "Online application portal.",
+    "url": "https://campus.uni-due.de/app_aaa/pages/sul/common/entrancePage.xhtml?_flowId=onlineapplication-overview-flow&_flowExecutionKey=e1s14"
+   },
+   {
+    "name": "University of Copenhagen — PhD positions (Denmark)",
+    "text": "Funded PhD jobs.",
+    "url": "https://employment.ku.dk/phd/"
+   },
+   {
+    "name": "UPC Barcelona (Spain)",
+    "text": "Universitat Politècnica de Catalunya.",
+    "url": "https://www.upc.edu/ca"
+   },
+   {
+    "name": "University of Salzburg — computer science research (Austria)",
+    "text": "Research areas.",
+    "url": "https://informatik.cs.plus.ac.at/research/"
+   },
+   {
+    "name": "Haniel Scholarship (Germany)",
+    "text": "German Academic Scholarship Foundation.",
+    "url": "https://www.studienstiftung.de/haniel/"
+   },
+   {
+    "name": "McCall MacBain Scholarship (Canada)",
+    "text": "Full Master's funding at McGill.",
+    "url": "https://www.mcgill.ca/gradapplicants/funding/external/mccall-macbain-scholarship"
+   },
+   {
+    "name": "CERN Summer Student Programme",
+    "text": "Summer research at CERN.",
+    "url": "https://careers.cern/summer"
+   },
+   {
+    "name": "JINR START — student research training (Russia)",
+    "text": "Advanced research training.",
+    "url": "https://start.jinr.ru/?session_id=8"
+   },
+   {
+    "name": "Erasmus+ project search",
+    "text": "Find Erasmus+ projects and partners.",
+    "url": "https://erasmus-plus.ec.europa.eu/projects/search/?page=1&sort=&domain=eplus2021&view=list&map=false&searchType=projects"
+   },
+   {
+    "name": "PhD programmes in Europe",
+    "text": "Directory.",
+    "url": "https://www.phdstudies.com/phd/europe"
+   },
+   {
+    "name": "FellowshipBard — funded PhDs in Europe",
+    "text": "Listings.",
+    "url": "https://fellowshipbard.com/find-fully-funded-phd-in-europe/"
+   },
+   {
+    "name": "VacancyEdu — fully funded PhDs worldwide",
+    "text": "Listings.",
+    "url": "https://vacancyedu.com/fully-funded-phd-positions/"
+   }
+  ],
+  "merge": true
+ }
+]

@@ -124,7 +124,7 @@
    "Research"
   ],
   "english": "Some Master's",
-  "website": "https://www.ens-lyon.fr/en"
+  "website": "https://www.ens-lyon.fr/en/studies/admissions/application-masters-degrees-and-scholarships"
  },
  {
   "id": "insa-lyon",
@@ -193,7 +193,7 @@
    "Public health"
   ],
   "english": "Several Master's",
-  "website": "https://www.u-bordeaux.com/"
+  "website": "https://www.u-bordeaux.fr/en/international/come-to-bordeaux/international-students/international-study-program"
  },
  {
   "id": "amu",
@@ -290,7 +290,7 @@
    "Law"
   ],
   "english": "Some Master's",
-  "website": "https://www.univ-lille.fr/en"
+  "website": "https://www.univ-lille.fr/en/studies/find-your-course/masters-taught-in-english-1"
  },
  {
   "id": "uphf",
@@ -709,5 +709,254 @@
   ],
   "english": "Erasmus Mundus Master's",
   "website": "https://www.agroparistech.fr/en"
+ },
+ {
+  "id": "orleans",
+  "name": "Université d'Orléans",
+  "city": "Orléans",
+  "region": "Centre-Val de Loire",
+  "type": "Public university",
+  "strengths": [
+   "Sciences",
+   "Computer science",
+   "Economics"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.univ-orleans.fr/fr/univ/formation/candidature-et-inscription/etudiants-internationaux"
+ },
+ {
+  "id": "utbm",
+  "name": "UTBM – Université de Technologie de Belfort-Montbéliard",
+  "city": "Belfort",
+  "region": "Bourgogne-Franche-Comté",
+  "type": "Engineering school",
+  "strengths": [
+   "Energy",
+   "Computer science",
+   "Mechanical engineering"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.utbm.fr/en/"
+ },
+ {
+  "id": "mines-st-etienne",
+  "name": "Mines Saint-Étienne",
+  "city": "Saint-Étienne",
+  "region": "Auvergne-Rhône-Alpes",
+  "type": "Engineering school",
+  "strengths": [
+   "Cyber-physical systems",
+   "Industry 4.0",
+   "Materials"
+  ],
+  "english": "CPS2 Master in English",
+  "website": "https://www.mines-stetienne.fr/formation-mines-saint-etienne/"
+ },
+ {
+  "id": "telecom-sudparis",
+  "name": "Télécom SudParis (IP Paris)",
+  "city": "Évry / Palaiseau",
+  "region": "Île-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "Networks",
+   "Cybersecurity",
+   "Data"
+  ],
+  "english": "MSc in English",
+  "website": "https://www.telecom-sudparis.eu/en/"
+ },
+ {
+  "id": "uppa",
+  "name": "Université de Pau et des Pays de l'Adour",
+  "city": "Pau",
+  "region": "Nouvelle-Aquitaine",
+  "type": "Public university",
+  "strengths": [
+   "Industry 4.0",
+   "Energy",
+   "Geosciences"
+  ],
+  "english": "Some Master's",
+  "website": "https://formation.univ-pau.fr/en/"
+ },
+ {
+  "id": "uha",
+  "name": "Université de Haute-Alsace",
+  "city": "Mulhouse",
+  "region": "Grand Est",
+  "type": "Public university",
+  "strengths": [
+   "Chemistry",
+   "Textiles",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.fst.uha.fr/index.php/formations/inscriptions-bourses/"
+ },
+ {
+  "id": "le-havre",
+  "name": "Université Le Havre Normandie",
+  "city": "Le Havre",
+  "region": "Normandy",
+  "type": "Public university",
+  "strengths": [
+   "Logistics",
+   "Computer science",
+   "Maritime"
+  ],
+  "english": "Mostly French",
+  "website": "https://www.univ-lehavre.fr/"
+ },
+ {
+  "id": "arts-et-metiers",
+  "name": "Arts et Métiers",
+  "city": "Paris (8 campuses)",
+  "region": "Île-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "Mechanical engineering",
+   "Industrial engineering",
+   "Energy"
+  ],
+  "english": "Some Master's",
+  "website": "https://artsetmetiers.fr/fr/formation/master-admissions"
+ },
+ {
+  "id": "polytech-tours",
+  "name": "Polytech Tours",
+  "city": "Tours",
+  "region": "Centre-Val de Loire",
+  "type": "Engineering school",
+  "strengths": [
+   "Computer science",
+   "Electronics",
+   "Mechanical"
+  ],
+  "english": "English version available",
+  "website": "https://polytech.univ-tours.fr/english-version"
+ },
+ {
+  "id": "paris1",
+  "name": "Université Paris 1 Panthéon-Sorbonne",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Management",
+   "Law",
+   "Economics"
+  ],
+  "english": "Some Master's",
+  "website": "https://formations.pantheonsorbonne.fr/"
+ },
+ {
+  "id": "ubs",
+  "name": "Université Bretagne Sud",
+  "city": "Lorient / Vannes",
+  "region": "Brittany",
+  "type": "Public university",
+  "strengths": [
+   "Cybersecurity",
+   "Engineering",
+   "Marine"
+  ],
+  "english": "Cyberus Erasmus Mundus",
+  "website": "https://master-cyberus.eu/admission/apply"
+ },
+ {
+  "id": "insa-rennes",
+  "name": "INSA Rennes",
+  "city": "Rennes",
+  "region": "Brittany",
+  "type": "Engineering school",
+  "strengths": [
+   "Complex systems",
+   "Electronics",
+   "Computer science"
+  ],
+  "english": "Some Master's",
+  "website": "https://www.insa-rennes.fr/"
+ },
+ {
+  "id": "insa-hdf",
+  "name": "INSA Hauts-de-France",
+  "city": "Valenciennes",
+  "region": "Hauts-de-France",
+  "type": "Engineering school",
+  "strengths": [
+   "Mobility",
+   "Engineering",
+   "Computer science"
+  ],
+  "english": "IT4SSM Master",
+  "website": "https://www.insa-hautsdefrance.fr/formation/candidature-inscription/candidature"
+ },
+ {
+  "id": "ub-europe",
+  "name": "Université Bourgogne Europe",
+  "city": "Dijon / Le Creusot",
+  "region": "Bourgogne-Franche-Comté",
+  "type": "Public university",
+  "strengths": [
+   "Computer vision",
+   "Robotics",
+   "Food science"
+  ],
+  "english": "MSc Computer Vision (ViBOT)",
+  "website": "https://www.vibot.org/msc-in-computer-vision.html"
+ },
+ {
+  "id": "tsm",
+  "name": "Toulouse School of Management (Toulouse Capitole)",
+  "city": "Toulouse",
+  "region": "Occitanie",
+  "type": "Business school",
+  "strengths": [
+   "Management",
+   "Finance",
+   "Marketing"
+  ],
+  "english": "BSc & Master's in English",
+  "website": "https://tsm-education.fr/en"
+ },
+ {
+  "id": "upec",
+  "name": "Université Paris-Est Créteil (IAE Paris-Est)",
+  "city": "Créteil (Paris area)",
+  "region": "Île-de-France",
+  "type": "Public university",
+  "strengths": [
+   "Management",
+   "Health",
+   "Urban studies"
+  ],
+  "english": "Some programmes",
+  "website": "https://www.iae-paris-est.fr/"
+ },
+ {
+  "id": "unistra-eco",
+  "name": "Université de Strasbourg – Faculty of Economics & Management",
+  "city": "Strasbourg",
+  "region": "Grand Est",
+  "type": "Public university",
+  "strengths": [
+   "Economics",
+   "Management"
+  ],
+  "english": "International track",
+  "website": "https://ecogestion.unistra.fr/en/"
+ },
+ {
+  "id": "erasmus-consortium",
+  "name": "Erasmus Mundus consortium (several countries)",
+  "city": "Across Europe",
+  "region": "Europe",
+  "type": "European consortium",
+  "strengths": [
+   "Joint Master's"
+  ],
+  "english": "Fully in English",
+  "website": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en"
  }
 ]

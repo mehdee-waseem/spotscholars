@@ -1,288 +1,616 @@
 [
-  {
-    "id": "france-excellence-pakistan-climate",
-    "name": "France Excellence Pakistan – Climate Change (2027 call)",
-    "provider": "Embassy of France in Pakistan / Campus France Pakistan",
-    "type": "Government",
-    "levels": ["Master"],
-    "funding": "Fully funded",
-    "amount": "Tuition, monthly living allowance, return air ticket, visa and Études en France fee waiver, social security, priority CROUS housing, free French classes before departure",
-    "deadline": "18 November 2026 (Études en France closing date) — late applications are not accepted",
-    "deadlineDate": "2026-11-18",
-    "countries": "Pakistan — age 28 or under, 4-year Bachelor's with CGPA 3.0/4.0+, graduated within the last 2 years",
-    "description": "Five climate-related Master's programmes for Pakistani students: Process & Bioprocess Engineering (IMT Atlantique, Nantes), Biorefinery & Biomaterials (Grenoble INP-Pagora), MAFEN agriculture & food (Avignon), One-Health Emerge (ONIRIS) and International Economics (Lille). Apply through Études en France; for IMT Atlantique and Pagora you must ALSO apply on the school's own platform.",
-    "tips": "Selection looks at grades, a consistent statement of purpose and English. A link between your Pakistani university and the French one helps. Women and applicants from all provinces are encouraged.",
-    "link": "https://www.pakistan.campusfrance.org/2027-call-france-excellence-pakistan-climate-change",
-    "featured": true
-  },
-  {
-    "id": "eiffel",
-    "name": "France Excellence Eiffel Scholarship",
-    "provider": "French Ministry for Europe and Foreign Affairs (via Campus France)",
-    "type": "Government",
-    "levels": ["Master", "PhD"],
-    "funding": "Fully funded",
-    "amount": "Monthly allowance (about €1,200 for Master's, about €1,700 for PhD in recent rounds), travel, health insurance, cultural activities",
-    "deadline": "French universities submit nominations in early January 2027 — apply to your university first (internal deadlines often Nov–Dec)",
-    "countries": "All non-EU countries",
-    "description": "France's flagship scholarship. You don't apply directly: you apply to a French institution, and the institution nominates you. Strongest fields: engineering, law, economics, management, political science.",
-    "tips": "Email the international office of each target university in October and ask for their internal Eiffel deadline.",
-    "link": "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program",
-    "featured": true
-  },
-  {
-    "id": "erasmus-mundus",
-    "name": "Erasmus Mundus Joint Master Scholarships",
-    "provider": "European Union",
-    "type": "EU",
-    "levels": ["Master"],
-    "funding": "Fully funded",
-    "amount": "€1,400 per month, tuition, travel and installation costs",
-    "deadline": "Varies by programme — most close between October and February",
-    "countries": "Worldwide",
-    "description": "Two-year Master's taught in English in two or more European countries, many with a French partner. Each programme runs its own selection. Erasmus Mundus scholars are exempt from the Études en France fee.",
-    "tips": "Use the official catalogue and filter by France. You can apply to up to three programmes per year.",
-    "link": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
-    "featured": true
-  },
-  {
-    "id": "campus-bourses",
-    "name": "Campus Bourses — scholarship search engine",
-    "provider": "Campus France",
-    "type": "Search tool",
-    "levels": ["Bachelor", "Master", "PhD"],
-    "funding": "Varies",
-    "amount": "Scholarships from the French government, regions, universities and companies",
-    "deadline": "Each scholarship has its own deadline",
-    "countries": "Filter by your nationality",
-    "description": "The official database of scholarships for studying in France. Filter by nationality, level and field to see what you can apply for.",
-    "tips": "Search with your own nationality selected — results change a lot by country.",
-    "link": "https://campusbourses.campusfrance.org/#/catalog",
-    "featured": false
-  },
-  {
-    "id": "smarts-up",
-    "name": "SMARTS-UP Scholarship",
-    "provider": "Université Paris Cité",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial",
-    "amount": "€8,000, paid in three instalments",
-    "deadline": "Yearly call, usually winter — check the portal",
-    "countries": "International students",
-    "description": "Mobility scholarship for international students admitted to a Master's in one of Université Paris Cité's Graduate Schools. No application fee and no IELTS needed for the scholarship itself.",
-    "tips": "Apply to the Master's first; the scholarship is linked to your Graduate School.",
-    "link": "https://mobility.smarts-up.fr/",
-    "featured": false
-  },
-  {
-    "id": "ampere",
-    "name": "Ampère Scholarships of Excellence",
-    "provider": "ENS de Lyon",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial to full",
-    "amount": "Monthly stipend for the Master's",
-    "deadline": "Usually winter",
-    "countries": "International students",
-    "description": "For excellent international students admitted to a Master's at ENS de Lyon, in sciences or humanities. No application fee.",
-    "tips": "A strong academic record and a research-oriented project matter most.",
-    "link": "https://www.ens-lyon.fr/en",
-    "featured": false
-  },
-  {
-    "id": "psl-phd-track",
-    "name": "PSL PhD Track Grants",
-    "provider": "Université PSL",
-    "type": "University",
-    "levels": ["Master", "PhD"],
-    "funding": "Fully funded",
-    "amount": "€10,000 per year during the Master's years, then a funded doctoral contract",
-    "deadline": "Usually early January",
-    "countries": "International students",
-    "description": "Five-year integrated Master's + PhD tracks at PSL for students aiming at research careers.",
-    "tips": "Contact a potential supervisor in the PSL lab you're interested in before applying.",
-    "link": "https://psl.eu/en/education/find-your-curriculum/psl-phd-tracks",
-    "featured": false
-  },
-  {
-    "id": "ens-psl-cs",
-    "name": "ENS-PSL Computer Science Master's Grants",
-    "provider": "École normale supérieure – PSL",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial to full",
-    "amount": "Grants for international students in the CS Master's",
-    "deadline": "See the department page",
-    "countries": "International students",
-    "description": "Scholarships offered by the ENS Computer Science department to top international Master's applicants.",
-    "tips": "Strong maths and theoretical CS background expected.",
-    "link": "https://pginfo.ens.psl.eu/last/scholarship_grants_en.html",
-    "featured": false
-  },
-  {
-    "id": "paris-saclay",
-    "name": "Université Paris-Saclay International Master's Scholarships",
-    "provider": "Université Paris-Saclay",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial to full",
-    "amount": "Monthly stipend for the Master's year(s), plus travel support",
-    "deadline": "Linked to the Master's application window (winter–spring)",
-    "countries": "International students",
-    "description": "Excellence scholarships for strong international applicants to Paris-Saclay Master's programmes.",
-    "tips": "Tick the scholarship option when applying to the Master's — there is often no separate form.",
-    "link": "https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english",
-    "featured": false
-  },
-  {
-    "id": "grenoble-idex",
-    "name": "Université Grenoble Alpes Master's Scholarships",
-    "provider": "Université Grenoble Alpes",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial to full",
-    "amount": "Monthly stipend during the Master's",
-    "deadline": "Usually winter–spring, depending on the programme",
-    "countries": "International students",
-    "description": "Excellence scholarships for international students admitted to eligible UGA Master's programmes, including many taught in English.",
-    "tips": "Check each Master's page for its scholarship section.",
-    "link": "https://www.univ-grenoble-alpes.fr/education/programs/programs-in-english/",
-    "featured": false
-  },
-  {
-    "id": "emile-boutmy",
-    "name": "Émile Boutmy Scholarship",
-    "provider": "Sciences Po",
-    "type": "University",
-    "levels": ["Bachelor", "Master"],
-    "funding": "Partial to full",
-    "amount": "Tuition reduction and/or a yearly grant",
-    "deadline": "Same as the Sciences Po admission deadline",
-    "countries": "Non-EU students",
-    "description": "Sciences Po's main scholarship for high-achieving non-EU students admitted to its Bachelor's or Master's programmes.",
-    "tips": "Many Sciences Po Master's programmes are fully in English.",
-    "link": "https://www.sciencespo.fr/en/",
-    "featured": false
-  },
-  {
-    "id": "ip-paris",
-    "name": "Institut Polytechnique de Paris Master's Scholarships",
-    "provider": "Institut Polytechnique de Paris",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial to full",
-    "amount": "Stipend and/or tuition waiver",
-    "deadline": "Linked to the Master's application rounds",
-    "countries": "International students",
-    "description": "Scholarships for international students in IP Paris and École Polytechnique Master's programmes, most taught in English.",
-    "tips": "Apply in the earliest round — more funding is available.",
-    "link": "https://programmes.polytechnique.edu/en",
-    "featured": false
-  },
-  {
-    "id": "agroparistech-em",
-    "name": "AgroParisTech Erasmus Mundus Master's (FIPDes, Bioceb, GloFor)",
-    "provider": "AgroParisTech",
-    "type": "EU",
-    "levels": ["Master"],
-    "funding": "Fully funded",
-    "amount": "About €1,000+ per month for 24 months plus installation costs (Erasmus Mundus rates)",
-    "deadline": "Usually mid-January",
-    "countries": "Worldwide",
-    "description": "Erasmus Mundus Master's in food innovation (FIPDes), bioeconomy (Bioceb) and global forestry (GloFor), with AgroParisTech as a partner.",
-    "tips": "Check each programme website for the current call.",
-    "link": "https://www.fipdes.eu",
-    "featured": false
-  },
-  {
-    "id": "nice-math",
-    "name": "Mathematics & Its Interactions Master's Scholarship",
-    "provider": "Université Côte d'Azur (J.A. Dieudonné lab)",
-    "type": "University",
-    "levels": ["Master"],
-    "funding": "Partial",
-    "amount": "€1,000 per month for 10 months (Master 2)",
-    "deadline": "Usually February",
-    "countries": "International students",
-    "description": "Scholarships for the second year of the Mathematics Master's in Nice.",
-    "tips": "For students with a strong maths background.",
-    "link": "https://math.unice.fr/departement/bourses-de-master-master-scholarships.html",
-    "featured": false
-  },
-  {
-    "id": "msca",
-    "name": "Marie Skłodowska-Curie Doctoral Networks",
-    "provider": "European Union",
-    "type": "EU",
-    "levels": ["PhD"],
-    "funding": "Fully funded (salaried)",
-    "amount": "Full PhD salary with social security, mobility and family allowances",
-    "deadline": "Positions open year-round",
-    "countries": "Worldwide (mobility rule applies)",
-    "description": "Paid PhD positions in European research networks, many in French labs. You apply to a specific open position.",
-    "tips": "Search EURAXESS for 'MSCA' and filter by France.",
-    "link": "https://euraxess.ec.europa.eu/jobs/search",
-    "featured": false
-  },
-  {
-    "id": "phc-peridot",
-    "name": "PHC Peridot — France–Pakistan research mobility",
-    "provider": "French Embassy / Campus France & HEC Pakistan",
-    "type": "Government",
-    "levels": ["PhD"],
-    "funding": "Mobility costs",
-    "amount": "Travel and living allowances for researchers moving between France and Pakistan (2–3 year projects)",
-    "deadline": "13th call closed 30 September 2026 — next call usually opens in July",
-    "countries": "Joint French–Pakistani research teams",
-    "description": "Funds research exchanges between a French team and a Pakistani team. Priority areas in the 13th call: health sciences, sustainable energy, agriculture & food security, economics of climate change. PhD students and postdocs are encouraged.",
-    "tips": "Both teams must submit — the French team to Campus France and the Pakistani team to HEC.",
-    "link": "https://www.pakistan.campusfrance.org/phc-peridot-research-mobility-program",
-    "featured": false
-  },
-  {
-    "id": "hec-pakistan",
-    "name": "HEC Pakistan Overseas Scholarships",
-    "provider": "Higher Education Commission, Pakistan",
-    "type": "Government",
-    "levels": ["Master", "PhD"],
-    "funding": "Fully funded",
-    "amount": "Tuition, living allowance, travel (service bond applies)",
-    "deadline": "Announced per scheme",
-    "countries": "Pakistan",
-    "description": "HEC runs overseas Master's and PhD scholarship schemes; some phases include France as a destination.",
-    "tips": "Read the bond conditions carefully before applying.",
-    "link": "https://www.hec.gov.pk/english/scholarshipsgrants/Pages/default.aspx",
-    "featured": false
-  },
-  {
-    "id": "erasmus-plus",
-    "name": "Erasmus+ exchange mobility",
-    "provider": "European Union (through your university)",
-    "type": "EU",
-    "levels": ["Bachelor", "Master", "PhD"],
-    "funding": "Partial",
-    "amount": "Monthly grant for a semester or year in France",
-    "deadline": "Set by your home university",
-    "countries": "Students of universities with an Erasmus+ agreement with a French institution",
-    "description": "If your Pakistani university has an Erasmus+ partnership with a French university, you can spend a semester there with a grant.",
-    "tips": "Ask your university's international office which French partners they have.",
-    "link": "https://www.pakistan.campusfrance.org/scholarships-for-foreign-students-in-france",
-    "featured": false
-  },
-  {
-    "id": "fee-waiver",
-    "name": "University tuition fee waivers",
-    "provider": "Individual French public universities",
-    "type": "University",
-    "levels": ["Bachelor", "Master"],
-    "funding": "Tuition only",
-    "amount": "Full or partial waiver of the higher non-EU fees",
-    "deadline": "Ask the university after admission",
-    "countries": "Non-EU students",
-    "description": "Public universities can exempt only a share of international students from the higher fees (30% in 2026/27, falling in later years), so waivers are harder to get than before.",
-    "tips": "Ask the international office about the waiver as soon as you receive your admission.",
-    "link": "https://www.enseignementsup-recherche.gouv.fr/fr/faq-droits-d-inscription-differencies-pour-les-etudiants-extra-communautaires-103043",
-    "featured": false
-  }
+ {
+  "id": "france-excellence-pakistan-climate",
+  "name": "France Excellence Pakistan – Climate Change (2027 call)",
+  "provider": "Embassy of France in Pakistan / Campus France Pakistan",
+  "type": "Government",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Fully funded",
+  "amount": "Tuition, monthly living allowance, return air ticket, visa and Études en France fee waiver, social security, priority CROUS housing, free French classes before departure",
+  "deadline": "18 November 2026 (Études en France closing date) — late applications are not accepted",
+  "deadlineDate": "2026-11-18",
+  "countries": "Pakistan — age 28 or under, 4-year Bachelor's with CGPA 3.0/4.0+, graduated within the last 2 years",
+  "description": "Five climate-related Master's programmes for Pakistani students: Process & Bioprocess Engineering (IMT Atlantique, Nantes), Biorefinery & Biomaterials (Grenoble INP-Pagora), MAFEN agriculture & food (Avignon), One-Health Emerge (ONIRIS) and International Economics (Lille). Apply through Études en France; for IMT Atlantique and Pagora you must ALSO apply on the school's own platform.",
+  "tips": "Selection looks at grades, a consistent statement of purpose and English. A link between your Pakistani university and the French one helps. Women and applicants from all provinces are encouraged.",
+  "link": "https://www.pakistan.campusfrance.org/2027-call-france-excellence-pakistan-climate-change",
+  "featured": true
+ },
+ {
+  "id": "eiffel",
+  "name": "France Excellence Eiffel Scholarship",
+  "provider": "French Ministry for Europe and Foreign Affairs (via Campus France)",
+  "type": "Government",
+  "levels": [
+   "Master",
+   "PhD"
+  ],
+  "funding": "Fully funded",
+  "amount": "Monthly allowance (about €1,200 for Master's, about €1,700 for PhD in recent rounds), travel, health insurance, cultural activities",
+  "deadline": "French universities submit nominations in early January 2027 — apply to your university first (internal deadlines often Nov–Dec)",
+  "countries": "All non-EU countries",
+  "description": "France's flagship scholarship. You don't apply directly: you apply to a French institution, and the institution nominates you. Strongest fields: engineering, law, economics, management, political science.",
+  "tips": "Email the international office of each target university in October and ask for their internal Eiffel deadline.",
+  "link": "https://www.campusfrance.org/en/the-france-excellence-eiffel-scholarship-program",
+  "featured": true,
+  "links": [
+   {
+    "label": "Université Paris Cité — Eiffel call",
+    "url": "https://u-paris.fr/language/en/eiffel-scholarship-2025-call-for-applications-is-launched/"
+   },
+   {
+    "label": "Université de Lille — Eiffel",
+    "url": "https://international.univ-lille.fr/en/bourses-dexcellence/eiffel/"
+   },
+   {
+    "label": "Bordeaux INP — Eiffel",
+    "url": "https://www.bordeaux-inp.fr/en/eiffel"
+   },
+   {
+    "label": "Toulouse School of Management — Eiffel",
+    "url": "https://tsm-education.fr/en/international/eiffel-scholarship"
+   },
+   {
+    "label": "UPHF — apply for Eiffel with UPHF",
+    "url": "https://www.uphf.fr/en/apply-eiffel-excellence-program-uphf"
+   },
+   {
+    "label": "UPHF — Eiffel 2026 laureate rules (PDF)",
+    "url": "https://www.uphf.fr/sites/default/files/media/2025-10/reglementation_laureats_eiffel_2026_0.pdf"
+   },
+   {
+    "label": "EURAXESS — Eiffel 2026 news",
+    "url": "https://euraxess.ec.europa.eu/worldwide/lac/news/france-eiffel-scholarships-phd-and-masters-degrees-2026"
+   }
+  ]
+ },
+ {
+  "id": "erasmus-mundus",
+  "name": "Erasmus Mundus Joint Master Scholarships",
+  "provider": "European Union",
+  "type": "EU",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Fully funded",
+  "amount": "€1,400 per month, tuition, travel and installation costs",
+  "deadline": "Varies by programme — most close between October and February",
+  "countries": "Worldwide",
+  "description": "Two-year Master's taught in English in two or more European countries, many with a French partner. Each programme runs its own selection. Erasmus Mundus scholars are exempt from the Études en France fee.",
+  "tips": "Use the official catalogue and filter by France. You can apply to up to three programmes per year.",
+  "link": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+  "featured": true
+ },
+ {
+  "id": "campus-bourses",
+  "name": "Campus Bourses — scholarship search engine",
+  "provider": "Campus France",
+  "type": "Search tool",
+  "levels": [
+   "Bachelor",
+   "Master",
+   "PhD"
+  ],
+  "funding": "Varies",
+  "amount": "Scholarships from the French government, regions, universities and companies",
+  "deadline": "Each scholarship has its own deadline",
+  "countries": "Filter by your nationality",
+  "description": "The official database of scholarships for studying in France. Filter by nationality, level and field to see what you can apply for.",
+  "tips": "Search with your own nationality selected — results change a lot by country.",
+  "link": "https://campusbourses.campusfrance.org/#/catalog",
+  "featured": false,
+  "links": [
+   {
+    "label": "Campus France — about Campus Bourses",
+    "url": "https://www.campusfrance.org/en/resource/campusbourses-a-grant-search-engine"
+   },
+   {
+    "label": "Campus France — bursaries for foreign students",
+    "url": "https://www.campusfrance.org/en/bursaries-foreign-students"
+   },
+   {
+    "label": "French Ministry — finance your studies",
+    "url": "https://www.diplomatie.gouv.fr/en/coming-to-france/studying-in-france/finance-your-studies-scholarships/"
+   }
+  ]
+ },
+ {
+  "id": "smarts-up",
+  "name": "SMARTS-UP Scholarship",
+  "provider": "Université Paris Cité",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "€8,000, paid in three instalments",
+  "deadline": "Yearly call, usually winter — check the portal",
+  "countries": "International students",
+  "description": "Mobility scholarship for international students admitted to a Master's in one of Université Paris Cité's Graduate Schools. No application fee and no IELTS needed for the scholarship itself.",
+  "tips": "Apply to the Master's first; the scholarship is linked to your Graduate School.",
+  "link": "https://mobility.smarts-up.fr/",
+  "featured": false
+ },
+ {
+  "id": "ampere",
+  "name": "Ampère Scholarships of Excellence",
+  "provider": "ENS de Lyon",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial to full",
+  "amount": "Monthly stipend for the Master's",
+  "deadline": "Usually winter",
+  "countries": "International students",
+  "description": "For excellent international students admitted to a Master's at ENS de Lyon, in sciences or humanities. No application fee.",
+  "tips": "A strong academic record and a research-oriented project matter most.",
+  "link": "https://www.ens-lyon.fr/en",
+  "featured": false,
+  "links": [
+   {
+    "label": "ENS Lyon — Master's applications & scholarships",
+    "url": "https://www.ens-lyon.fr/en/studies/admissions/application-masters-degrees-and-scholarships"
+   }
+  ]
+ },
+ {
+  "id": "psl-phd-track",
+  "name": "PSL PhD Track Grants",
+  "provider": "Université PSL",
+  "type": "University",
+  "levels": [
+   "Master",
+   "PhD"
+  ],
+  "funding": "Fully funded",
+  "amount": "€10,000 per year during the Master's years, then a funded doctoral contract",
+  "deadline": "Usually early January",
+  "countries": "International students",
+  "description": "Five-year integrated Master's + PhD tracks at PSL for students aiming at research careers.",
+  "tips": "Contact a potential supervisor in the PSL lab you're interested in before applying.",
+  "link": "https://psl.eu/en/education/find-your-curriculum/psl-phd-tracks",
+  "featured": false
+ },
+ {
+  "id": "ens-psl-cs",
+  "name": "ENS-PSL Computer Science Master's Grants",
+  "provider": "École normale supérieure – PSL",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial to full",
+  "amount": "Grants for international students in the CS Master's",
+  "deadline": "See the department page",
+  "countries": "International students",
+  "description": "Scholarships offered by the ENS Computer Science department to top international Master's applicants.",
+  "tips": "Strong maths and theoretical CS background expected.",
+  "link": "https://pginfo.ens.psl.eu/last/scholarship_grants_en.html",
+  "featured": false
+ },
+ {
+  "id": "paris-saclay",
+  "name": "Université Paris-Saclay International Master's Scholarships",
+  "provider": "Université Paris-Saclay",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial to full",
+  "amount": "Monthly stipend for the Master's year(s), plus travel support",
+  "deadline": "Linked to the Master's application window (winter–spring)",
+  "countries": "International students",
+  "description": "Excellence scholarships for strong international applicants to Paris-Saclay Master's programmes.",
+  "tips": "Tick the scholarship option when applying to the Master's — there is often no separate form.",
+  "link": "https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english",
+  "featured": false
+ },
+ {
+  "id": "grenoble-idex",
+  "name": "Université Grenoble Alpes Master's Scholarships",
+  "provider": "Université Grenoble Alpes",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial to full",
+  "amount": "Monthly stipend during the Master's",
+  "deadline": "Usually winter–spring, depending on the programme",
+  "countries": "International students",
+  "description": "Excellence scholarships for international students admitted to eligible UGA Master's programmes, including many taught in English.",
+  "tips": "Check each Master's page for its scholarship section.",
+  "link": "https://www.univ-grenoble-alpes.fr/education/programs/programs-in-english/",
+  "featured": false,
+  "links": [
+   {
+    "label": "UGA — IDEX Master scholarships call",
+    "url": "https://www.univ-grenoble-alpes.fr/universite/ambition-et-strategie/l-initiative-d-excellence-idex/les-appels-a-projets/call-for-applications-idex-master-scholarships-for-the-2024-2025-academic-year-1184934.kjsp"
+   },
+   {
+    "label": "UGA — scholarships & financial aid",
+    "url": "https://international.univ-grenoble-alpes.fr/come-to-uga/scholarships-and-financial-aid/"
+   }
+  ]
+ },
+ {
+  "id": "emile-boutmy",
+  "name": "Émile Boutmy Scholarship",
+  "provider": "Sciences Po",
+  "type": "University",
+  "levels": [
+   "Bachelor",
+   "Master"
+  ],
+  "funding": "Partial to full",
+  "amount": "Tuition reduction and/or a yearly grant",
+  "deadline": "Same as the Sciences Po admission deadline",
+  "countries": "Non-EU students",
+  "description": "Sciences Po's main scholarship for high-achieving non-EU students admitted to its Bachelor's or Master's programmes.",
+  "tips": "Many Sciences Po Master's programmes are fully in English.",
+  "link": "https://www.sciencespo.fr/en/",
+  "featured": false,
+  "links": [
+   {
+    "label": "Sciences Po — Émile Boutmy scholarship page",
+    "url": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/"
+   }
+  ]
+ },
+ {
+  "id": "ip-paris",
+  "name": "Institut Polytechnique de Paris Master's Scholarships",
+  "provider": "Institut Polytechnique de Paris",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial to full",
+  "amount": "Stipend and/or tuition waiver",
+  "deadline": "Linked to the Master's application rounds",
+  "countries": "International students",
+  "description": "Scholarships for international students in IP Paris and École Polytechnique Master's programmes, most taught in English.",
+  "tips": "Apply in the earliest round — more funding is available.",
+  "link": "https://programmes.polytechnique.edu/en",
+  "featured": false
+ },
+ {
+  "id": "agroparistech-em",
+  "name": "AgroParisTech Erasmus Mundus Master's (FIPDes, Bioceb, GloFor)",
+  "provider": "AgroParisTech",
+  "type": "EU",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Fully funded",
+  "amount": "About €1,000+ per month for 24 months plus installation costs (Erasmus Mundus rates)",
+  "deadline": "Usually mid-January",
+  "countries": "Worldwide",
+  "description": "Erasmus Mundus Master's in food innovation (FIPDes), bioeconomy (Bioceb) and global forestry (GloFor), with AgroParisTech as a partner.",
+  "tips": "Check each programme website for the current call.",
+  "link": "https://www.fipdes.eu",
+  "featured": false
+ },
+ {
+  "id": "nice-math",
+  "name": "Mathematics & Its Interactions Master's Scholarship",
+  "provider": "Université Côte d'Azur (J.A. Dieudonné lab)",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "€1,000 per month for 10 months (Master 2)",
+  "deadline": "Usually February",
+  "countries": "International students",
+  "description": "Scholarships for the second year of the Mathematics Master's in Nice.",
+  "tips": "For students with a strong maths background.",
+  "link": "https://math.unice.fr/departement/bourses-de-master-master-scholarships.html",
+  "featured": false
+ },
+ {
+  "id": "msca",
+  "name": "Marie Skłodowska-Curie Doctoral Networks",
+  "provider": "European Union",
+  "type": "EU",
+  "levels": [
+   "PhD"
+  ],
+  "funding": "Fully funded (salaried)",
+  "amount": "Full PhD salary with social security, mobility and family allowances",
+  "deadline": "Positions open year-round",
+  "countries": "Worldwide (mobility rule applies)",
+  "description": "Paid PhD positions in European research networks, many in French labs. You apply to a specific open position.",
+  "tips": "Search EURAXESS for 'MSCA' and filter by France.",
+  "link": "https://euraxess.ec.europa.eu/jobs/search",
+  "featured": false
+ },
+ {
+  "id": "phc-peridot",
+  "name": "PHC Peridot — France–Pakistan research mobility",
+  "provider": "French Embassy / Campus France & HEC Pakistan",
+  "type": "Government",
+  "levels": [
+   "PhD"
+  ],
+  "funding": "Mobility costs",
+  "amount": "Travel and living allowances for researchers moving between France and Pakistan (2–3 year projects)",
+  "deadline": "13th call closed 30 September 2026 — next call usually opens in July",
+  "countries": "Joint French–Pakistani research teams",
+  "description": "Funds research exchanges between a French team and a Pakistani team. Priority areas in the 13th call: health sciences, sustainable energy, agriculture & food security, economics of climate change. PhD students and postdocs are encouraged.",
+  "tips": "Both teams must submit — the French team to Campus France and the Pakistani team to HEC.",
+  "link": "https://www.pakistan.campusfrance.org/phc-peridot-research-mobility-program",
+  "featured": false
+ },
+ {
+  "id": "hec-pakistan",
+  "name": "HEC Pakistan Overseas Scholarships",
+  "provider": "Higher Education Commission, Pakistan",
+  "type": "Government",
+  "levels": [
+   "Master",
+   "PhD"
+  ],
+  "funding": "Fully funded",
+  "amount": "Tuition, living allowance, travel (service bond applies)",
+  "deadline": "Announced per scheme",
+  "countries": "Pakistan",
+  "description": "HEC runs overseas Master's and PhD scholarship schemes; some phases include France as a destination.",
+  "tips": "Read the bond conditions carefully before applying.",
+  "link": "https://www.hec.gov.pk/english/scholarshipsgrants/Pages/default.aspx",
+  "featured": false,
+  "links": [
+   {
+    "label": "Campus France — HEC Pakistan scholarships",
+    "url": "https://www.campusfrance.org/en/Pakistan-Higher-Education-Commission-scholarships"
+   },
+   {
+    "label": "HEC — foreign scholarships",
+    "url": "https://www.hec.gov.pk/english/scholarshipsgrants/Pages/InternationalScholarships.aspx"
+   }
+  ]
+ },
+ {
+  "id": "erasmus-plus",
+  "name": "Erasmus+ exchange mobility",
+  "provider": "European Union (through your university)",
+  "type": "EU",
+  "levels": [
+   "Bachelor",
+   "Master",
+   "PhD"
+  ],
+  "funding": "Partial",
+  "amount": "Monthly grant for a semester or year in France",
+  "deadline": "Set by your home university",
+  "countries": "Students of universities with an Erasmus+ agreement with a French institution",
+  "description": "If your Pakistani university has an Erasmus+ partnership with a French university, you can spend a semester there with a grant.",
+  "tips": "Ask your university's international office which French partners they have.",
+  "link": "https://www.pakistan.campusfrance.org/scholarships-for-foreign-students-in-france",
+  "featured": false,
+  "links": [
+   {
+    "label": "Erasmus+ — opportunities from outside the EU",
+    "url": "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-from-outside-the-eu"
+   }
+  ]
+ },
+ {
+  "id": "fee-waiver",
+  "name": "University tuition fee waivers",
+  "provider": "Individual French public universities",
+  "type": "University",
+  "levels": [
+   "Bachelor",
+   "Master"
+  ],
+  "funding": "Tuition only",
+  "amount": "Full or partial waiver of the higher non-EU fees",
+  "deadline": "Ask the university after admission",
+  "countries": "Non-EU students",
+  "description": "Public universities can exempt only a share of international students from the higher fees (30% in 2026/27, falling in later years), so waivers are harder to get than before.",
+  "tips": "Ask the international office about the waiver as soon as you receive your admission.",
+  "link": "https://www.enseignementsup-recherche.gouv.fr/fr/faq-droits-d-inscription-differencies-pour-les-etudiants-extra-communautaires-103043",
+  "featured": false,
+  "links": [
+   {
+    "label": "Campus France — differentiated fees FAQ",
+    "url": "https://www.campusfrance.org/fr/faq/suis-je-concerne-par-les-droits-d-inscription-differencies-dans-les-etablissements-publics"
+   },
+   {
+    "label": "Aix-Marseille — differentiated fees",
+    "url": "https://www.univ-amu.fr/fr/public/droits-dinscription-differencies"
+   },
+   {
+    "label": "UPHF — registration fees",
+    "url": "https://www.uphf.fr/en/training/applications-registrations/registration-fees"
+   },
+   {
+    "label": "Strasbourg — registration fees",
+    "url": "https://www.unistra.fr/formation/admission-inscription-et-scolarite/inscription-a-luniversite/droits-dinscription"
+   }
+  ]
+ },
+ {
+  "id": "grenoble-inp-incoming",
+  "name": "Grenoble INP incoming & Foundation scholarships",
+  "provider": "Grenoble INP – UGA / Grenoble INP Foundation",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "Excellence scholarships for international Master's students",
+  "deadline": "Usually winter–spring",
+  "countries": "International students",
+  "description": "Grenoble INP and its Foundation fund international students in its engineering Master's, including dedicated excellence scholarships for training in artificial intelligence.",
+  "tips": "Apply to the Master's first, then check the scholarship call for your school (Ensimag, Phelma, Esisar…).",
+  "link": "https://www.grenoble-inp.fr/en/academics/incoming-scholarships",
+  "featured": false,
+  "links": [
+   {
+    "label": "Grenoble INP Foundation scholarship programme",
+    "url": "https://www.grenoble-inp.fr/en/academics/grenoble-inp-foundation-scholarship-program"
+   },
+   {
+    "label": "Excellence scholarships for AI training",
+    "url": "https://applicationform.grenoble-inp.fr/FSA2/778?lang=fr"
+   },
+   {
+    "label": "Funding for international students",
+    "url": "https://www.grenoble-inp.fr/fr/international/financements-pour-les-etudiants-internationaux"
+   },
+   {
+    "label": "Ensimag — tuition & financial aid",
+    "url": "https://relint.imag.fr/MainEn/Tuition"
+   },
+   {
+    "label": "Foundation — excellence & mobility grants",
+    "url": "https://fondation-grenoble-inp.fr/bourses-internationales/"
+   }
+  ]
+ },
+ {
+  "id": "persyval",
+  "name": "Persyval-Lab Master Scholarships",
+  "provider": "Persyval-Lab (Grenoble)",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "Scholarship for Master's students in computer science, maths and related fields in Grenoble",
+  "deadline": "Usually winter",
+  "countries": "International students",
+  "description": "Excellence scholarships from Grenoble's Persyval-Lab LabEx for students in its partner Master's programmes.",
+  "tips": "Strong grades in CS or applied maths are key.",
+  "link": "https://persyval-lab.org/en/master-scholarship",
+  "featured": false,
+  "links": [
+   {
+    "label": "Call for applications (Grenoble INP)",
+    "url": "https://www.grenoble-inp.fr/fr/l-institut/appel-a-candidature-pour-les-bourses-d-excellence-persyval-lab"
+   }
+  ]
+ },
+ {
+  "id": "lille-mobility",
+  "name": "Université de Lille International Mobility Grant",
+  "provider": "Université de Lille",
+  "type": "University",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "Mobility grant for international students in Lille Graduate Programmes",
+  "deadline": "See the Graduate Programmes site",
+  "countries": "International students",
+  "description": "Grants for international students admitted to Université de Lille Graduate Programmes.",
+  "tips": "Lille also runs its own Eiffel nominations.",
+  "link": "https://graduate-programmes.univ-lille.fr/en/international-mobility-grant",
+  "featured": false
+ },
+ {
+  "id": "hdf-region",
+  "name": "Hauts-de-France Region grants",
+  "provider": "Région Hauts-de-France",
+  "type": "Government",
+  "levels": [
+   "Bachelor",
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "Regional grants including the International Excellence in Higher Education award and MERMOZ international mobility grants",
+  "deadline": "See the regional aid guide",
+  "countries": "Students in Hauts-de-France institutions (conditions vary)",
+  "description": "The Hauts-de-France region (Lille, Valenciennes, Amiens…) funds students through several schemes. Check eligibility for each.",
+  "tips": "Search the regional aid guide for \"étudiant\".",
+  "link": "https://guide-aides.hautsdefrance.fr/",
+  "featured": false,
+  "links": [
+   {
+    "label": "International Excellence in Higher Education award",
+    "url": "https://guide-aides.hautsdefrance.fr/spip.php?page=dispositif&id_dispositif=821"
+   },
+   {
+    "label": "MERMOZ international mobility grants",
+    "url": "https://guide-aides.hautsdefrance.fr/dispositif997"
+   },
+   {
+    "label": "UPHF — financial aid",
+    "url": "https://www.uphf.fr/en/training/international-mobility/financial-aid"
+   }
+  ]
+ },
+ {
+  "id": "idf-mobility",
+  "name": "Île-de-France Mobility Grants for Master's students",
+  "provider": "Région Île-de-France",
+  "type": "Government",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "Mobility grant for Master's students in Paris-region institutions",
+  "deadline": "Yearly call",
+  "countries": "Students enrolled in Île-de-France institutions",
+  "description": "A regional call funding mobility for Master's students in the Paris region.",
+  "tips": "Check eligibility for international students on the call page.",
+  "link": "https://www.iledefrance.fr/aides-et-appels-a-projets/appel-projets-bourses-mobilite-ile-de-france-etudiants-master-2024-2025",
+  "featured": false
+ },
+ {
+  "id": "cifre",
+  "name": "CIFRE industrial PhD",
+  "provider": "ANRT / French Ministry of Research",
+  "type": "Government",
+  "levels": [
+   "PhD"
+  ],
+  "funding": "Fully funded (salaried)",
+  "amount": "A 3-year PhD salary paid by a company, co-funded by the state",
+  "deadline": "All year",
+  "countries": "Anyone with a Master's (company + lab partnership)",
+  "description": "You do your PhD while employed by a company, in partnership with a public lab. A great path for engineers.",
+  "tips": "Look for CIFRE offers on ABG, company career pages and lab websites.",
+  "link": "https://www.afd.fr/en/cifre-phd-specific-mechanism-doctoral-students",
+  "featured": false
+ },
+ {
+  "id": "fondation-de-france",
+  "name": "Fondation de France scholarship directory",
+  "provider": "Fondation de France",
+  "type": "Search tool",
+  "levels": [
+   "Bachelor",
+   "Master",
+   "PhD"
+  ],
+  "funding": "Varies",
+  "amount": "Directory of private scholarships and grants in France",
+  "deadline": "Each grant has its own deadline",
+  "countries": "Varies",
+  "description": "A searchable directory of scholarships and grants offered by French foundations.",
+  "tips": "Many grants are in French — use a translator.",
+  "link": "https://www.fondationdefrance.org/fr/guide",
+  "featured": false
+ },
+ {
+  "id": "idil",
+  "name": "IDIL Scholarship (Mastersportal)",
+  "provider": "Mastersportal / Studyportals",
+  "type": "Search tool",
+  "levels": [
+   "Master"
+  ],
+  "funding": "Partial",
+  "amount": "€600",
+  "deadline": "See the scholarship page",
+  "countries": "International students",
+  "description": "A small scholarship for studying in France, listed on Mastersportal.",
+  "tips": "Small, but easy to apply for.",
+  "link": "https://www.mastersportal.com/scholarships/8992/idil-scholarship.html",
+  "featured": false
+ }
 ]

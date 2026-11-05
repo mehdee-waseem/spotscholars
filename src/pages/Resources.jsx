@@ -20,6 +20,7 @@ export default function Resources() {
       <div className="container-x">
         <nav className="card -mt-8 relative z-10 flex gap-2 overflow-x-auto p-3" aria-label="Jump to section">
           <a href="#videos" className="chip shrink-0 !bg-orange !text-white">Videos</a>
+          <a href="#channels" className="chip shrink-0 !bg-orange !text-white">YouTube channels</a>
           {RESOURCE_GROUPS.map(g => <a key={g.id} href={`#${g.id}`} className="chip shrink-0 hover:!bg-navy hover:!text-white">{g.title.split(' — ')[0]}</a>)}
         </nav>
 
@@ -46,12 +47,24 @@ export default function Resources() {
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {videos.map(v => <VideoCard key={v.id} {...v} />)}
           </div>
-          <p className="mt-4 text-sm">
-            Channels worth following:{' '}
-            {VIDEO_CHANNELS.map((c, i) => (
-              <span key={c.url}>{i > 0 && ' · '}<a href={c.url} target="_blank" rel="noreferrer" className="font-medium text-navy underline decoration-orange">{c.name}</a></span>
+        </section>
+
+        <section id="channels" className="mt-16 scroll-mt-24">
+          <h2 className="text-2xl font-bold">YouTube channels worth following</h2>
+          <p className="mt-1 max-w-2xl text-slate-500">These channels record real applications to universities and scholarships all over the world. Watch how they fill in each form, then apply to the same programmes yourself.</p>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {VIDEO_CHANNELS.map(c => (
+              <a key={c.url} href={c.url} target="_blank" rel="noreferrer"
+                 className={`group flex items-start gap-3 rounded-xl border p-4 transition hover:-translate-y-0.5 hover:border-orange ${c.ours ? 'border-orange bg-orange-50' : 'border-slate-200 bg-white'}`}>
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#ff0000]/10 text-[#e00]"><YouTube width={20} height={20} /></span>
+                <span>
+                  <span className="block font-semibold leading-snug text-navy-900">{c.name}</span>
+                  <span className="block text-xs text-slate-400">{c.handle}</span>
+                  <span className="mt-1 block text-sm text-slate-500">{c.text}</span>
+                </span>
+              </a>
             ))}
-          </p>
+          </div>
         </section>
 
         {RESOURCE_GROUPS.map(g => (

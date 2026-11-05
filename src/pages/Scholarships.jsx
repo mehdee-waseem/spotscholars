@@ -33,6 +33,16 @@ export function ScholarshipCard({ s }) {
           </div>
         )}
       </dl>
+      {s.links?.length > 0 && (
+        <details className="mt-4 rounded-xl border border-slate-200 p-3 text-sm">
+          <summary className="cursor-pointer font-semibold text-navy-900">More links ({s.links.length})</summary>
+          <ul className="mt-2 space-y-1.5">
+            {s.links.map(l => (
+              <li key={l.url}><a href={l.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-navy underline decoration-orange/60 hover:text-orange-600">{l.label}<External width={12} height={12} /></a></li>
+            ))}
+          </ul>
+        </details>
+      )}
       <a href={s.link} target="_blank" rel="noreferrer" className="btn-navy mt-5 self-start">
         Official page <External width={16} height={16} />
       </a>

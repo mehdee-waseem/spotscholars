@@ -1,5 +1,9 @@
 // Every useful link, grouped. Shown on /resources.
-export const RESOURCE_GROUPS = [
+// Extra links (from the SpotScholars bookmark collection) live in resources-extra.json
+// and are merged in below: same `id` = appended to that group, new `id` = new group.
+import EXTRA from './resources-extra.json';
+
+const BASE_GROUPS = [
   {
     id: 'search',
     title: 'Find programmes — official search engines',
@@ -37,6 +41,7 @@ export const RESOURCE_GROUPS = [
       { name: 'French university scholarships', text: 'Scholarships offered by individual universities.', url: 'https://www.pakistan.campusfrance.org/french-university-scholarships' },
       { name: 'Campus France Pakistan on Instagram', text: 'Announcements and reels.', url: 'https://instagram.com/campusfrancepakistan' },
       { name: 'Campus France Pakistan on Facebook', text: 'Events and webinars.', url: 'https://www.facebook.com/CampusFrancePakistan/' },
+      { name: 'Pakistani Students in France (PSF) — Facebook group', text: 'Ask questions and meet students already in France.', url: 'https://www.facebook.com/groups/1608483306030594/' },
       { name: 'France Alumni Pakistan', text: 'Network of Pakistani graduates from France.', url: 'https://www.francealumni.fr/en/position/pakistan/' }
     ]
   },
@@ -147,6 +152,24 @@ export const RESOURCE_GROUPS = [
   }
 ];
 
+const ORDER = ['search', 'pakistan', 'portals', 'visa', 'recognition', 'rankings', 'networks', 'research', 'labs', 'life', 'french', 'careers', 'skills', 'europe'];
+
+function mergeGroups(base, extra) {
+  const out = base.map(g => ({ ...g, items: [...g.items] }));
+  for (const e of extra) {
+    const target = out.find(g => g.id === e.id);
+    if (target) {
+      const seen = new Set(target.items.map(i => i.url));
+      target.items.push(...e.items.filter(i => !seen.has(i.url)));
+    } else {
+      out.push({ id: e.id, title: e.title, intro: e.intro, items: e.items });
+    }
+  }
+  return out.sort((a, b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id));
+}
+
+export const RESOURCE_GROUPS = mergeGroups(BASE_GROUPS, EXTRA);
+
 // Video guides. `id` is the YouTube video id.
 export const FEATURED_VIDEO = {
   id: 'H41F_2iFMO8',
@@ -170,10 +193,27 @@ export const VIDEOS = [
   { id: 'mmcFxT8kgY4', title: 'Émile Boutmy Scholarship (Sciences Po) guide', topic: 'Scholarships' },
   { id: 'Ges3AEipaXY', title: 'How to apply for the SMARTS-UP scholarship', topic: 'Scholarships' },
   { id: 'UvsgRfmQbyg', title: 'Complete guide to studying in France — GB United session 4', topic: 'Full sessions' },
-  { id: '64cE-gQ_qMQ', title: 'Network n+i explained (engineering schools)', topic: 'Universities' }
+  { id: '64cE-gQ_qMQ', title: 'Network n+i explained (engineering schools)', topic: 'Universities' },
+  { id: 'CuJO6trXbMM', title: 'Campus France application process — step by step (Desi in France)', topic: 'Études en France' },
+  { id: 'eY-Q1ya4iPs', title: 'How to book accommodation through CROUS — step by step', topic: 'Housing' },
+  { id: 'PMZaLUDwy5A', title: 'How to find accommodation in France', topic: 'Housing' },
+  { id: 'vKkFRafqdAI', title: 'French apartment hunting — booking hacks for students', topic: 'Housing' },
+  { id: '3gzOTJ-CtXM', title: 'Find affordable student accommodation in France', topic: 'Housing' }
 ];
 
+// YouTube channels that walk through applications and scholarships worldwide.
 export const VIDEO_CHANNELS = [
-  { name: 'Baltee Waseem (SpotScholars)', url: 'https://www.youtube.com/@balteeWaseem' },
-  { name: 'Educational Hub — scholarship application walkthroughs', url: 'https://www.youtube.com/@Educationalhub1045' }
+  { name: 'Baltee Waseem (SpotScholars)', handle: '@balteeWaseem', text: 'Our own sessions on studying in France: admissions, scholarships, visa.', url: 'https://www.youtube.com/@balteeWaseem', ours: true },
+  { name: 'Desi in France', handle: '@desiinfrancevlogs', text: 'Life in France and the Campus France process from a South Asian student.', url: 'https://www.youtube.com/@desiinfrancevlogs' },
+  { name: 'Educational Hub', handle: '@Educationalhub1045', text: 'Screen-recorded scholarship applications (Ampère, SMARTS-UP and more).', url: 'https://www.youtube.com/@Educationalhub1045' },
+  { name: 'Mein Muhammad Perwaiz', handle: '@meinmuhammadperwaiz', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@meinmuhammadperwaiz/videos' },
+  { name: 'Clever Consultant', handle: '@CleverConsultant', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@CleverConsultant/videos' },
+  { name: 'Study Abroad', handle: '@study__abroad', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@study__abroad' },
+  { name: 'Study Opportunities', handle: '@StudyOpportunities', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@StudyOpportunities/videos' },
+  { name: 'Mr.T Scholarships Channel', handle: '@Mr.TScholarshipsChannel', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@Mr.TScholarshipsChannel/videos' },
+  { name: 'Universities Page Visa Consultant', handle: '@universitiespagevisaconsultant', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@universitiespagevisaconsultant' },
+  { name: 'Scholarships Root', handle: '@scholarships_root', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@scholarships_root/videos' },
+  { name: 'Naeem Iqbal', handle: '@NaeemIqbal', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@NaeemIqbal/videos' },
+  { name: 'TEN Universities & Scholarships', handle: '@tenunischo', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@tenunischo/videos' },
+  { name: 'Scholarships Arena', handle: '@ScholarshipsArena-pk', text: 'University applications and scholarships around the world.', url: 'https://www.youtube.com/@ScholarshipsArena-pk/videos' }
 ];
