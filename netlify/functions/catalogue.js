@@ -14,7 +14,7 @@ export default async () => {
       const key = `${p.institutionLabel}|${p.institutionCity}|${p.regionId}`;
       if (!(key in index)) { index[key] = insts.length; insts.push([p.institutionLabel, p.institutionCity, p.regionId]); }
       const fields = String(p.domainListid || '').split(',').filter(Boolean).map(x => Number(x) / 10000).join('.');
-      return [p.programId, p.programLabel, index[key], p.levelObtainedId, fields, '', '', '', p.diplomaIsNational ? 1 : 0];
+      return [p.programId, p.programLabel, index[key], p.levelObtainedId, fields, '', '', '', p.diplomaIsNational ? 1 : 0, p.hasNatfee === 1 ? 1 : 0, p.taughtenAll ? 1 : 0];
     });
     return new Response(JSON.stringify({ source: 'Campus France (live)', updated: new Date().toISOString().slice(0, 10), complete: true, count: rows.length, insts, rows }), {
       headers: { 'Content-Type': 'application/json', 'Cache-Control': 'public, max-age=43200' }

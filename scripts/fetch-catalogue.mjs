@@ -60,9 +60,10 @@ async function main() {
     if (!(key in index)) { index[key] = insts.length; insts.push([clean(p.institutionLabel), clean(p.institutionCity), p.regionId]); }
     const d = details[p.programId] || {};
     const fields = String(p.domainListid || '').split(',').filter(Boolean).map(x => Number(x) / 10000).join('.');
-    return [p.programId, clean(p.programLabel), index[key], p.levelObtainedId, fields, d.url || '', d.fee || '', d.length || '', p.diplomaIsNational ? 1 : 0];
+    return [p.programId, clean(p.programLabel), index[key], p.levelObtainedId, fields, d.url || '', d.fee || '', d.length || '', p.diplomaIsNational ? 1 : 0, p.hasNatfee === 1 ? 1 : 0, p.taughtenAll ? 1 : 0];
   });
 
+  // Row: [id, title, institution index, level, fields, url, fee, length, national diploma, national fees, 100% English]
   const out = { source: 'Campus France — Taught in English catalogue', updated: new Date().toISOString().slice(0, 10), complete: true, count: rows.length, insts, rows };
   await writeFile(OUT, JSON.stringify(out));
   console.log(`Saved ${rows.length} programmes from ${insts.length} institutions (${failed} details unavailable).`);

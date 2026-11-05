@@ -3,8 +3,18 @@ import { useSearchParams } from 'react-router-dom';
 import { FIELDS, FIELD_GROUPS, LEVELS, LEVEL_GROUPS, REGIONS, campusFranceUrl } from '../lib/catalogueMeta';
 import { Search, External, Pin, Clock } from './Icons';
 import Loader from './Loader';
+import PRIVATE_LIST from '../data/private-institutions.json';
+
+const PRIVATE = new Set(PRIVATE_LIST.private);
 
 const PAGE = 25;
+
+const TOGGLES = [
+  { key: 'type', label: 'Institution', help: 'Public = state universities and schools (low fees). Private includes business and consular schools.', options: [['public', 'Public'], ['private', 'Private']] },
+  { key: 'diploma', label: 'National diploma', help: 'A French state degree (Licence, Master, PhD) recognised by the Ministry — the safest choice for HEC recognition.', options: [['yes', 'Yes'], ['no', 'No']] },
+  { key: 'fees', label: 'National tuition fees', help: 'Programmes charging the regulated national rate set by the French state, instead of the school\'s own (usually higher) fee.', options: [['yes', 'Yes'], ['no', 'No']] },
+  { key: 'en', label: 'Taught in English', help: 'Whether every course is in English or only part of the programme.', options: [['full', '100%'], ['partial', 'Partly']] }
+];
 let cache = null;
 
 async function loadCatalogue() {
@@ -19,10 +29,15 @@ async function loadCatalogue() {
     } catch {}
   }
   if (!data) return null;
-  const rows = data.rows.map(([id, title, inst, level, fields, url, fee, length, national]) => {
+  const rows = data.rows.map(([id, title, inst, level, fields, url, fee, length, national, natfee, english]) => {
     const [school, city, region] = data.insts[inst] || ['', '', 0];
     const f = String(fields).split('.').filter(Boolean).map(Number);
-    return { id, title, school, city, region, level, fields: f, url, fee, length, national, text: `${title} ${school} ${city}`.toLowerCase() };
+    return {
+      id, title, school, city, region, level, fields: f, url, fee, length,
+      national: national === 1, natfee: natfee === 1, english: english === undefined ? true : english === 1,
+      isPrivate: PRIVATE.has(school),
+      text: `${title} ${school} ${city}`.toLowerCase()
+    };
   });
   cache = { ...data, rows };
   return cache;
@@ -56,6 +71,10 @@ export default function Catalogue() {
   const levelGroup = LEVEL_GROUPS.find(l => l.id === get('lvl'));
   const region = Number(get('region')) || 0;
   const page = Math.max(1, Number(get('page')) || 1);
+  const type = get('type');      // public | private
+  const diploma = get('diploma'); // yes | no
+  const fees = get('fees');       // yes | no
+  const english = get('en');      // full | partial
 
   const list = useMemo(() => {
     if (!data) return [];
@@ -65,7 +84,11 @@ export default function Catalogue() {
       (!group || r.fields.some(f => group.fields.includes(f))) &&
       (!field || r.fields.includes(field)) &&
       (!levelGroup || levelGroup.levels.includes(r.level)) &&
-      (!region || r.region === region)
+      (!region || r.region === region) &&
+      (!type || (type === 'private') === r.isPrivate) &&
+      (!diploma || (diploma === 'yes') === r.national) &&
+      (!fees || (fees === 'yes') === r.natfee) &&
+      (!english || (english === 'full') === r.english)
     ).sort((a, b) => {
       // Programmes whose MAIN (first-listed) subject matches the filter come first.
       const main = r => (field ? r.fields[0] === field : group ? group.fields.includes(r.fields[0]) : true) ? 0 : 1;
@@ -106,6 +129,19 @@ export default function Catalogue() {
             {Object.entries(REGIONS).map(([id, name]) => <option key={id} value={id}>{name}</option>)}
           </select>
         </div>
+        <div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+          {TOGGLES.map(t => (
+            <div key={t.key} className="rounded-xl border border-slate-200 p-2">
+              <p className="mb-1.5 flex items-center gap-1 px-1 text-xs font-semibold text-navy-900" title={t.help}>{t.label}<span className="cursor-help text-slate-400">ⓘ</span></p>
+              <div className="flex flex-wrap gap-1">
+                {[['', 'Any'], ...t.options].map(([v, label]) => (
+                  <button key={v} onClick={() => set(t.key, v)}
+                    className={`rounded-full px-3 py-1 text-xs font-medium transition ${get(t.key) === v ? 'bg-navy text-white' : 'bg-slate-100 text-slate-600 hover:bg-navy-50'}`}>{label}</button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
         <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
           <span><strong className="text-navy-900">{list.length}</strong> of {data.rows.length} programmes taught in English</span>
           <span>Source: Campus France catalogue · updated {data.updated}{!data.complete && ' (sample — full list loads after deploy)'}</span>
@@ -120,7 +156,10 @@ export default function Catalogue() {
             <li key={r.id} className="card p-4 sm:p-5">
               <div className="flex flex-wrap gap-1.5">
                 <span className="chip-orange">{LEVELS[r.level] || 'Programme'}</span>
-                {r.national === 1 && <span className="chip bg-green-50 text-green-700">National degree</span>}
+                <span className={`chip ${r.isPrivate ? 'bg-purple-50 text-purple-700' : 'bg-sky-50 text-sky-700'}`}>{r.isPrivate ? 'Private' : 'Public'}</span>
+                {r.national && <span className="chip bg-green-50 text-green-700">National diploma</span>}
+                {r.natfee && <span className="chip bg-emerald-50 text-emerald-700">National fees</span>}
+                {!r.english && <span className="chip bg-amber-50 text-amber-700">Partly in English</span>}
                 {r.fields.slice(0, 3).map(f => (
                   <button key={f} onClick={() => set('field', String(f))} className="chip cursor-pointer bg-slate-100 text-slate-600 hover:!bg-navy hover:!text-white">{FIELDS[f]}</button>
                 ))}

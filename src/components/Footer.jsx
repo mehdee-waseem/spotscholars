@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container-x grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2">
-            <img src="/logo-mark.png" alt="" className="h-10 w-10 rounded-lg bg-white p-1" />
+            <img src="/icon-192.png" alt="" className="h-10 w-10 rounded-lg" />
             <span className="font-display text-lg font-extrabold text-white">SPOT<span className="text-orange">SCHOLARS</span></span>
           </div>
           <p className="mt-2 text-sm font-medium text-orange">A Voice from North, for All</p>

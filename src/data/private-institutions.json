@@ -1,0 +1,19 @@
+{
+  "_note": "Institutions in the Campus France English catalogue that are PRIVATE or consular (chamber-of-commerce) schools. Every other institution is shown as public. Edit this list if Campus France adds new schools.",
+  "private": [
+    "3iS - Institut International Image & Son", "ArtFx", "Audencia Business School", "Burgundy School of Business", "CAFA Formations",
+    "CPE École Supérieure de Chimie, Physique, Électronique", "Centre de formation Alain DUCASSE", "EDHEC Business School", "EFREI Paris",
+    "EICAR - Ecole Internationale de Création audiovisuelle et de réalisation", "EM Normandie Business School", "EPF Ecole d'ingénieurs",
+    "EPITA - Ecole pour l'Informatique et les Techniques Avancées", "EPITECH", "ESC Clermont Business School", "ESC Rennes School of Business",
+    "ESCOM Ecole Supérieure de Chimie Organique et Minérale", "ESCP Business School", "ESIEE Paris", "ESILV - École Supérieure d'Ingénieurs Léonard de Vinci",
+    "ESME École d'Ingénieurs", "ESSCA", "ESSEC Business School", "ESTACA", "ESTP - Grande école d'ingénieurs de la construction", "Ecole Le Cordon Bleu",
+    "Ecole Supérieure des Agricultures", "Ecole Supérieure du Bois - Nantes", "Ecole d'ingénieurs de Purpan", "Ecole d'ingénieurs en Génie des Systèmes industriels",
+    "Ecole de Management Léonard de Vinci", "Ecole de communication visuelle", "Ecoles de Condé", "Ecole supérieure d'ingénieurs en génie électrique", "Eurecom",
+    "Excelia Group (anciennement Groupe Sup de Co La Rochelle)", "Facultés Libres de l'Ouest", "Grenoble Ecole de Management", "HEC Paris", "ICD Business School",
+    "ICN Business school", "IESEG School of Management", "INSEAD", "IPSA - École d'ingénieurs de l'air et de l'espace", "ISARA-Lyon", "ISCOM", "ISIPCA", "ITECH",
+    "Institut Catholique de Lille", "Institut Français de la Mode", "Institut Lyfe", "Institut catholique de Lyon", "International School of Management",
+    "Junia - Grande Ecole d'Ingénieurs", "KEDGE", "Montpellier Business School", "NEOMA Business School", "Paris School of Business (PSB)", "SKEMA Business School",
+    "SPEOS", "Strate College Designers", "Toulouse Business School", "UniLaSalle", "Vatel Hotel & Tourism Business School", "emlyon business school",
+    "École Lenôtre", "École Supérieure de Réalisation Audiovisuelle - ESRA", "École Supérieure du Commerce Extérieur"
+  ]
+}
