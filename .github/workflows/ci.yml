@@ -1,0 +1,22 @@
+# Runs the test suite and a production build on every push and pull request.
+# Netlify still does the deploy; this catches a broken data edit before it is merged.
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      # vite build directly: skips the Campus France download (prebuild) to keep CI fast
+      - run: npx vite build
