@@ -2,7 +2,7 @@
   "name": "spotscholars",
   "private": true,
   "version": "1.0.0",
-  "description": "SpotScholars \u2013 study in France: scholarships, English-taught programs, universities, visa, housing and arrival guides for international students.",
+  "description": "SpotScholars – study in France: scholarships, English-taught programs, universities, visa, housing and arrival guides for international students.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,9 @@
     "prebuild": "node scripts/fetch-catalogue.mjs",
     "build": "vite build",
     "preview": "vite preview",
-    "sync-catalogue": "node scripts/fetch-catalogue.mjs"
+    "sync-catalogue": "node scripts/fetch-catalogue.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",
@@ -23,6 +25,7 @@
     "autoprefixer": "^10.6.2",
     "postcss": "^8.5.32",
     "tailwindcss": "^3.4.19",
-    "vite": "^5.4.21"
+    "vite": "^5.4.21",
+    "vitest": "^3.2.7"
   }
 }
