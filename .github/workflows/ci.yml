@@ -20,3 +20,17 @@ jobs:
       - run: npm test
       # vite build directly: skips the Campus France download (prebuild) to keep CI fast
       - run: npx vite build
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the image
+        run: docker build --build-arg SYNC_CATALOGUE=false -t spotscholars .
+      - name: Start it and check the home page and a deep link
+        run: |
+          docker run -d -p 8080:80 --name site spotscholars
+          sleep 3
+          curl -fsS http://localhost:8080/ | grep -q '<div id="root">'
+          curl -fsS http://localhost:8080/programs | grep -q '<div id="root">'
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/api/health)" = "404"
