@@ -52,7 +52,9 @@
 - Saved shortlists for students.
 - Automatic broken-link checker; move the last five `http://` programme links to `https://`.
 
-## 3. How to run it
+## 3. How to run it, and how it works
+
+### Run it locally
 
 **Requirements:** Node.js 20+ and npm. Docker is optional.
 
@@ -86,9 +88,52 @@ The Docker image serves the built site. The `/api/*` functions only run on Netli
 
 **DevContainer.** Open the folder in VS Code → *Reopen in Container*. You get Node 20, the dependencies installed, and the Claude Code, Tailwind and Vitest extensions.
 
-**Deployment.** GitHub → Netlify. Every push to `main` is live in about a minute ([docs/DEPLOY.md](docs/DEPLOY.md)). GitHub Actions runs the tests, the build and a Docker smoke test on every push and pull request.
+### How data flows
 
-**API** (on the live site):
+```mermaid
+flowchart LR
+    B["Student's browser<br/>React + Vite app"] -->|"GET /api/scholarships, /api/programs, /api/universities"| F["Netlify Functions<br/>netlify/functions/"]
+    F -->|"only if SUPABASE_URL is set"| S[("Supabase<br/>optional, off today")]
+    F -->|"default"| J["src/data/*.json"]
+    B -.->|"if the API can't be reached"| J
+    B -->|"Programs page"| C["public/catalogue.json<br/>1,311 programmes"]
+    C -.->|"if the saved copy is incomplete"| L["GET /api/catalogue<br/>live from Campus France"]
+```
+
+1. A page asks the API for its data, for example `/api/scholarships?level=PhD`. `netlify.toml` sends every `/api/*` request to the function of the same name.
+2. The function reads Supabase **only if** `SUPABASE_URL` and `SUPABASE_SERVICE_KEY` are set. Today they aren't, so it reads the JSON files in `src/data/`. If Supabase fails, it falls back to the JSON too. Responses are cached for 5 minutes.
+3. If the API can't be reached at all (plain `npm run dev`, the Docker image, an outage), `src/lib/api.js` loads the same JSON that is bundled with the page. **The site works with no database and no API.**
+4. The **Programs** page reads `public/catalogue.json`, the Campus France catalogue saved at build time. If that copy is incomplete, it asks `/api/catalogue`, which fetches the live list from Campus France.
+5. Search text and filters live in the URL (`src/lib/useFilters.js`), so a filtered list such as `/programs?field=Cybersecurity` can be shared as a link.
+
+### How it deploys
+
+```mermaid
+flowchart LR
+    D["feature/* branch"] -->|"merge --no-ff"| V["develop"]
+    V -->|"release"| M["main on GitHub"]
+    M --> NB
+    subgraph NB["Netlify build · netlify.toml"]
+        direction TB
+        N1["npm ci"] --> N2["prebuild:<br/>fetch-catalogue.mjs"]
+        N2 --> N3["vite build → dist/"]
+        N3 --> N4["esbuild bundles<br/>netlify/functions"]
+    end
+    NB --> L["Live on Netlify CDN<br/>about 1 minute"]
+    M --> CI["GitHub Actions<br/>tests · build · Docker check"]
+```
+
+1. Work happens on a `feature/<name>` branch, is merged into `develop`, then `develop` is merged into `main` for a release.
+2. **Every push to `main` deploys automatically.** Netlify reads `netlify.toml`: Node 20, build command `npm run build`, publish folder `dist`, functions folder `netlify/functions`.
+3. `npm run build` first runs `prebuild` → `scripts/fetch-catalogue.mjs`, which downloads the Campus France "Taught in English" catalogue (about 1,300 programmes plus each one's website, fees and length) into `public/catalogue.json`. If Campus France is down, it keeps the old file and the build carries on.
+4. Vite builds the React app into `dist/`; Netlify bundles each function with esbuild.
+5. `netlify.toml` routing: `/api/*` → the functions, every other path → `index.html` (so React Router handles `/programs`, `/guide/visa`…), and files in `/assets/` are cached for a year.
+6. In parallel, GitHub Actions (`.github/workflows/ci.yml`) runs the 77 tests, a production build, and builds and starts the Docker image.
+7. To refresh the catalogue without changing code: Netlify → Deploys → **Trigger deploy**. First-time setup, the contact-form emails and a custom domain are in [docs/DEPLOY.md](docs/DEPLOY.md).
+
+### API
+
+On the live site:
 
 | Endpoint | Example |
 | --- | --- |
@@ -103,24 +148,72 @@ The Docker image serves the built site. The `/api/*` functions only run on Netli
 ```
 spotscholars/
 ├── src/
-│   ├── pages/              # Home, Scholarships, Programs, Universities, Guide, Resources, Contact, NotFound
-│   ├── components/         # Navbar, Footer, FilterBar, Catalogue, ForumDirectory, Video…
-│   ├── data/               # ← THE CONTENT (JSON + guides.js): edit these to update the site
-│   ├── lib/                # api.js (API first, JSON fallback), links.js, useFilters.js, catalogueMeta.js
-│   └── App.jsx             # routes
-├── netlify/functions/      # serverless API → /api/*
-├── scripts/                # fetch-catalogue.mjs (runs before every build), seed-supabase.mjs
-├── tests/                  # Vitest: api, data, catalogue, pages
-├── supabase/schema.sql     # optional database
-├── docs/                   # CONTENT.md, DEPLOY.md, SUPABASE.md
-├── .devcontainer/          # development environment
-├── Dockerfile, docker-compose.yml, docker/nginx.conf
-├── .github/workflows/ci.yml
-├── CLAUDE.md, AGENTS.md    # context and rules for AI agents
-└── netlify.toml            # build, functions, redirects, cache headers
+│   ├── main.jsx                   # entry point: React + BrowserRouter
+│   ├── App.jsx                    # routes, page titles, lazy-loaded pages
+│   ├── index.css                  # Tailwind layers and a few custom styles
+│   ├── pages/
+│   │   ├── Home.jsx               # search, "two roads" explainer, journey, featured scholarships, deadline banner, FAQ
+│   │   ├── Scholarships.jsx       # search + type and level filters
+│   │   ├── Programs.jsx           # two tabs: full Campus France catalogue | SpotScholars picks
+│   │   ├── Universities.jsx       # curated list + the 369-institution directory
+│   │   ├── Guide.jsx              # /guide/:slug, renders src/data/guides.js
+│   │   ├── Resources.jsx          # 100+ official links, video guides, YouTube channels
+│   │   ├── Contact.jsx            # contact form (Netlify Forms) and social links
+│   │   └── NotFound.jsx
+│   ├── components/
+│   │   ├── Catalogue.jsx          # loads catalogue.json, field tiles, filters, pagination
+│   │   ├── ForumDirectory.jsx     # searchable Campus France Forum list
+│   │   ├── Navbar.jsx · Footer.jsx · PageHeader.jsx · FilterBar.jsx
+│   │   └── CommunityCTA.jsx · Video.jsx · Icons.jsx · Loader.jsx · EmptyState.jsx
+│   ├── data/                      # ← THE CONTENT: edit these to update the site
+│   │   ├── scholarships.json      # 27 scholarships
+│   │   ├── programs.json          # 149 hand-picked programmes with tips
+│   │   ├── universities.json      # 83 institutions
+│   │   ├── forum-members.json     # 369 Campus France Forum institutions
+│   │   ├── private-institutions.json  # private/consular schools in the catalogue
+│   │   ├── guides.js              # the six guides
+│   │   ├── resources.js           # link groups, featured video, video guides, channels
+│   │   └── resources-extra.json   # extra link groups
+│   └── lib/
+│       ├── api.js                 # fetch /api/*, fall back to the bundled JSON
+│       ├── useFilters.js          # search text and filters kept in the URL
+│       ├── catalogueMeta.js       # labels for catalogue fields, levels and regions
+│       └── links.js               # social links, menu, guide menu, deadline alerts
+├── netlify/functions/             # serverless API → /api/*
+│   ├── _shared.js                 # Supabase-or-JSON loader, JSON response, search helper
+│   ├── scholarships.js            # GET /api/scholarships?q=&level=&type=
+│   ├── programs.js                # GET /api/programs?q=&level=&field=
+│   ├── universities.js            # GET /api/universities?q=&type=&region=
+│   ├── catalogue.js               # GET /api/catalogue (live Campus France fallback)
+│   └── health.js                  # GET /api/health
+├── scripts/
+│   ├── fetch-catalogue.mjs        # runs before every build → public/catalogue.json
+│   └── seed-supabase.mjs          # copies the JSON data into Supabase (optional)
+├── public/                        # logos, favicons, og-image, web manifest, catalogue.json
+├── tests/                         # Vitest, 77 tests: api, data, catalogue, pages
+├── supabase/schema.sql            # optional database tables
+├── docs/                          # CONTENT.md, DEPLOY.md, SUPABASE.md
+├── .devcontainer/devcontainer.json  # development environment
+├── Dockerfile · docker-compose.yml · docker/nginx.conf
+├── .github/workflows/ci.yml       # tests, build and Docker check on every push
+├── CLAUDE.md · AGENTS.md          # project context and rules for AI agents
+├── netlify.toml                   # build, functions, redirects, cache headers
+├── vite.config.js · tailwind.config.js · postcss.config.js
+└── .env.example                   # optional Supabase variables (the real .env is never committed)
 ```
 
-**Updating content:** edit the files in `src/data/` (on github.com is fine) and commit. Fields and examples: [docs/CONTENT.md](docs/CONTENT.md). Run `npm test` first: the data tests catch broken links between programmes and universities, wrong filter values and duplicate ids.
+### Updating content, links and the menu
+
+| To change… | Edit | Notes |
+| --- | --- | --- |
+| Scholarships, programmes, universities | `src/data/*.json` | Fields and examples in [docs/CONTENT.md](docs/CONTENT.md). Editing on github.com is fine. |
+| A guide, or add a new one | `src/data/guides.js` (+ `GUIDE_NAV` in `src/lib/links.js`) | A new guide becomes `/guide/<slug>`. |
+| Links, videos | `src/data/resources.js` | `FEATURED_VIDEO` is the big video on the home and Resources pages. |
+| Social links and the menu | `src/lib/links.js` (`LINKS`, `NAV`) | WhatsApp, YouTube, Instagram, Linktree, email. |
+| The deadline banner | `ALERTS` in `src/lib/links.js` | Shows a countdown and disappears after its `until` date. |
+| Colours and fonts | `tailwind.config.js` | Navy `#1f299c`, orange `#ff851b`; Sora and Plus Jakarta Sans. |
+
+Run `npm test` before you commit: the data tests catch broken links between programmes and universities, wrong filter values and duplicate ids. After a push to `main`, the site updates in about a minute.
 
 ## 4. How it was built with AI
 
